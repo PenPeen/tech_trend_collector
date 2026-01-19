@@ -9,6 +9,7 @@ on:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -25,11 +26,33 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run collector
-        run: PYTHONPATH=. python src/main.py
+        id: collector
+        run: |
+          set +e
+          PYTHONPATH=. python src/main.py 2>&1 | tee collector_output.txt
+          exit_code=${PIPESTATUS[0]}
+          echo "exit_code=$exit_code" >> $GITHUB_OUTPUT
+          exit $exit_code
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
+
+      - name: Write job summary
+        if: always()
+        run: |
+          echo "## TechTrendCollector 実行結果" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**実行日時:** $(date '+%Y-%m-%d %H:%M:%S %Z')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f collector_output.txt ]; then
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            tail -30 collector_output.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
 
       - name: Commit and push changes
+        if: success()
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
