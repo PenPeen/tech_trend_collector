@@ -2,6 +2,7 @@
 
 import os
 from pathlib import Path
+from typing import List, Tuple
 
 from dotenv import load_dotenv
 
@@ -25,7 +26,46 @@ ZENN_RSS_URL = "https://zenn.dev/feed"
 # 取得件数
 MAX_ARTICLES_PER_SOURCE = 5
 
-# 将来の拡張用（Phase 2以降）
+# タイムアウト設定（秒）
+RSS_TIMEOUT = 30
+API_TIMEOUT = 60
+NOTIFICATION_TIMEOUT = 30
+
+# APIキー
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
 NOTIFICATION_EMAIL = os.getenv("NOTIFICATION_EMAIL", "")
+
+
+def validate_config() -> Tuple[bool, List[str]]:
+    """設定のバリデーションを行う
+
+    Returns:
+        (検証成功かどうか, 警告メッセージリスト)
+    """
+    warnings: List[str] = []
+
+    # Gemini APIキーチェック
+    if not GEMINI_API_KEY:
+        warnings.append("GEMINI_API_KEY が未設定です。要約機能は無効になります。")
+    elif len(GEMINI_API_KEY) < 20:
+        warnings.append("GEMINI_API_KEY のフォーマットが不正の可能性があります。")
+
+    # Resend APIキーチェック
+    if not RESEND_API_KEY:
+        warnings.append("RESEND_API_KEY が未設定です。通知機能は無効になります。")
+    elif not RESEND_API_KEY.startswith("re_"):
+        warnings.append("RESEND_API_KEY のフォーマットが不正の可能性があります（re_で始まる必要があります）。")
+
+    # 通知先メールチェック
+    if RESEND_API_KEY and not NOTIFICATION_EMAIL:
+        warnings.append("NOTIFICATION_EMAIL が未設定です。通知機能は無効になります。")
+    elif NOTIFICATION_EMAIL and "@" not in NOTIFICATION_EMAIL:
+        warnings.append("NOTIFICATION_EMAIL のフォーマットが不正です。")
+
+    # ディレクトリ存在チェック・作成
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
+
+    # 重大なエラーがない限りTrueを返す（警告のみの場合も続行可能）
+    return True, warnings

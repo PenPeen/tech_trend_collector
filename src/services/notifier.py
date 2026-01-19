@@ -1,11 +1,15 @@
 """メール通知サービスモジュール"""
 
+import socket
 from datetime import date
 from typing import Any
 
 import resend
 
-from src.utils.config import NOTIFICATION_EMAIL, RESEND_API_KEY
+from src.utils.config import NOTIFICATION_EMAIL, NOTIFICATION_TIMEOUT, RESEND_API_KEY
+from src.utils.logger import get_logger
+
+logger = get_logger("services.notifier")
 
 # GitHubリポジトリURL（必要に応じて変更）
 GITHUB_REPO_URL = "https://github.com/your-username/tech-trend-collector"
@@ -83,6 +87,40 @@ def _build_failure_email_html(error_message: str, target_date: str) -> str:
 </p>"""
 
 
+def _send_email(subject: str, html_body: str) -> bool:
+    """メールを送信する（共通処理）
+
+    Args:
+        subject: メール件名
+        html_body: HTML本文
+
+    Returns:
+        送信成功した場合True
+    """
+    # タイムアウト設定
+    socket.setdefaulttimeout(NOTIFICATION_TIMEOUT)
+
+    try:
+        resend.Emails.send(
+            {
+                "from": "onboarding@resend.dev",
+                "to": [NOTIFICATION_EMAIL],
+                "subject": subject,
+                "html": html_body,
+            }
+        )
+        return True
+    except socket.timeout:
+        logger.error(f"メール送信タイムアウト ({NOTIFICATION_TIMEOUT}秒)")
+        return False
+    except resend.exceptions.ResendError as e:
+        logger.error(f"Resend APIエラー: {e}")
+        return False
+    except Exception as e:
+        logger.error(f"メール送信エラー: {e}")
+        return False
+
+
 def send_success_notification(
     articles: list[dict[str, Any]], stats: dict[str, int], target_date: str | None = None
 ) -> bool:
@@ -97,6 +135,7 @@ def send_success_notification(
         送信成功した場合True
     """
     if not is_notifier_enabled():
+        logger.warning("通知機能が無効のため送信をスキップ")
         return False
 
     if target_date is None:
@@ -107,18 +146,12 @@ def send_success_notification(
     subject = f"[TechTrend] {target_date} のトレンド記事"
     html_body = _build_success_email_html(articles, stats, target_date)
 
-    try:
-        resend.Emails.send(
-            {
-                "from": "onboarding@resend.dev",
-                "to": [NOTIFICATION_EMAIL],
-                "subject": subject,
-                "html": html_body,
-            }
-        )
+    logger.info("成功通知メールを送信中...")
+    if _send_email(subject, html_body):
+        logger.info("成功通知メールの送信完了")
         return True
-    except Exception as e:
-        print(f"[通知] メール送信エラー: {e}")
+    else:
+        logger.warning("成功通知メールの送信に失敗しました")
         return False
 
 
@@ -135,6 +168,7 @@ def send_failure_notification(
         送信成功した場合True
     """
     if not is_notifier_enabled():
+        logger.warning("通知機能が無効のため送信をスキップ")
         return False
 
     if target_date is None:
@@ -145,16 +179,10 @@ def send_failure_notification(
     subject = f"[TechTrend] {target_date} 実行エラー"
     html_body = _build_failure_email_html(error_message, target_date)
 
-    try:
-        resend.Emails.send(
-            {
-                "from": "onboarding@resend.dev",
-                "to": [NOTIFICATION_EMAIL],
-                "subject": subject,
-                "html": html_body,
-            }
-        )
+    logger.info("エラー通知メールを送信中...")
+    if _send_email(subject, html_body):
+        logger.info("エラー通知メールの送信完了")
         return True
-    except Exception as e:
-        print(f"[通知] メール送信エラー: {e}")
+    else:
+        logger.warning("エラー通知メールの送信に失敗しました")
         return False
