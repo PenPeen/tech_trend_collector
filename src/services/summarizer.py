@@ -38,7 +38,7 @@ def initialize_gemini() -> bool:
 @retry(
     max_attempts=5,
     backoff_factor=2.0,
-    initial_delay=30.0,
+    initial_delay=60.0,
     exceptions=(
         google_exceptions.ResourceExhausted,  # レート制限
         google_exceptions.ServiceUnavailable,  # サービス一時停止

@@ -158,7 +158,7 @@ def main() -> int:
                 stats["summaries_failed"] += 1
             
             # APIレート制限回避のための待機
-            wait_time = 30
+            wait_time = 60
             logger.info(f"APIレート制限回避のため {wait_time}秒待機します...")
             time.sleep(wait_time)
 
