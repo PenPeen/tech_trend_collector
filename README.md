@@ -18,6 +18,13 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
+`.env` ファイル（または GitHub Actions Secrets）に以下の環境変数を設定してください：
+
+- `GEMINI_API_KEY`: Google AI Studio で取得した Gemini API キー
+- `RESEND_API_KEY`: Resend で取得した API キー（メール通知用）
+- `NOTIFICATION_EMAIL`: 通知を受け取るメールアドレス
+
+
 ## 使い方
 
 本ツールは GitHub Actions 上で動作することを想定しています。
