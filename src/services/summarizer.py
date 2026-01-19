@@ -27,8 +27,8 @@ def initialize_gemini() -> bool:
 
     try:
         genai.configure(api_key=GEMINI_API_KEY)
-        _model = genai.GenerativeModel("gemini-3-flash")
-        logger.info("Gemini 3 Flash モデルの初期化に成功")
+        _model = genai.GenerativeModel("gemini-3-flash-preview")
+        logger.info("Gemini 3 Flash Preview モデルの初期化に成功")
         return True
     except Exception as e:
         logger.error(f"Gemini 初期化エラー: {e}")
