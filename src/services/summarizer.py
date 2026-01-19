@@ -27,8 +27,8 @@ def initialize_gemini() -> bool:
 
     try:
         genai.configure(api_key=GEMINI_API_KEY)
-        _model = genai.GenerativeModel("gemini-2.5-flash")
-        logger.info("Gemini 2.5 Flash モデルの初期化に成功")
+        _model = genai.GenerativeModel("gemini-3-flash")
+        logger.info("Gemini 3 Flash モデルの初期化に成功")
         return True
     except Exception as e:
         logger.error(f"Gemini 初期化エラー: {e}")
@@ -38,7 +38,7 @@ def initialize_gemini() -> bool:
 @retry(
     max_attempts=5,
     backoff_factor=2.0,
-    initial_delay=60.0,
+    initial_delay=30.0,
     exceptions=(
         google_exceptions.ResourceExhausted,  # レート制限
         google_exceptions.ServiceUnavailable,  # サービス一時停止
