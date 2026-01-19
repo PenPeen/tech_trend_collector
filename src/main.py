@@ -1,6 +1,7 @@
 """TechTrendCollector メインスクリプト"""
 
 import sys
+import time
 from datetime import datetime
 
 from src.collectors import qiita, zenn
@@ -155,6 +156,11 @@ def main() -> int:
                 stats["summaries_generated"] += 1
             else:
                 stats["summaries_failed"] += 1
+            
+            # APIレート制限回避のための待機
+            wait_time = 20
+            logger.info(f"APIレート制限回避のため {wait_time}秒待機します...")
+            time.sleep(wait_time)
 
         # マークダウン保存
         filepath = save_markdown(article, summary)
