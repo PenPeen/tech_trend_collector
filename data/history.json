@@ -1,0 +1,64 @@
+{
+  "articles": [
+    {
+      "url": "https://qiita.com/araom/items/cbdcda9c0251d66f252c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AI時代の技術書との付き合いかた",
+      "source": "qiita",
+      "collected_at": "2026-01-19T22:14:29.230506"
+    },
+    {
+      "url": "https://qiita.com/momo10/items/097d51405416e93d5132?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "生成AIの収束先の存在を圏論で証明する",
+      "source": "qiita",
+      "collected_at": "2026-01-19T22:14:29.231012"
+    },
+    {
+      "url": "https://qiita.com/automation2025/items/c2e5d77c08c37532a3a3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Rust と Web でつくる軽量デスクトップアプリ：Tauri 完全ガイド",
+      "source": "qiita",
+      "collected_at": "2026-01-19T22:14:29.231491"
+    },
+    {
+      "url": "https://qiita.com/afmi21/items/5583156dec3b32acb400?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Python】クラス全員を救うために「実験レポート爆速生成ツール」を作って配布した話",
+      "source": "qiita",
+      "collected_at": "2026-01-19T22:14:29.231833"
+    },
+    {
+      "url": "https://qiita.com/sadabon444/items/9a2e5c163b46d81e1f62?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Copilotは果たしてセキュアなのか～管理者目線・ユーザー目線からまとめてみた～",
+      "source": "qiita",
+      "collected_at": "2026-01-19T22:14:29.232178"
+    },
+    {
+      "url": "https://zenn.dev/fusic/articles/test-driven-developers",
+      "title": "テストで開発者を駆動する",
+      "source": "zenn",
+      "collected_at": "2026-01-19T22:14:29.232544"
+    },
+    {
+      "url": "https://zenn.dev/ttks/articles/a54c7520f827be",
+      "title": "Anthropicハッカソン優勝者のClaude Code設定集「everything-claude-code」を読み解く",
+      "source": "zenn",
+      "collected_at": "2026-01-19T22:14:29.232929"
+    },
+    {
+      "url": "https://zenn.dev/kazu1/articles/b678ce44616354",
+      "title": "Claude Codeの機能が多くて混乱している人へ",
+      "source": "zenn",
+      "collected_at": "2026-01-19T22:14:29.233410"
+    },
+    {
+      "url": "https://zenn.dev/nuits_jp/articles/2026-01-19-risks-of-skills-marketplace",
+      "title": "あなたの拾ってきた野良（マーケット）Skills、セキュリティトラブルを発生させていませんか？",
+      "source": "zenn",
+      "collected_at": "2026-01-19T22:14:29.233804"
+    },
+    {
+      "url": "https://zenn.dev/soartec_lab/articles/444be40483b2dc",
+      "title": "Orvalのメンテナーとして2025年の活動と2026年やりたいこと",
+      "source": "zenn",
+      "collected_at": "2026-01-19T22:14:29.234404"
+    }
+  ]
+}
