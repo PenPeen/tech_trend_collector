@@ -3,6 +3,11 @@
 from src.collectors import qiita, zenn
 from src.generators.markdown import save_markdown
 from src.services.deduplicator import Deduplicator
+from src.services.notifier import (
+    is_notifier_enabled,
+    send_failure_notification,
+    send_success_notification,
+)
 from src.services.summarizer import initialize_gemini, summarize_article
 
 
@@ -18,6 +23,13 @@ def main() -> None:
         print("[Gemini] 要約機能が有効です")
     else:
         print("[Gemini] GEMINI_API_KEYが未設定のため要約をスキップします")
+
+    # 通知機能確認
+    notifier_enabled = is_notifier_enabled()
+    if notifier_enabled:
+        print("[Resend] 通知機能が有効です")
+    else:
+        print("[Resend] RESEND_API_KEY/NOTIFICATION_EMAILが未設定のため通知をスキップします")
 
     # 重複チェッカー初期化
     deduplicator = Deduplicator()
@@ -47,6 +59,18 @@ def main() -> None:
     # 全記事をマージ
     all_articles = qiita_articles + zenn_articles
 
+    # 全ソース失敗チェック
+    if stats["qiita_fetched"] == 0 and stats["zenn_fetched"] == 0:
+        error_message = "全てのソース（Qiita, Zenn）からの記事取得に失敗しました"
+        print(f"\n[エラー] {error_message}")
+        if notifier_enabled:
+            if send_failure_notification(error_message):
+                print("[通知] エラー通知を送信しました")
+        return
+
+    # 新規保存された記事を追跡
+    saved_articles: list[dict] = []
+
     # 重複チェック・保存
     print("\n[処理] 記事を処理中...")
     for article in all_articles:
@@ -69,6 +93,7 @@ def main() -> None:
 
         # 履歴に追加
         deduplicator.add_to_history(article)
+        saved_articles.append(article)
         stats["new_articles"] += 1
 
     # 履歴保存
@@ -84,6 +109,14 @@ def main() -> None:
     print(f"  要約生成:  {stats['summaries_generated']}件")
     print(f"  重複スキップ: {stats['duplicates']}件")
     print("=" * 50)
+
+    # 成功通知送信
+    if notifier_enabled:
+        print("\n[通知] メール通知を送信中...")
+        if send_success_notification(saved_articles, stats):
+            print("[通知] 成功通知を送信しました")
+        else:
+            print("[通知] 通知送信に失敗しました")
 
 
 if __name__ == "__main__":

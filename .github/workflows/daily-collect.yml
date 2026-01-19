@@ -28,6 +28,8 @@ jobs:
         run: PYTHONPATH=. python src/main.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
 
       - name: Commit and push changes
         run: |
