@@ -13,19 +13,20 @@ Qiita/Zennの技術トレンド記事を自動収集し、マークダウン形�
 ## セットアップ
 
 ```bash
-# 依存関係のインストール
 pip install -r requirements.txt
 
-# 環境変数の設定（現在は不要）
 cp .env.example .env
 ```
 
 ## 使い方
 
-```bash
-# 手動実行
-python src/main.py
-```
+本ツールは GitHub Actions 上で動作することを想定しています。
+
+1. GitHub リポジトリの **Actions** タブを開きます。
+2. 左サイドバーから **Daily Article Collection** を選択します。
+3. **Run workflow** ボタンをクリックして手動実行します。
+
+※ 毎日 JST 17:00 にも自動実行されます。
 
 ## ディレクトリ構成
 
@@ -63,13 +64,7 @@ tech_trend_collector/
 
 ## GitHub Actions
 
-毎日 JST 17:00 に自動実行されます。手動実行も可能です。
-
-## フェーズ
-
-- **Phase 1 (MVP)**: RSS記事取得・重複チェック・MD生成 ← 現在
-- **Phase 2**: Gemini Pro要約機能
-- **Phase 3**: メール通知機能
+毎日 JST 17:00 に自動実行されます。
 
 ## ライセンス
 
