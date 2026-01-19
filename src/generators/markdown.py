@@ -29,11 +29,12 @@ def sanitize_filename(title: str) -> str:
     return sanitized
 
 
-def generate_article_markdown(article: dict[str, Any]) -> str:
+def generate_article_markdown(article: dict[str, Any], summary: str = "") -> str:
     """記事のマークダウンコンテンツを生成する
 
     Args:
         article: 記事情報
+        summary: 要約テキスト（空の場合はエラーメッセージ表示）
 
     Returns:
         マークダウン形式の文字列
@@ -53,12 +54,14 @@ def generate_article_markdown(article: dict[str, Any]) -> str:
         tags_str = ", ".join(article["tags"])
         lines.append(f"- **タグ**: {tags_str}")
 
+    # 要約セクション
+    summary_text = summary if summary else "（要約の取得に失敗しました）"
     lines.extend(
         [
             "",
             "## 要約",
             "",
-            "（要約機能は次フェーズで実装予定）",
+            summary_text,
             "",
         ]
     )
@@ -66,11 +69,14 @@ def generate_article_markdown(article: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
-def save_markdown(article: dict[str, Any], date: datetime | None = None) -> Path:
+def save_markdown(
+    article: dict[str, Any], summary: str = "", date: datetime | None = None
+) -> Path:
     """マークダウンファイルを保存する
 
     Args:
         article: 記事情報
+        summary: 要約テキスト
         date: 保存日付（指定がなければ今日）
 
     Returns:
@@ -89,7 +95,7 @@ def save_markdown(article: dict[str, Any], date: datetime | None = None) -> Path
     filepath = output_dir / filename
 
     # マークダウン生成・保存
-    content = generate_article_markdown(article)
+    content = generate_article_markdown(article, summary)
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(content)
 

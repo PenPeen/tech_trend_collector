@@ -3,6 +3,7 @@
 from src.collectors import qiita, zenn
 from src.generators.markdown import save_markdown
 from src.services.deduplicator import Deduplicator
+from src.services.summarizer import initialize_gemini, summarize_article
 
 
 def main() -> None:
@@ -10,6 +11,13 @@ def main() -> None:
     print("=" * 50)
     print("TechTrendCollector - 記事収集開始")
     print("=" * 50)
+
+    # Gemini初期化
+    gemini_enabled = initialize_gemini()
+    if gemini_enabled:
+        print("[Gemini] 要約機能が有効です")
+    else:
+        print("[Gemini] GEMINI_API_KEYが未設定のため要約をスキップします")
 
     # 重複チェッカー初期化
     deduplicator = Deduplicator()
@@ -21,6 +29,7 @@ def main() -> None:
         "zenn_fetched": 0,
         "new_articles": 0,
         "duplicates": 0,
+        "summaries_generated": 0,
     }
 
     # Qiita記事取得
@@ -46,8 +55,16 @@ def main() -> None:
             print(f"  [スキップ] {article['title'][:40]}...")
             continue
 
+        # 要約生成
+        summary = ""
+        if gemini_enabled:
+            print(f"  [要約生成中] {article['title'][:40]}...")
+            summary = summarize_article(article["url"])
+            if summary:
+                stats["summaries_generated"] += 1
+
         # マークダウン保存
-        filepath = save_markdown(article)
+        filepath = save_markdown(article, summary)
         print(f"  [保存] {filepath.name}")
 
         # 履歴に追加
@@ -64,6 +81,7 @@ def main() -> None:
     print(f"  Qiita取得: {stats['qiita_fetched']}件")
     print(f"  Zenn取得:  {stats['zenn_fetched']}件")
     print(f"  新規保存:  {stats['new_articles']}件")
+    print(f"  要約生成:  {stats['summaries_generated']}件")
     print(f"  重複スキップ: {stats['duplicates']}件")
     print("=" * 50)
 
