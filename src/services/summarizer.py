@@ -36,7 +36,7 @@ def initialize_gemini() -> bool:
 
 
 @retry(
-    max_attempts=3,
+    max_attempts=5,
     backoff_factor=2.0,
     initial_delay=30.0,
     exceptions=(
