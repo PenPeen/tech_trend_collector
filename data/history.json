@@ -59,6 +59,66 @@
       "title": "Orvalのメンテナーとして2025年の活動と2026年やりたいこと",
       "source": "zenn",
       "collected_at": "2026-01-19T15:17:10.326021"
+    },
+    {
+      "url": "https://qiita.com/ot12/items/66e7c07c459e3bb7082d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【2026年最新】Claude Code作者が実践する「超並列駆動」開発術がエンジニアの常識を破壊していた",
+      "source": "qiita",
+      "collected_at": "2026-01-20T08:44:59.805162"
+    },
+    {
+      "url": "https://qiita.com/hitomin_poke/items/f5e8cb0c1b2e1145e852?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "先輩に言われた「それ、前教えたじゃん！」。それでもあなたは悪くない。【前編】",
+      "source": "qiita",
+      "collected_at": "2026-01-20T08:45:37.141928"
+    },
+    {
+      "url": "https://qiita.com/newt0/items/ec78502b3c20a2b4d3a5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "PythonではなくJavaScriptを学ぶべきだった",
+      "source": "qiita",
+      "collected_at": "2026-01-20T08:46:14.129148"
+    },
+    {
+      "url": "https://qiita.com/ho-rai/items/cb76efb490898c778a45?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Antigravityのスキルで、実装・レビュー・修正まで一貫してできるようになった話",
+      "source": "qiita",
+      "collected_at": "2026-01-20T08:46:52.405612"
+    },
+    {
+      "url": "https://qiita.com/c60evaporator/items/c8907eddfe84881cdc3c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "統計モデリング大全　目次",
+      "source": "qiita",
+      "collected_at": "2026-01-20T08:47:29.717523"
+    },
+    {
+      "url": "https://zenn.dev/uhyo/articles/funstack-static-first-release",
+      "title": "サーバーの無いReactフレークワークFUNSTACK Static",
+      "source": "zenn",
+      "collected_at": "2026-01-20T08:48:07.164956"
+    },
+    {
+      "url": "https://zenn.dev/wmoto_ai/articles/ai-shopping-human-in-the-loop",
+      "title": "Claude Codeにお遣いさせて見えてきた、買い物エージェントの一つの解",
+      "source": "zenn",
+      "collected_at": "2026-01-20T08:48:44.635047"
+    },
+    {
+      "url": "https://zenn.dev/karamage/articles/db488ca6362eb2",
+      "title": "なぜ、MCPよりも「ファイルベースで扱うSkills」の方が便利なのか",
+      "source": "zenn",
+      "collected_at": "2026-01-20T08:49:22.193384"
+    },
+    {
+      "url": "https://zenn.dev/notahotel/articles/a175aa95629d0b",
+      "title": "濫立するClaude Codeの機能の使い分け：スキル、サブエージェント、スラッシュコマンド、CLAUDE.md、Hooks",
+      "source": "zenn",
+      "collected_at": "2026-01-20T08:49:59.867683"
+    },
+    {
+      "url": "https://zenn.dev/branbran/articles/5dff2f327cf18d",
+      "title": "Next.js のリクエストから画面描画まで──RSC Payload を理解する",
+      "source": "zenn",
+      "collected_at": "2026-01-20T08:50:37.650357"
     }
   ]
 }
