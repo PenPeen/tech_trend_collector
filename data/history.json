@@ -209,6 +209,54 @@
       "title": "いいから設計段階でレビュー依頼を出せ",
       "source": "zenn",
       "collected_at": "2026-01-22T08:49:43.345884"
+    },
+    {
+      "url": "https://qiita.com/i-inose/items/e21155fe84a5beb4782d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "素人質問が大好きな教授にコードレビューを頼んでみた結果",
+      "source": "qiita",
+      "collected_at": "2026-01-23T08:42:02.259391"
+    },
+    {
+      "url": "https://qiita.com/kakerucc/items/0990ec75925499981100?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【AWS未経験】1年でCFP → SAA → SAPに一発合格した勉強法",
+      "source": "qiita",
+      "collected_at": "2026-01-23T08:42:41.625920"
+    },
+    {
+      "url": "https://qiita.com/minorun365/items/5f11084c98d32d86248d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【2026最新】BedrockでRAGとエージェント作って、Amplifyから呼ぼう！ 維持費ほぼ無料!?",
+      "source": "qiita",
+      "collected_at": "2026-01-23T08:43:19.426089"
+    },
+    {
+      "url": "https://zenn.dev/uryyyyyyy/articles/f127af4277aa32",
+      "title": "「人間がコードを書く時代は終わった」議論は2種類のコードを混同している",
+      "source": "zenn",
+      "collected_at": "2026-01-23T08:43:57.291024"
+    },
+    {
+      "url": "https://zenn.dev/nari007/articles/df1d4954e903e9",
+      "title": "AntigravityでRemotionのSkillをつかって動画を作成してみた",
+      "source": "zenn",
+      "collected_at": "2026-01-23T08:44:38.015210"
+    },
+    {
+      "url": "https://zenn.dev/studypocket/articles/claude-code-complete-guide-advanced",
+      "title": "[翻訳] Anthropic ハッカソン優勝者による Claude Code 完全ガイド【応用編】",
+      "source": "zenn",
+      "collected_at": "2026-01-23T08:45:19.582236"
+    },
+    {
+      "url": "https://zenn.dev/team_zenn/articles/zenn-prism-to-shiki",
+      "title": "ZennのシンタックスハイライターをPrism.jsからShikiに移行しました",
+      "source": "zenn",
+      "collected_at": "2026-01-23T08:45:59.234969"
+    },
+    {
+      "url": "https://zenn.dev/liushengli/articles/c12d4a6881b604",
+      "title": "「人間がコードを書く時代は終わった」— Node.js創始者の宣言から考える、ソフトウェア開発の未来",
+      "source": "zenn",
+      "collected_at": "2026-01-23T08:46:39.832034"
     }
   ]
 }
