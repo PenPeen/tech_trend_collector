@@ -299,6 +299,54 @@
       "title": "【考察】React は何故こんなに分かりにくいのか？",
       "source": "zenn",
       "collected_at": "2026-01-24T08:41:00.280349"
+    },
+    {
+      "url": "https://qiita.com/hisaho/items/5bd0096ca33d5ea41acb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【86万行・29,000コミット】AIが「本気で」コードを書いたらこうなった —— Cursorの大規模実験から学ぶ10の知見",
+      "source": "qiita",
+      "collected_at": "2026-01-25T08:37:51.445797"
+    },
+    {
+      "url": "https://qiita.com/cozyupk/items/bf5637f40d59e18c4d5e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "「ヴァイブコーディング」っていう言葉は2026年なくなるんじゃないか。",
+      "source": "qiita",
+      "collected_at": "2026-01-25T08:38:28.396505"
+    },
+    {
+      "url": "https://qiita.com/degudegu2510/items/eff0f63dac99554e6439?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Claude CodeやCursorを使って、AIがUIデザインを生成することができる「Pencil」が登場！",
+      "source": "qiita",
+      "collected_at": "2026-01-25T08:39:06.409369"
+    },
+    {
+      "url": "https://zenn.dev/aqua5432/articles/b4addb51f80508",
+      "title": "なぜUnity(C#)は遅いといわれるのか",
+      "source": "zenn",
+      "collected_at": "2026-01-25T08:39:43.197719"
+    },
+    {
+      "url": "https://zenn.dev/karamage/articles/306f0c571e0af9",
+      "title": "エンジニアのAI疲れとの付き合い方",
+      "source": "zenn",
+      "collected_at": "2026-01-25T08:40:19.756462"
+    },
+    {
+      "url": "https://zenn.dev/pandaman64/articles/formalized-flt-proof",
+      "title": "【形式証明付き】余白に収まるフェルマーの最終定理の証明【AI不使用】",
+      "source": "zenn",
+      "collected_at": "2026-01-25T08:40:56.955345"
+    },
+    {
+      "url": "https://zenn.dev/labcode/books/6c6dc31864ef14",
+      "title": "In silicoペプチド創薬の教科書",
+      "source": "zenn",
+      "collected_at": "2026-01-25T08:41:34.073226"
+    },
+    {
+      "url": "https://zenn.dev/catatsuy/articles/50d77952394b9f",
+      "title": "memcachedは終わってない：単純なKVキャッシュとしての強さ",
+      "source": "zenn",
+      "collected_at": "2026-01-25T08:42:59.303662"
     }
   ]
 }
