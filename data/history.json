@@ -347,6 +347,54 @@
       "title": "memcachedは終わってない：単純なKVキャッシュとしての強さ",
       "source": "zenn",
       "collected_at": "2026-01-25T08:42:59.303662"
+    },
+    {
+      "url": "https://qiita.com/Sicut_study/items/fd8e8a9fe05631fc5ca8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【初心者完全版】0からDockerをフルスタックアプリを開発しながら学べるチュートリアル【React /TypeScript/Hono/docker-compose】",
+      "source": "qiita",
+      "collected_at": "2026-01-26T08:46:28.817390"
+    },
+    {
+      "url": "https://qiita.com/2000na/items/e41062344f0b86049a68?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【元経理】実務で本当に使えたExcelの小技５選【ミス防止】",
+      "source": "qiita",
+      "collected_at": "2026-01-26T08:47:17.719491"
+    },
+    {
+      "url": "https://qiita.com/shinya-kg0/items/9923fb21c48ea999b191?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "pip installって何してるの？",
+      "source": "qiita",
+      "collected_at": "2026-01-26T08:48:16.372199"
+    },
+    {
+      "url": "https://zenn.dev/mierune/articles/bf217beb554da0",
+      "title": "気象データをZarrに変換して風を可視化する",
+      "source": "zenn",
+      "collected_at": "2026-01-26T08:49:15.094198"
+    },
+    {
+      "url": "https://zenn.dev/yujmatsu/articles/20260125_clawdbot_beginners_guide",
+      "title": "Clawdbot入門(#1)：チャットアプリで動く“自分専用AIアシスタント”の出来ることと安全な始め方",
+      "source": "zenn",
+      "collected_at": "2026-01-26T08:49:52.038089"
+    },
+    {
+      "url": "https://zenn.dev/kndoshn/articles/46c673bb16aa49",
+      "title": "🦞Clawdbot🦞 を AWS + Telegram で動かす",
+      "source": "zenn",
+      "collected_at": "2026-01-26T08:50:29.550685"
+    },
+    {
+      "url": "https://zenn.dev/nakayarn/articles/ce4f620630182b",
+      "title": "キーボード沼 〜分割キーボードに手を出したよ〜",
+      "source": "zenn",
+      "collected_at": "2026-01-26T08:51:07.752882"
+    },
+    {
+      "url": "https://zenn.dev/neurostack_0001/articles/claude-code-skills-review-automation",
+      "title": "Claude Code Skillsで実装からレビューまで全部自動化してみた",
+      "source": "zenn",
+      "collected_at": "2026-01-26T08:51:47.789165"
     }
   ]
 }
