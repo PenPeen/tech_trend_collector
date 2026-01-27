@@ -395,6 +395,60 @@
       "title": "Claude Code Skillsで実装からレビューまで全部自動化してみた",
       "source": "zenn",
       "collected_at": "2026-01-26T08:51:47.789165"
+    },
+    {
+      "url": "https://qiita.com/ryucciarati/items/800beee69019ca84855c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "「ログイン周り」がごちゃつく人へ：認証・認可・SSO・OAuth/OIDC/SAMLの地図",
+      "source": "qiita",
+      "collected_at": "2026-01-27T08:45:08.954992"
+    },
+    {
+      "url": "https://qiita.com/hitomin_poke/items/9607008aefc2521615ac?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "先輩に言われた「それ、前教えたじゃん！」。それでもあなたは悪くない。【後編】",
+      "source": "qiita",
+      "collected_at": "2026-01-27T08:45:46.351549"
+    },
+    {
+      "url": "https://qiita.com/keitaMax/items/eba4cc53538a37121ede?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "個人開発「ひたすら数学」作ってリリースしてみた iOS/Android",
+      "source": "qiita",
+      "collected_at": "2026-01-27T08:46:26.851958"
+    },
+    {
+      "url": "https://qiita.com/sanyamarseille/items/b15f9adc9fb807a3e148?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "ペネトレーションテスト チートシート（CRTP）",
+      "source": "qiita",
+      "collected_at": "2026-01-27T08:47:05.469533"
+    },
+    {
+      "url": "https://zenn.dev/kiyo2023/articles/vanishchat-db-free-messenger",
+      "title": "VanishChat - DBなし・完全ステートレスなメッセンジャーをCloudflare Workersで作った",
+      "source": "zenn",
+      "collected_at": "2026-01-27T08:47:44.146488"
+    },
+    {
+      "url": "https://zenn.dev/moonbitlang/articles/463d2abd94ce8e",
+      "title": "MoonBitによるCRDTアルゴリズムの実装とリアルタイム共同編集アプリケーションの構築",
+      "source": "zenn",
+      "collected_at": "2026-01-27T08:48:32.818743"
+    },
+    {
+      "url": "https://zenn.dev/sakasegawa/articles/af8ede2e4d7da4",
+      "title": "Coding Agentについてのまとめ (2026年1月)",
+      "source": "zenn",
+      "collected_at": "2026-01-27T08:49:10.952880"
+    },
+    {
+      "url": "https://zenn.dev/edom18/articles/try-clawdbot-on-raspi",
+      "title": "最近話題の Clawdbot をラズパイ 5 で動かしてみた",
+      "source": "zenn",
+      "collected_at": "2026-01-27T08:49:50.569879"
+    },
+    {
+      "url": "https://zenn.dev/knowledgework/articles/20260125-create-400-prs-with-claude-code",
+      "title": "月間400件以上のプルリクエストを生産したClaude Code活用事例",
+      "source": "zenn",
+      "collected_at": "2026-01-27T08:50:29.390887"
     }
   ]
 }
