@@ -521,6 +521,60 @@
       "title": "開発者が知っておくべきPostgreSQLパフォーマンス改善Tips 入門10選",
       "source": "zenn",
       "collected_at": "2026-01-29T08:56:58.539844"
+    },
+    {
+      "url": "https://qiita.com/Fujiwo/items/cbc43b7af628ac9384e1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "ディベート「現代開発にオブジェクト指向はまだ必要か」",
+      "source": "qiita",
+      "collected_at": "2026-01-30T08:52:51.783454"
+    },
+    {
+      "url": "https://qiita.com/hirokidaichi/items/243bd176b84900f4cc0d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AIエージェントと協働してmarpでスライドを作る2026",
+      "source": "qiita",
+      "collected_at": "2026-01-30T08:53:29.097269"
+    },
+    {
+      "url": "https://qiita.com/WdknWdkn/items/351912f61ffe1b177a68?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "よくわからずにClaudeのSkillを使い倒し始めたら、自分の仕事が丸裸になりつつある話",
+      "source": "qiita",
+      "collected_at": "2026-01-30T08:54:06.186880"
+    },
+    {
+      "url": "https://qiita.com/kazuki_ogawa/items/c006c5a7ea64684eae1e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "git-worktree-runner (gtr) で実現するAI時代の並列開発",
+      "source": "qiita",
+      "collected_at": "2026-01-30T08:54:46.924084"
+    },
+    {
+      "url": "https://zenn.dev/avosalmon/articles/966101753a9efa",
+      "title": "Laravelは単なるバックエンドフレームワークではない。急速に進化し続けるLaravelエコシステム。",
+      "source": "zenn",
+      "collected_at": "2026-01-30T08:55:24.558954"
+    },
+    {
+      "url": "https://zenn.dev/hamworks/articles/0d57ca09e695c5",
+      "title": "Figma x Claudeでフルでコーディングしてみた",
+      "source": "zenn",
+      "collected_at": "2026-01-30T08:56:02.931333"
+    },
+    {
+      "url": "https://zenn.dev/praha/articles/46992f8e56c480",
+      "title": "Better Authを理解する",
+      "source": "zenn",
+      "collected_at": "2026-01-30T08:56:40.720683"
+    },
+    {
+      "url": "https://zenn.dev/jins/articles/25900be95ab8b8",
+      "title": "VS Code + GitHub Copilotで「”半自動”マルチエージェント」開発をやってみた",
+      "source": "zenn",
+      "collected_at": "2026-01-30T08:57:18.492612"
+    },
+    {
+      "url": "https://zenn.dev/oksongh/articles/rust-osusume-no-memo",
+      "title": "Rustの個人的に気に入っているポイントの解説",
+      "source": "zenn",
+      "collected_at": "2026-01-30T08:57:55.803628"
     }
   ]
 }
