@@ -1,10 +1,9 @@
 """TechTrendCollector メインスクリプト"""
 
 import sys
-import time
 from datetime import datetime
 
-from src.collectors import qiita, zenn
+from src.collectors import hackernews, qiita, zenn
 from src.generators.markdown import save_markdown
 from src.services.deduplicator import Deduplicator
 from src.services.notifier import (
@@ -12,7 +11,6 @@ from src.services.notifier import (
     send_failure_notification,
     send_success_notification,
 )
-from src.services.summarizer import initialize_gemini, summarize_article
 from src.utils.config import validate_config
 from src.utils.logger import get_logger
 
@@ -29,6 +27,7 @@ def print_summary(stats: dict, execution_time: str, output_dir: str) -> None:
     """
     qiita_new = stats["qiita_fetched"] - stats.get("qiita_duplicates", 0)
     zenn_new = stats["zenn_fetched"] - stats.get("zenn_duplicates", 0)
+    hn_new = stats["hn_fetched"] - stats.get("hn_duplicates", 0)
 
     summary = f"""
 ========================================
@@ -37,12 +36,9 @@ TechTrendCollector 実行結果
 実行日時: {execution_time}
 
 [記事取得]
-- Qiita: {stats['qiita_fetched']}件取得 (新規: {qiita_new}件, 重複: {stats.get('qiita_duplicates', 0)}件)
-- Zenn:  {stats['zenn_fetched']}件取得 (新規: {zenn_new}件, 重複: {stats.get('zenn_duplicates', 0)}件)
-
-[要約生成]
-- 成功: {stats['summaries_generated']}件
-- 失敗: {stats.get('summaries_failed', 0)}件
+- Qiita:        {stats['qiita_fetched']}件取得 (新規: {qiita_new}件, 重複: {stats.get('qiita_duplicates', 0)}件)
+- Zenn:         {stats['zenn_fetched']}件取得 (新規: {zenn_new}件, 重複: {stats.get('zenn_duplicates', 0)}件)
+- Hacker News:  {stats['hn_fetched']}件取得 (新規: {hn_new}件, 重複: {stats.get('hn_duplicates', 0)}件)
 
 [マークダウン生成]
 - 生成ファイル数: {stats['new_articles']}件
@@ -75,13 +71,6 @@ def main() -> int:
     for warning in warnings:
         logger.warning(warning)
 
-    # Gemini初期化
-    gemini_enabled = initialize_gemini()
-    if gemini_enabled:
-        logger.info("Gemini 要約機能が有効です")
-    else:
-        logger.info("Gemini 要約機能は無効です")
-
     # 通知機能確認
     notifier_enabled = is_notifier_enabled()
     if notifier_enabled:
@@ -98,12 +87,12 @@ def main() -> int:
     stats = {
         "qiita_fetched": 0,
         "zenn_fetched": 0,
+        "hn_fetched": 0,
         "qiita_duplicates": 0,
         "zenn_duplicates": 0,
+        "hn_duplicates": 0,
         "new_articles": 0,
         "duplicates": 0,
-        "summaries_generated": 0,
-        "summaries_failed": 0,
         "notification_status": "未送信",
     }
 
@@ -117,12 +106,17 @@ def main() -> int:
     zenn_articles = zenn.fetch_trending_articles()
     stats["zenn_fetched"] = len(zenn_articles)
 
+    # Hacker News記事取得
+    logger.info("Hacker News トップ記事を取得中...")
+    hn_articles = hackernews.fetch_top_articles()
+    stats["hn_fetched"] = len(hn_articles)
+
     # 全記事をマージ
-    all_articles = qiita_articles + zenn_articles
+    all_articles = qiita_articles + zenn_articles + hn_articles
 
     # 全ソース失敗チェック
-    if stats["qiita_fetched"] == 0 and stats["zenn_fetched"] == 0:
-        error_message = "全てのソース（Qiita, Zenn）からの記事取得に失敗しました"
+    if stats["qiita_fetched"] == 0 and stats["zenn_fetched"] == 0 and stats["hn_fetched"] == 0:
+        error_message = "全てのソース（Qiita, Zenn, Hacker News）からの記事取得に失敗しました"
         logger.error(error_message)
         if notifier_enabled:
             if send_failure_notification(error_message):
@@ -142,28 +136,15 @@ def main() -> int:
             stats["duplicates"] += 1
             if source == "qiita":
                 stats["qiita_duplicates"] += 1
-            else:
+            elif source == "zenn":
                 stats["zenn_duplicates"] += 1
+            else:
+                stats["hn_duplicates"] += 1
             logger.debug(f"[スキップ] 重複: {article['title'][:40]}...")
             continue
 
-        # 要約生成
-        summary = ""
-        if gemini_enabled:
-            logger.info(f"要約生成中: {article['title'][:40]}...")
-            summary = summarize_article(article["url"])
-            if summary:
-                stats["summaries_generated"] += 1
-            else:
-                stats["summaries_failed"] += 1
-            
-            # APIレート制限回避のための待機
-            wait_time = 30
-            logger.info(f"APIレート制限回避のため {wait_time}秒待機します...")
-            time.sleep(wait_time)
-
         # マークダウン保存
-        filepath = save_markdown(article, summary)
+        filepath = save_markdown(article)
         logger.info(f"保存完了: {filepath.name}")
 
         # 履歴に追加

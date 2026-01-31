@@ -27,11 +27,13 @@ def _build_success_email_html(
     # ソース別に記事を分類
     qiita_articles = [a for a in articles if a.get("source") == "qiita"]
     zenn_articles = [a for a in articles if a.get("source") == "zenn"]
+    hn_articles = [a for a in articles if a.get("source") == "hackernews"]
 
     html_parts = [
         "<h2>📰 本日のトレンド記事</h2>",
         f"<p><strong>取得件数:</strong> Qiita {stats.get('qiita_fetched', 0)}件 / "
-        f"Zenn {stats.get('zenn_fetched', 0)}件</p>",
+        f"Zenn {stats.get('zenn_fetched', 0)}件 / "
+        f"Hacker News {stats.get('hn_fetched', 0)}件</p>",
         f"<p><strong>新規保存:</strong> {stats.get('new_articles', 0)}件</p>",
     ]
 
@@ -50,6 +52,16 @@ def _build_success_email_html(
         html_parts.append("<h3>Zenn</h3>")
         html_parts.append("<ul>")
         for article in zenn_articles:
+            html_parts.append(
+                f'  <li><a href="{article["url"]}">{article["title"]}</a></li>'
+            )
+        html_parts.append("</ul>")
+
+    # Hacker News記事一覧
+    if hn_articles:
+        html_parts.append("<h3>Hacker News</h3>")
+        html_parts.append("<ul>")
+        for article in hn_articles:
             html_parts.append(
                 f'  <li><a href="{article["url"]}">{article["title"]}</a></li>'
             )

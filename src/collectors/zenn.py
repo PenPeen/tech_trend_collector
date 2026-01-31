@@ -8,7 +8,7 @@ from typing import Any
 
 import feedparser
 
-from src.utils.config import MAX_ARTICLES_PER_SOURCE, RSS_TIMEOUT, ZENN_RSS_URL
+from src.utils.config import RSS_TIMEOUT, ZENN_RSS_URL
 from src.utils.logger import get_logger
 
 logger = get_logger("collectors.zenn")
@@ -44,7 +44,7 @@ def fetch_trending_articles() -> list[dict[str, Any]]:
 
         articles = []
 
-        for entry in feed.entries[:MAX_ARTICLES_PER_SOURCE]:
+        for entry in feed.entries:
             try:
                 # 公開日時のパース
                 published = None
