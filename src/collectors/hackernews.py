@@ -1,32 +1,31 @@
-"""Qiita RSS取得モジュール"""
+"""Hacker News RSS取得モジュール"""
 
 import socket
 import urllib.error
-import urllib.request
 from datetime import datetime
 from typing import Any
 
 import feedparser
 
-from src.utils.config import QIITA_RSS_URL, RSS_TIMEOUT
+from src.utils.config import HN_RSS_URL, RSS_TIMEOUT
 from src.utils.logger import get_logger
 
-logger = get_logger("collectors.qiita")
+logger = get_logger("collectors.hackernews")
 
 
-def fetch_trending_articles() -> list[dict[str, Any]]:
-    """Qiitaのトレンド記事を取得する
+def fetch_top_articles() -> list[dict[str, Any]]:
+    """Hacker Newsのフロントページ記事を取得する
 
     Returns:
         記事情報のリスト（タイトル、URL、著者、公開日時、タグ、ソース）
         取得失敗時は空リスト
     """
-    logger.info("Qiita トレンド記事の取得を開始")
+    logger.info("Hacker News フロントページ記事の取得を開始")
 
     try:
         # タイムアウト付きでRSSを取得
         feed = feedparser.parse(
-            QIITA_RSS_URL,
+            HN_RSS_URL,
             request_headers={"User-Agent": "TechTrendCollector/1.0"},
         )
 
@@ -39,37 +38,40 @@ def fetch_trending_articles() -> list[dict[str, Any]]:
                 logger.warning(f"RSSパースに問題がありました: {feed.bozo_exception}")
 
         if not feed.entries:
-            logger.warning("Qiita RSSから記事が取得できませんでした")
+            logger.warning("Hacker News RSSから記事が取得できませんでした")
             return []
 
         articles = []
 
         for entry in feed.entries:
             try:
-                # タグの取得（Atomフィードのcategory）
-                tags = []
-                if hasattr(entry, "tags"):
-                    tags = [tag.term for tag in entry.tags]
-
                 # 公開日時のパース
                 published = None
                 if hasattr(entry, "published_parsed") and entry.published_parsed:
                     published = datetime(*entry.published_parsed[:6]).isoformat()
 
+                # hnrss.orgはオリジナル記事のリンクをentry.linkとして提供
+                url = entry.link if hasattr(entry, "link") else ""
+
+                # 著者情報
+                author = ""
+                if hasattr(entry, "author"):
+                    author = entry.author
+
                 article = {
                     "title": entry.title,
-                    "url": entry.link,
-                    "author": entry.author if hasattr(entry, "author") else "",
+                    "url": url,
+                    "author": author,
                     "published": published,
-                    "tags": tags,
-                    "source": "qiita",
+                    "tags": [],
+                    "source": "hackernews",
                 }
                 articles.append(article)
             except Exception as e:
                 logger.warning(f"記事のパースに失敗: {e}")
                 continue
 
-        logger.info(f"Qiita から {len(articles)} 件の記事を取得完了")
+        logger.info(f"Hacker News から {len(articles)} 件の記事を取得完了")
         return articles
 
     except urllib.error.URLError as e:

@@ -7,6 +7,13 @@ from typing import Any
 
 from src.utils.config import ARTICLES_DIR
 
+# ソース名の表示用マッピング
+SOURCE_DISPLAY_NAMES = {
+    "qiita": "Qiita",
+    "zenn": "Zenn",
+    "hackernews": "Hacker News",
+}
+
 
 def sanitize_filename(title: str) -> str:
     """ファイル名に使用不可な文字を除去する
@@ -29,23 +36,26 @@ def sanitize_filename(title: str) -> str:
     return sanitized
 
 
-def generate_article_markdown(article: dict[str, Any], summary: str = "") -> str:
+def generate_article_markdown(article: dict[str, Any]) -> str:
     """記事のマークダウンコンテンツを生成する
 
     Args:
         article: 記事情報
-        summary: 要約テキスト（空の場合はエラーメッセージ表示）
 
     Returns:
         マークダウン形式の文字列
     """
+    source_display = SOURCE_DISPLAY_NAMES.get(
+        article["source"], article["source"].capitalize()
+    )
+
     lines = [
         f"# {article['title']}",
         "",
         "## 記事情報",
         "",
         f"- **URL**: {article['url']}",
-        f"- **ソース**: {article['source'].capitalize()}",
+        f"- **ソース**: {source_display}",
         f"- **著者**: {article['author'] or '不明'}",
         f"- **公開日時**: {article['published'] or '不明'}",
     ]
@@ -54,29 +64,18 @@ def generate_article_markdown(article: dict[str, Any], summary: str = "") -> str
         tags_str = ", ".join(article["tags"])
         lines.append(f"- **タグ**: {tags_str}")
 
-    # 要約セクション
-    summary_text = summary if summary else "（要約の取得に失敗しました）"
-    lines.extend(
-        [
-            "",
-            "## 要約",
-            "",
-            summary_text,
-            "",
-        ]
-    )
+    lines.append("")
 
     return "\n".join(lines)
 
 
 def save_markdown(
-    article: dict[str, Any], summary: str = "", date: datetime | None = None
+    article: dict[str, Any], date: datetime | None = None
 ) -> Path:
     """マークダウンファイルを保存する
 
     Args:
         article: 記事情報
-        summary: 要約テキスト
         date: 保存日付（指定がなければ今日）
 
     Returns:
@@ -95,7 +94,7 @@ def save_markdown(
     filepath = output_dir / filename
 
     # マークダウン生成・保存
-    content = generate_article_markdown(article, summary)
+    content = generate_article_markdown(article)
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(content)
 

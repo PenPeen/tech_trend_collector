@@ -22,17 +22,13 @@ HISTORY_FILE = DATA_DIR / "history.json"
 # RSS設定
 QIITA_RSS_URL = "https://qiita.com/popular-items/feed.atom"
 ZENN_RSS_URL = "https://zenn.dev/feed"
-
-# 取得件数
-MAX_ARTICLES_PER_SOURCE = 5
+HN_RSS_URL = "https://hnrss.org/frontpage"
 
 # タイムアウト設定（秒）
 RSS_TIMEOUT = 30
-API_TIMEOUT = 60
 NOTIFICATION_TIMEOUT = 30
 
 # APIキー
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
 NOTIFICATION_EMAIL = os.getenv("NOTIFICATION_EMAIL", "")
 
@@ -44,12 +40,6 @@ def validate_config() -> Tuple[bool, List[str]]:
         (検証成功かどうか, 警告メッセージリスト)
     """
     warnings: List[str] = []
-
-    # Gemini APIキーチェック
-    if not GEMINI_API_KEY:
-        warnings.append("GEMINI_API_KEY が未設定です。要約機能は無効になります。")
-    elif len(GEMINI_API_KEY) < 20:
-        warnings.append("GEMINI_API_KEY のフォーマットが不正の可能性があります。")
 
     # Resend APIキーチェック
     if not RESEND_API_KEY:
