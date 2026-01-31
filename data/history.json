@@ -575,6 +575,336 @@
       "title": "Rustの個人的に気に入っているポイントの解説",
       "source": "zenn",
       "collected_at": "2026-01-30T08:57:55.803628"
+    },
+    {
+      "url": "https://qiita.com/Hurry_Fox/items/2c9a543d411d4d0d607c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Claude Code チートシート：開発者のための完全リファレンス",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.174368"
+    },
+    {
+      "url": "https://qiita.com/ikwzm/items/d6d6a0223931c4a55037?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "C言語でメモリマップド I/O を扱うときに注意すること  - volatile 修飾子とメモリバリアの役割",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.174580"
+    },
+    {
+      "url": "https://qiita.com/shibuya-ys/items/b31603922b791c37cc37?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "応用情報の廃止・再編「今」取るべき理由と合格戦略",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.174772"
+    },
+    {
+      "url": "https://qiita.com/Kohta21/items/bb4f83d11f6771febb98?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "どの中間CAを選ぶべきかわからなかった話",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.174975"
+    },
+    {
+      "url": "https://qiita.com/jidaikobo-shibata/items/379ed75bbf8a69827188?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Waylandメインにして半月が経った",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.175140"
+    },
+    {
+      "url": "https://qiita.com/ohkitashigeto/items/f66918b0a5dc59db9017?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Ollama 17万台が（あぶねーすね）だそうな",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.175346"
+    },
+    {
+      "url": "https://qiita.com/akiraabe/items/371e384bbd30de04e473?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Pencil × Claude Code がよさそうなので試してみた！",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.175515"
+    },
+    {
+      "url": "https://qiita.com/m_shinada/items/5aae295c3cfc7c3f96f4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "スムーススクロールはJSでやるべき",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.175687"
+    },
+    {
+      "url": "https://qiita.com/dais_cw/items/b7d4bacb35773ff0c8d0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "IPA高度区分試験攻略法：PMその②：IPAの定める「プロジェクトマネージャ」の定義",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.175872"
+    },
+    {
+      "url": "https://qiita.com/noalisa-ai/items/caf32fd2a3ebd661b732?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Qiita AI Summit にて登壇いたしました（資料公開・事前準備編）",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.176038"
+    },
+    {
+      "url": "https://qiita.com/shimada_slj/items/e84e88004b4fd7bc511c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AIが出したコードを「そのまま使う」危険性に気づいた2025年",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.176200"
+    },
+    {
+      "url": "https://qiita.com/GIFCat/items/33631e907f266858ff5b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "つい忘れがちな配色を「3色」に絞る理由と、「役割」の構成",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.176362"
+    },
+    {
+      "url": "https://qiita.com/sumikawa@github/items/f7a455909fe4596a66bf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Rustでコンピューターグラフィックスの基礎を学ぶ その8",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.176527"
+    },
+    {
+      "url": "https://qiita.com/moritalous/items/7ecd3c11de147fce3647?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AWS Community Buildersとしての2025年の活動をまとめてみた",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.176692"
+    },
+    {
+      "url": "https://qiita.com/Takashi_Masumori/items/12ba1c97612fa0f12acd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Copilot Studio で一括でチャット型エージェントのテストする",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.176875"
+    },
+    {
+      "url": "https://qiita.com/gerrard15/items/94709c464e930bdb3b39?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "jQueryエンジニアがNext.js 16に挑んだ3日間",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.177045"
+    },
+    {
+      "url": "https://qiita.com/gerrard15/items/9fe509d64ff5c949d988?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "M4 MacでChromeOS Flexを動かす",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.177208"
+    },
+    {
+      "url": "https://qiita.com/Tsurukawauchi_Jin/items/fb75fd3b67570ca56503?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【macOS】ショートカットAppで複数アプリケーションを起動させてみた",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.177367"
+    },
+    {
+      "url": "https://qiita.com/Taka_Sei/items/30c8a8448e0c1977817d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Cursor】GPT Codexモデル選択時に出てくる「Mini」や「Max」や「Fast」って何？",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.177538"
+    },
+    {
+      "url": "https://qiita.com/Takashi_Masumori/items/916a213a4cce8b6cc42c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AI Builder の JSON 出力を Power Apps のコレクションにそのまま入れられるようになりました",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.177715"
+    },
+    {
+      "url": "https://qiita.com/motoya0118/items/302f34c03fc9f6d0da38?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AI AgentがCLI使えるからって、PJの中身を全て知る神だと勘違いすんな！",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.177912"
+    },
+    {
+      "url": "https://qiita.com/emi_ndk/items/1534e672ead63226db91?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【恐怖】AIエージェントが社員を脅迫した実話｜2026年最大のセキュリティ事件を徹底解説",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.178086"
+    },
+    {
+      "url": "https://qiita.com/hetare001/items/722d9007dc3ec218515a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Excelで何の役にも立たないアプリを作った話",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.178255"
+    },
+    {
+      "url": "https://qiita.com/KKTeX/items/559d524eeb51a3528051?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "３秒でできる鉄緑っぽいプリント作成（非公式）",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.178427"
+    },
+    {
+      "url": "https://qiita.com/xinjingj45/items/915f5f1aa4b9ff375237?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Python×Selenium×Pandas】ECサイトの商品情報をカテゴリ別で収集しcsv形式で保存する方法",
+      "source": "qiita",
+      "collected_at": "2026-01-31T07:13:47.178598"
+    },
+    {
+      "url": "https://zenn.dev/nrs/articles/ea37ed55b8704a",
+      "title": "プログラミングの知識は「書くため」ではなく「導くため」になった — AIエージェント並列オーケストレーションの先にあったもの",
+      "source": "zenn",
+      "collected_at": "2026-01-31T07:13:47.178775"
+    },
+    {
+      "url": "https://zenn.dev/team_soda/articles/ba0fe106a605dc",
+      "title": "そのインタラクション、どう作るか？",
+      "source": "zenn",
+      "collected_at": "2026-01-31T07:13:47.178968"
+    },
+    {
+      "url": "https://zenn.dev/reality_tech/articles/0d41c670bd4104",
+      "title": "AIオーケストレーションによるリポジトリ横断不具合調査—— 自己改善するGitHub Actionsワークフロー設計",
+      "source": "zenn",
+      "collected_at": "2026-01-31T07:13:47.179145"
+    },
+    {
+      "url": "https://zenn.dev/zaico/articles/d6b882c78fe4b3",
+      "title": "Claude CodeのHooksをハックして自律駆動するマルチエージェントを作った",
+      "source": "zenn",
+      "collected_at": "2026-01-31T07:13:47.179323"
+    },
+    {
+      "url": "https://zenn.dev/mkj/articles/claude-code-orchestra_20260120",
+      "title": "Claude Code Orchestra: Claude Code × Codex CLI × Gemini CLIの最適解を探る",
+      "source": "zenn",
+      "collected_at": "2026-01-31T07:13:47.179506"
+    },
+    {
+      "url": "https://zenn.dev/progate/articles/2e1e90796d82f0",
+      "title": "git worktreeの不満を解消するためにCLIツールを自作した",
+      "source": "zenn",
+      "collected_at": "2026-01-31T07:13:47.179678"
+    },
+    {
+      "url": "https://zenn.dev/miyaco_log/articles/6f084e82688fa1",
+      "title": "「GitHub Copilotが高くて払えない」と嘆くあなたへ。AWSの「Amazon Q」なら無料で同じことができます",
+      "source": "zenn",
+      "collected_at": "2026-01-31T07:13:47.179885"
+    },
+    {
+      "url": "https://zenn.dev/yuukikawabata/articles/pencil-dev-introduction",
+      "title": "さよなら、Figmaからのコピペ。Pencil.devでデザインをコードとして管理する",
+      "source": "zenn",
+      "collected_at": "2026-01-31T07:13:47.180067"
+    },
+    {
+      "url": "https://zenn.dev/genshi_ai/articles/fa96e541c480d2",
+      "title": "Electronはもう古い？Tauri v2でデスクトップアプリを作ったら最高だった話",
+      "source": "zenn",
+      "collected_at": "2026-01-31T07:13:47.180244"
+    },
+    {
+      "url": "https://zenn.dev/studist/articles/01-claude-code-skill-cached-token-analysis",
+      "title": "Claude Code Skillは本当に効率的？ —— 鍵を握るPrompt Caching",
+      "source": "zenn",
+      "collected_at": "2026-01-31T07:13:47.180417"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/musks-starlink-updates-privacy-policy-230853500.html",
+      "title": "Starlink updates privacy policy to allow consumer data to train",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.180600"
+    },
+    {
+      "url": "https://phage-explorer.org/",
+      "title": "Show HN: Phage Explorer",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.180768"
+    },
+    {
+      "url": "https://zenodo.org/records/18438130",
+      "title": "Genesis",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.180954"
+    },
+    {
+      "url": "https://lareviewofbooks.org/article/foundational-anxieties-modern-mathematics-and-the-political-imagination/",
+      "title": "Naples' 1790s civil war was intensified by moral panic over Real Analysis (2023)",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.181130"
+    },
+    {
+      "url": "https://simedw.com/2026/01/31/ear-pronunication-via-ctc/",
+      "title": "Show HN: I trained a 9M speech model to fix my Mandarin tones",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.181312"
+    },
+    {
+      "url": "https://github.com/lekt9/openclaw-foundry",
+      "title": "Show HN: Foundry – Turns your repeated workflows into one-click commands",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.181480"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/the-100-billion-megadeal-between-openai-and-nvidia-is-on-ice-aa3025e3",
+      "title": "The $100B megadeal between OpenAI and Nvidia is on ice",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.181667"
+    },
+    {
+      "url": "https://perspectives.mvdirona.com/2010/04/stonebraker-on-cap-theorem-and-databases/",
+      "title": "Stonebraker on CAP theorem and Databases (2010)",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.181862"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/talkbits-speak-naturally/id6756824177",
+      "title": "Show HN: I built an AI conversation partner to practice speaking languages",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.182043"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7fNYj0EXxMs",
+      "title": "I trapped an AI model inside an art installation (2025) [video]",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.182277"
+    },
+    {
+      "url": "https://writings.stephenwolfram.com/2026/01/p-vs-np-and-the-difficulty-of-computation-a-ruliological-approach/",
+      "title": "P vs. NP and the Difficulty of Computation: A ruliological approach",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.182456"
+    },
+    {
+      "url": "https://peerweb.lol/",
+      "title": "Peerweb: Decentralized website hosting via WebTorrent",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.182635"
+    },
+    {
+      "url": "https://antirender.com/",
+      "title": "Antirender: remove the glossy shine on architectural renderings",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.182824"
+    },
+    {
+      "url": "https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf",
+      "title": "Kimi K2.5 Technical Report [pdf]",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.182999"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=46826277",
+      "title": "Ask HN: Do you also \"hoard\" notes/links but struggle to turn them into actions?",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.183177"
+    },
+    {
+      "url": "https://www.lemonade.com/car/explained/self-driving-car-insurance/",
+      "title": "Self Driving Car Insurance",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.183349"
+    },
+    {
+      "url": "https://github.com/amlalabs/amla-sandbox",
+      "title": "Show HN: Amla Sandbox – WASM bash shell sandbox for AI agents",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.183525"
+    },
+    {
+      "url": "https://http.cat/",
+      "title": "HTTP Cats",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.183697"
+    },
+    {
+      "url": "https://docs.pangolin.net/careers/join-us",
+      "title": "Pangolin (YC S25) is hiring software engineers (open-source, Go, networking)",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.183900"
+    },
+    {
+      "url": "https://nadh.in/blog/code-is-cheap/",
+      "title": "Code is cheap. Show me the talk",
+      "source": "hackernews",
+      "collected_at": "2026-01-31T07:13:47.184078"
     }
   ]
 }
