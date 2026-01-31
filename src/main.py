@@ -11,6 +11,7 @@ from src.services.notifier import (
     send_failure_notification,
     send_success_notification,
 )
+from src.services.translator import translate_hn_titles
 from src.utils.config import validate_config
 from src.utils.logger import get_logger
 
@@ -110,6 +111,11 @@ def main() -> int:
     logger.info("Hacker News トップ記事を取得中...")
     hn_articles = hackernews.fetch_top_articles()
     stats["hn_fetched"] = len(hn_articles)
+
+    # HN記事タイトルを日本語に翻訳（Gemini API 1回呼び出し）
+    if hn_articles:
+        logger.info("Hacker News 記事タイトルを翻訳中...")
+        hn_articles = translate_hn_titles(hn_articles)
 
     # 全記事をマージ
     all_articles = qiita_articles + zenn_articles + hn_articles
