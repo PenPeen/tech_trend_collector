@@ -1013,6 +1013,318 @@
       "title": "BoldVoice (YC S21) Is Hiring Fullstack and Machine Learning Engineers",
       "source": "hackernews",
       "collected_at": "2026-01-31T08:40:56.521320"
+    },
+    {
+      "url": "https://qiita.com/hiruberuto/items/4d8a4739cd738c425ee2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "純粋関数型言語ではconsole.log(\"Hello\")をlog \"Hello\"と書くし、foo = 42をwrite 42 fooと書く",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.012973"
+    },
+    {
+      "url": "https://qiita.com/8853Tomtomtom/items/656c122f1ef714f3079d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "ChatGPTに「生成AIが広まったけど、結局 言語化能力がある人が得してるだけじゃない？」と問いかけてみた",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.013204"
+    },
+    {
+      "url": "https://qiita.com/zr_tex8r/items/3adcfe4342c88025ab1c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "重点解説！ Prismで日本語文書を作る方法",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.013396"
+    },
+    {
+      "url": "https://qiita.com/inorin__62/items/35cdd0372af1f3f2a5e8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "2026年の目標・実現したいこと",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.013582"
+    },
+    {
+      "url": "https://qiita.com/nasuvitz/items/58bfff56a5240e22c8a8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Amazon Bedrock AgentCoreを用いたChromeサイドパネル常駐型AIエージェントの実装例",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.013772"
+    },
+    {
+      "url": "https://qiita.com/kama_bizdev/items/dbf23a45c247723f8fe1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "問い合わせ対応脱属人化の第一歩「個人宛に届いたteamsメッセージをチームに転送するPowerAutomate」",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.013983"
+    },
+    {
+      "url": "https://qiita.com/Lanxk/items/17bf381e46ad3fd82170?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【個人開発】Markdownを「綺麗な長～い画像」に一発変換するツールを作ったので見てほしい",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.014170"
+    },
+    {
+      "url": "https://qiita.com/yuyanz/items/236df61c2b9a890c481c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Azure Virtual Desktop（AVD）のコストを抑える7つの方法",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.014368"
+    },
+    {
+      "url": "https://qiita.com/emi_ndk/items/59f4c10e6bb347fd5ece?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【衝撃】AIが人間抜きでSNSを始めた！Moltbookが示す「エージェント・インターネット」の未来",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.014552"
+    },
+    {
+      "url": "https://qiita.com/hekiboko/items/ccc58d183513b15cf71a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "UnionFindの仕組みのイメージ",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.014734"
+    },
+    {
+      "url": "https://qiita.com/ktdatascience/items/38cedf1f96e981b4f11d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "「オンボーディングが早い」と言われるためにやっていること",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.014938"
+    },
+    {
+      "url": "https://qiita.com/benzo_lunchbox/items/9944a9416b0c01545487?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【AWS/Terraform】Terraformを初めて触ってみた",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.015126"
+    },
+    {
+      "url": "https://qiita.com/YutaNakamurajp/items/8d9d58ec3e1dcd9ae0f5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Windows操作ログをローカルLLMで解析し、自動で日報を作るツール「Miru-Log」",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.015313"
+    },
+    {
+      "url": "https://qiita.com/kyamaz/items/b3693e5ab23dcf0351c4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "量子コンピュータ5大方式の数理チートシート",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.015497"
+    },
+    {
+      "url": "https://qiita.com/kimuchi_a/items/06f9c9282fbb5504b145?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "JSPを使ってシステム開発を行った結果、フロントトレンドがReact/Vueに移行した理由を身をもって知った話",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.015692"
+    },
+    {
+      "url": "https://qiita.com/Haruji/items/4c5c87de1fc5eb8bae5b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "ネットワークの基礎：OSI参照モデルとTCP/IPモデルの違いと各層の役割",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.015898"
+    },
+    {
+      "url": "https://qiita.com/carol0226/items/613214a52fdc2aff77cf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "[GSA : Internet] 前提条件のすべてを満たす構成",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.016086"
+    },
+    {
+      "url": "https://qiita.com/mylifewithviolin/items/6bc8c7d51620771cfdaf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "日本語プログラミング言語Mindの小技 「さらに合成」～文字列の簡易な合成その２～",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.016267"
+    },
+    {
+      "url": "https://qiita.com/revsystem/items/63748d9e2dae8e91daa4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Amazon Bedrock Knowledge Basesを使用してデュアルデータソース構成で検索の精度を検証する",
+      "source": "qiita",
+      "collected_at": "2026-02-01T08:42:17.016450"
+    },
+    {
+      "url": "https://zenn.dev/keiichiro/articles/b998a410601537",
+      "title": "【個人開発】QAをAIがしてくれるサービスをつくった",
+      "source": "zenn",
+      "collected_at": "2026-02-01T08:42:17.016630"
+    },
+    {
+      "url": "https://zenn.dev/prgckwb/articles/kaggle-csiro-image2biomass",
+      "title": "Kaggle 草コンペ振り返り & 上位解法まとめ | CSIRO - Image2Biomass Prediction",
+      "source": "zenn",
+      "collected_at": "2026-02-01T08:42:17.016818"
+    },
+    {
+      "url": "https://zenn.dev/kiri_tech/articles/bbbaf5f1cdc57d",
+      "title": "【Antigravity】動画編集ド素人の学生が、Pythonで「ゆっくり実況」の完全自動化に挑んでみた話",
+      "source": "zenn",
+      "collected_at": "2026-02-01T08:42:17.017022"
+    },
+    {
+      "url": "https://zenn.dev/sakasegawa/articles/9cf4dba3f6b5f3",
+      "title": "Moltbookについて、いま起きていることのまとめ",
+      "source": "zenn",
+      "collected_at": "2026-02-01T08:42:17.017204"
+    },
+    {
+      "url": "https://zenn.dev/takehito/articles/437aab341b6102",
+      "title": "【Swift】guard を「前提の宣言」として使うための整理",
+      "source": "zenn",
+      "collected_at": "2026-02-01T08:42:17.017387"
+    },
+    {
+      "url": "https://zenn.dev/t_vana4/articles/c13b3eaaa9f5e3",
+      "title": "PM の育成はなぜ難しいのか？ ー「贈与」の視点で考える「見えない仕事」の伝え方ー",
+      "source": "zenn",
+      "collected_at": "2026-02-01T08:42:17.017580"
+    },
+    {
+      "url": "https://zenn.dev/shundeveloper/articles/6d9a464c4a6bad",
+      "title": "LazyNix: 誰でも作れる再現可能な開発環境",
+      "source": "zenn",
+      "collected_at": "2026-02-01T08:42:17.017766"
+    },
+    {
+      "url": "https://zenn.dev/yutopia898/articles/e8005988b656d4",
+      "title": "寿司屋のサイトをmicroCMSからpitcmsに乗り換えた",
+      "source": "zenn",
+      "collected_at": "2026-02-01T08:42:17.017967"
+    },
+    {
+      "url": "https://zenn.dev/mae616/articles/02d4425ec419ee",
+      "title": "Pencilで「AI臭くならないデザイン」を作るために、skillsに how / how to think を書いてみた",
+      "source": "zenn",
+      "collected_at": "2026-02-01T08:42:17.018154"
+    },
+    {
+      "url": "https://zenn.dev/justhiro/articles/649e6fa7d7521c",
+      "title": "定時で帰りたい開発環境",
+      "source": "zenn",
+      "collected_at": "2026-02-01T08:42:17.018340"
+    },
+    {
+      "url": "https://zenn.dev/frontendflat/articles/574207fb58a7b0",
+      "title": "フロントエンドのモジュール分割を考える",
+      "source": "zenn",
+      "collected_at": "2026-02-01T08:42:17.018526"
+    },
+    {
+      "url": "https://zenn.dev/takeshy/articles/f88ee9325720b4",
+      "title": "MCP Apps標準化でWeb業界が一変。MCPクライアントとMCPサーバで対応した経験をもとに解説",
+      "source": "zenn",
+      "collected_at": "2026-02-01T08:42:17.018718"
+    },
+    {
+      "url": "https://zenn.dev/tokium_dev/articles/0ef3f807d67e7c",
+      "title": "実装はClaude、レビューはCodex ─ tmuxで繋ぐ開発フロー",
+      "source": "zenn",
+      "collected_at": "2026-02-01T08:42:17.018923"
+    },
+    {
+      "url": "https://www.rrauction.com/auctions/lot-detail/350902407346003-apple-1-computer-prototype-board-0-the-celebration-board-representing-the-earliest-known-fiberglass-apple-1-prototype/",
+      "title": "Apple-1 Computer Prototype Board #0 sold for $2.75M",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.019119"
+    },
+    {
+      "url": "https://rose.systems/animalist/",
+      "title": "List animals until failure",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.019305"
+    },
+    {
+      "url": "http://ternarysearch.blogspot.com/2026/01/sparse-file-lru-cache.html",
+      "title": "Sparse File LRU Cache",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.019489"
+    },
+    {
+      "url": "https://www.quantamagazine.org/cells-use-bioelectricity-to-coordinate-and-make-group-decisions-20260112/",
+      "title": "Cells use 'bioelectricity' to coordinate and make group decisions",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.019674"
+    },
+    {
+      "url": "https://webkit.org/blog/17758/when-will-css-grid-lanes-arrive-how-long-until-we-can-use-it/",
+      "title": "When will CSS Grid Lanes arrive?",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.019875"
+    },
+    {
+      "url": "https://nmn.sh/blog/2023-10-02-swift-is-the-more-convenient-rust",
+      "title": "Swift is a more convenient Rust (2023)",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.020063"
+    },
+    {
+      "url": "https://wikiedu.org/blog/2026/01/29/generative-ai-and-wikipedia-editing-what-we-learned-in-2025/",
+      "title": "Generative AI and Wikipedia editing: What we learned in 2025",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.020247"
+    },
+    {
+      "url": "https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html",
+      "title": "Outsourcing thinking",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.020425"
+    },
+    {
+      "url": "https://www.ycombinator.com/companies/collectwise/jobs/ZunnO6k-ai-agent-engineer",
+      "title": "CollectWise (YC F24) Is Hiring",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.020604"
+    },
+    {
+      "url": "https://github.com/zupat/related_post_gen",
+      "title": "Data Processing Benchmark Featuring Rust, Go, Swift, Zig, Julia etc.",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.020785"
+    },
+    {
+      "url": "https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/",
+      "title": "In praise of –dry-run",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.020996"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.21473",
+      "title": "Demystifying ARM SME to Optimize General Matrix Multiplications",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.021177"
+    },
+    {
+      "url": "https://www.usenix.org/system/files/login-logout_1305_mickens.pdf",
+      "title": "The Saddest Moment (2013) [pdf]",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.021353"
+    },
+    {
+      "url": "https://github.com/noctalia-dev/noctalia-shell",
+      "title": "Noctia: A sleek and minimal desktop shell thoughtfully crafted for Wayland",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.021533"
+    },
+    {
+      "url": "https://github.com/rtvkiz/minimal",
+      "title": "Show HN: Minimal – Open-Source Community driven Hardened Container Images",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.021714"
+    },
+    {
+      "url": "https://crl.io/ds-game-engine/",
+      "title": "Nintendo DS code editor and scriptable game engine",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.021989"
+    },
+    {
+      "url": "https://an.dywa.ng/carrier-gnss.html",
+      "title": "Mobile carriers can get your GPS location",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.022189"
+    },
+    {
+      "url": "https://yle.fi/a/74-20207494",
+      "title": "Finland looks to introduce Australia-style ban on social media",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.022378"
+    },
+    {
+      "url": "https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf",
+      "title": "Apple Platform Security (Jan 2026) [pdf]",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.022553"
+    },
+    {
+      "url": "https://arstechnica.com/gadgets/2026/01/inside-nvidias-10-year-effort-to-make-the-shield-tv-the-most-updated-android-device-ever/",
+      "title": "Nvidia's 10-year effort to make the Shield TV the most updated Android device",
+      "source": "hackernews",
+      "collected_at": "2026-02-01T08:42:17.022731"
     }
   ]
 }
