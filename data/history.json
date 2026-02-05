@@ -2207,6 +2207,282 @@
       "title": "X offices raided in France as UK opens fresh investigation into Grok",
       "source": "hackernews",
       "collected_at": "2026-02-04T08:55:05.277659"
+    },
+    {
+      "url": "https://qiita.com/KYoshiyama/items/14554853372f33c3374b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "エンジニアは、なぜ生成AIで仕事が楽にならないのか",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.405520"
+    },
+    {
+      "url": "https://qiita.com/ryu-ki/items/7748d48a725f742428b0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Claude Code】 /insights コマンドがおもしろい",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.405717"
+    },
+    {
+      "url": "https://qiita.com/chomado/items/9e2d2b3f9ef6a40a83d2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "最近の GitHub の AI 周りのまとめ in Microsoft AI Tour in Mumbai 基調講演デモ (2025年12月版)",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.405913"
+    },
+    {
+      "url": "https://qiita.com/takeda_h/items/6c57a34453d01346478d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "閉域内に Bedrock と MCP を使った Streamlit アプリを ECS Express モードでデプロイする",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.406102"
+    },
+    {
+      "url": "https://qiita.com/abemaki29/items/471b600074852732239e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【ACE-Step-1.5】30分で構築するローカル音楽生成AI｜初学者向け",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.406279"
+    },
+    {
+      "url": "https://qiita.com/ht_deko/items/738b9c83ce7e85d94a6b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Delphi】週番号を得る",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.406481"
+    },
+    {
+      "url": "https://qiita.com/kazuki-matsuoka/items/878dbc90060c4ab6fd6f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Kaggle】CSIRO 上位解法振り返り",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.406654"
+    },
+    {
+      "url": "https://qiita.com/pythonista0328/items/723b5cb4ef19718ed491?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Claude Code Skills】superpowers - AIエージェント向け開発ワークフローの決定版を徹底解説",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.406842"
+    },
+    {
+      "url": "https://qiita.com/issy345/items/82e886f394709e0c703b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【コピペOK】Ant Design コンポーネントカタログ 〜画像と用途で探せる逆引きガイド〜",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.407021"
+    },
+    {
+      "url": "https://qiita.com/chaochire/items/8430035d149518646119?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Laravel × Vueで発生するJSエラーをSentryに分かりやすく通知する方法",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.407196"
+    },
+    {
+      "url": "https://qiita.com/shirok/items/15df5bdf54024e5a9f21?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "iPhone に iPerf3 を入れて Oracle Cloud 仮想マシンへインターネット帯域測定してみてみた",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.407367"
+    },
+    {
+      "url": "https://qiita.com/hekiboko/items/06677d5ba8eb2821bfb7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "入水しました！！",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.407575"
+    },
+    {
+      "url": "https://qiita.com/k-mae/items/ef68761dab12a58f399a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "いまさら聞けないClaude Code入門",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.407746"
+    },
+    {
+      "url": "https://qiita.com/shunkus/items/25a56308a050298db895?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "プロンプトエンジニアリングの5つの原則",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.407912"
+    },
+    {
+      "url": "https://qiita.com/goroneko/items/00f1c99ac91d0c495cf7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "リモートMCPサーバーの現在地を調べてみた",
+      "source": "qiita",
+      "collected_at": "2026-02-05T08:56:44.408085"
+    },
+    {
+      "url": "https://zenn.dev/waki285/articles/2026-modctf-writeup",
+      "title": "防衛省サイバーコンテスト 2026 CTF Writeup",
+      "source": "zenn",
+      "collected_at": "2026-02-05T08:56:44.408259"
+    },
+    {
+      "url": "https://zenn.dev/ahiru75/articles/e865848bdea632",
+      "title": "【インターン 2025】~ Finatext ~",
+      "source": "zenn",
+      "collected_at": "2026-02-05T08:56:44.408459"
+    },
+    {
+      "url": "https://zenn.dev/chot/articles/state-of-chot-inc-2025",
+      "title": "ちょっと社でアンケートとってみた - State of chot Inc. 2025",
+      "source": "zenn",
+      "collected_at": "2026-02-05T08:56:44.408643"
+    },
+    {
+      "url": "https://zenn.dev/tech_discovery/articles/5cc17a4f6880bc",
+      "title": "CodeX のデスクトップアプリを触ってみた",
+      "source": "zenn",
+      "collected_at": "2026-02-05T08:56:44.408811"
+    },
+    {
+      "url": "https://zenn.dev/kiva/articles/4eb59207a9a82a",
+      "title": "FDEっぽいことして学んだ、AIの「精度向上」の心得",
+      "source": "zenn",
+      "collected_at": "2026-02-05T08:56:44.408981"
+    },
+    {
+      "url": "https://zenn.dev/agent_grow/articles/bbcf406a1fbc13",
+      "title": "[AWS] VPCエンドポイントを作っただけなのに",
+      "source": "zenn",
+      "collected_at": "2026-02-05T08:56:44.409153"
+    },
+    {
+      "url": "https://zenn.dev/kki2ne/articles/claude-code-hooks-unique-use-cases-2026",
+      "title": "Claude Code Hooksを遊び倒す｜海外勢のネタ設定が面白すぎた",
+      "source": "zenn",
+      "collected_at": "2026-02-05T08:56:44.409318"
+    },
+    {
+      "url": "https://zenn.dev/wogo_techblog/articles/a51dee31b0c90e",
+      "title": "【続編】WindowsアプリUI開発はもうつらくない！ Blazor × Tailwind CSS完全版",
+      "source": "zenn",
+      "collected_at": "2026-02-05T08:56:44.409512"
+    },
+    {
+      "url": "https://zenn.dev/miki_mini/articles/a591e9d6954600",
+      "title": "【神コラボ】Googleの城(Antigravity)にライバルのClaude Codeを召喚したら、Geminiが神対応してくれた話✨",
+      "source": "zenn",
+      "collected_at": "2026-02-05T08:56:44.409692"
+    },
+    {
+      "url": "https://zenn.dev/yamitake/articles/macports-better-than-homebrew",
+      "title": "Homebrewはもう古い。MacPortsという選択肢を本気で推したい",
+      "source": "zenn",
+      "collected_at": "2026-02-05T08:56:44.409868"
+    },
+    {
+      "url": "https://zenn.dev/nanahiryu/articles/claude-code-skills-202601",
+      "title": "2026年初頭のClaude Code Skillsについてまとめる",
+      "source": "zenn",
+      "collected_at": "2026-02-05T08:56:44.410042"
+    },
+    {
+      "url": "https://lwn.net/SubscriberLink/1056405/e728d95dd16f5e1b/",
+      "title": "Modernizing Linux swapping: introducing the swap table",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.410229"
+    },
+    {
+      "url": "https://blog.comma.ai/datacenter/",
+      "title": "Don't rent the cloud, own instead",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.410419"
+    },
+    {
+      "url": "https://rachelbythebay.com/w/2026/02/03/badnas/",
+      "title": "When internal hostnames are leaked to the clown",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.410594"
+    },
+    {
+      "url": "https://news.cuanschutz.edu/news-stories/study-finds-cannabis-usage-in-middle-aged-and-older-adults-associated-with-larger-brain-volume-better-cognitive-function",
+      "title": "Study: Older Cannabis Users Have Larger Brains, Better Cognition",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.410770"
+    },
+    {
+      "url": "https://www.biometricupdate.com/202602/ice-seeks-industry-input-on-ad-tech-location-data-for-investigative-use",
+      "title": "ICE seeks industry input on ad tech location data for investigative use",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.410942"
+    },
+    {
+      "url": "https://www.taricorp.net/2026/a-few-cpu-bugs/",
+      "title": "A few CPU hardware bugs",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.411109"
+    },
+    {
+      "url": "https://jmoiron.net/blog/wirths-revenge/",
+      "title": "Wirth's Revenge",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.411274"
+    },
+    {
+      "url": "https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been",
+      "title": "OpenClaw is what Apple intelligence should have been",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.411471"
+    },
+    {
+      "url": "https://longevity.stanford.edu/why-more-companies-are-recognizing-the-benefits-of-keeping-older-employees/",
+      "title": "Why more companies are recognizing the benefits of keeping older employees",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.411647"
+    },
+    {
+      "url": "https://www.fluid.sh/",
+      "title": "Claude Code for Infrastructure",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.411817"
+    },
+    {
+      "url": "https://occupywallst.com/yen",
+      "title": "The Great Unwind",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.411987"
+    },
+    {
+      "url": "https://www.scd31.com/posts/building-an-arcade-display-adapter",
+      "title": "Building a 24-bit arcade CRT display adapter from scratch",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.412156"
+    },
+    {
+      "url": "https://nmn.gl/blog/ai-killing-b2b-saas",
+      "title": "AI is killing B2B SaaS",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.412326"
+    },
+    {
+      "url": "https://www.runconverge.com/careers/product-engineer",
+      "title": "Converge (YC S23) Is Hiring Product Engineers (NYC, In-Person)",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.412522"
+    },
+    {
+      "url": "https://github.com/MaxBittker/rs-sdk",
+      "title": "RS-SDK: Drive RuneScape with Claude Code",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.412684"
+    },
+    {
+      "url": "https://www.recall.ai/blog/postgres-postmaster-does-not-scale",
+      "title": "Postgres Postmaster does not scale",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.412870"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/microsofts-pivotal-ai-product-is-running-into-big-problems-ce235b28",
+      "title": "Microsoft's Copilot chatbot is running into problems",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.413058"
+    },
+    {
+      "url": "https://mistral.ai/news/voxtral-transcribe-2",
+      "title": "Voxtral Transcribe 2",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.413245"
+    },
+    {
+      "url": "https://pdfa.org/a-case-study-in-pdf-forensics-the-epstein-pdfs/",
+      "title": "A case study in PDF forensics: The Epstein PDFs",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.413449"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "title": "Claude is a space to think",
+      "source": "hackernews",
+      "collected_at": "2026-02-05T08:56:44.413635"
     }
   ]
 }
