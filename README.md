@@ -7,6 +7,7 @@ Qiita/Zennの技術トレンド記事を自動収集し、マークダウン形�
 - Qiita トレンド記事の自動取得（RSS経由）
 - Zenn トレンド記事の自動取得（RSS経由）
 - はてブトレンド記事の自動取得（RSS経由）
+- Hacker News記事の自動取得（RSS経由）
 - 重複記事の自動スキップ
 - GitHub Actionsによる定期実行
 
