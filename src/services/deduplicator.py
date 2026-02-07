@@ -3,7 +3,7 @@
 import fcntl
 import json
 import shutil
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -164,6 +164,35 @@ class Deduplicator:
         self._history["articles"].append(history_entry)
         self._urls.add(article["url"])
         logger.debug(f"履歴に追加: {article['title'][:40]}...")
+
+    def cleanup_old_entries(self, days: int = 7) -> int:
+        """指定日数より古いエントリを削除する
+
+        Args:
+            days: 保持する日数（デフォルト7日）
+
+        Returns:
+            削除したエントリ数
+        """
+        cutoff = datetime.now() - timedelta(days=days)
+        original_count = len(self._history["articles"])
+
+        new_articles = []
+        for article in self._history["articles"]:
+            try:
+                collected_at = datetime.fromisoformat(article["collected_at"])
+                if collected_at >= cutoff:
+                    new_articles.append(article)
+            except (KeyError, ValueError) as e:
+                logger.warning(f"不正なエントリをスキップ: {e}")
+                continue
+
+        self._history["articles"] = new_articles
+        self._urls = {article["url"] for article in new_articles}
+
+        deleted_count = original_count - len(new_articles)
+        logger.info(f"クリーンアップ完了: {deleted_count}件削除, {len(new_articles)}件残存")
+        return deleted_count
 
     def save_history(self) -> bool:
         """履歴ファイルを保存する
