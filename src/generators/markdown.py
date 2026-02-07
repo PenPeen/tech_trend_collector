@@ -12,6 +12,7 @@ SOURCE_DISPLAY_NAMES = {
     "qiita": "Qiita",
     "zenn": "Zenn",
     "hackernews": "Hacker News",
+    "hatena": "はてなブックマーク",
 }
 
 
