@@ -41,7 +41,7 @@ def translate_hn_titles(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
     try:
         genai.configure(api_key=GEMINI_API_KEY)
-        model = genai.GenerativeModel("gemini-2.0-flash")
+        model = genai.GenerativeModel("gemini-2.5-flash-lite")
 
         prompt = TRANSLATION_PROMPT.format(
             titles_json=json.dumps(titles, ensure_ascii=False)
