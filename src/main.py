@@ -3,7 +3,7 @@
 import sys
 from datetime import datetime
 
-from src.collectors import hackernews, qiita, zenn
+from src.collectors import hackernews, hatena, qiita, zenn
 from src.generators.markdown import save_markdown
 from src.services.deduplicator import Deduplicator
 from src.services.notifier import (
@@ -29,6 +29,7 @@ def print_summary(stats: dict, execution_time: str, output_dir: str) -> None:
     qiita_new = stats["qiita_fetched"] - stats.get("qiita_duplicates", 0)
     zenn_new = stats["zenn_fetched"] - stats.get("zenn_duplicates", 0)
     hn_new = stats["hn_fetched"] - stats.get("hn_duplicates", 0)
+    hatena_new = stats["hatena_fetched"] - stats.get("hatena_duplicates", 0)
 
     summary = f"""
 ========================================
@@ -40,6 +41,7 @@ TechTrendCollector 実行結果
 - Qiita:        {stats['qiita_fetched']}件取得 (新規: {qiita_new}件, 重複: {stats.get('qiita_duplicates', 0)}件)
 - Zenn:         {stats['zenn_fetched']}件取得 (新規: {zenn_new}件, 重複: {stats.get('zenn_duplicates', 0)}件)
 - Hacker News:  {stats['hn_fetched']}件取得 (新規: {hn_new}件, 重複: {stats.get('hn_duplicates', 0)}件)
+- はてなブックマーク: {stats['hatena_fetched']}件取得 (新規: {hatena_new}件, 重複: {stats.get('hatena_duplicates', 0)}件)
 
 [マークダウン生成]
 - 生成ファイル数: {stats['new_articles']}件
@@ -89,9 +91,11 @@ def main() -> int:
         "qiita_fetched": 0,
         "zenn_fetched": 0,
         "hn_fetched": 0,
+        "hatena_fetched": 0,
         "qiita_duplicates": 0,
         "zenn_duplicates": 0,
         "hn_duplicates": 0,
+        "hatena_duplicates": 0,
         "new_articles": 0,
         "duplicates": 0,
         "notification_status": "未送信",
@@ -117,12 +121,17 @@ def main() -> int:
         logger.info("Hacker News 記事タイトルを翻訳中...")
         hn_articles = translate_hn_titles(hn_articles)
 
+    # はてなブックマーク記事取得
+    logger.info("はてなブックマーク ホットエントリを取得中...")
+    hatena_articles = hatena.fetch_hotentry_articles()
+    stats["hatena_fetched"] = len(hatena_articles)
+
     # 全記事をマージ
-    all_articles = qiita_articles + zenn_articles + hn_articles
+    all_articles = qiita_articles + zenn_articles + hn_articles + hatena_articles
 
     # 全ソース失敗チェック
-    if stats["qiita_fetched"] == 0 and stats["zenn_fetched"] == 0 and stats["hn_fetched"] == 0:
-        error_message = "全てのソース（Qiita, Zenn, Hacker News）からの記事取得に失敗しました"
+    if stats["qiita_fetched"] == 0 and stats["zenn_fetched"] == 0 and stats["hn_fetched"] == 0 and stats["hatena_fetched"] == 0:
+        error_message = "全てのソース（Qiita, Zenn, Hacker News, はてなブックマーク）からの記事取得に失敗しました"
         logger.error(error_message)
         if notifier_enabled:
             if send_failure_notification(error_message):
@@ -144,6 +153,8 @@ def main() -> int:
                 stats["qiita_duplicates"] += 1
             elif source == "zenn":
                 stats["zenn_duplicates"] += 1
+            elif source == "hatena":
+                stats["hatena_duplicates"] += 1
             else:
                 stats["hn_duplicates"] += 1
             logger.debug(f"[スキップ] 重複: {article['title'][:40]}...")

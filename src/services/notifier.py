@@ -28,12 +28,14 @@ def _build_success_email_html(
     qiita_articles = [a for a in articles if a.get("source") == "qiita"]
     zenn_articles = [a for a in articles if a.get("source") == "zenn"]
     hn_articles = [a for a in articles if a.get("source") == "hackernews"]
+    hatena_articles = [a for a in articles if a.get("source") == "hatena"]
 
     html_parts = [
         "<h2>📰 本日のトレンド記事</h2>",
         f"<p><strong>取得件数:</strong> Qiita {stats.get('qiita_fetched', 0)}件 / "
         f"Zenn {stats.get('zenn_fetched', 0)}件 / "
-        f"Hacker News {stats.get('hn_fetched', 0)}件</p>",
+        f"Hacker News {stats.get('hn_fetched', 0)}件 / "
+        f"はてなブックマーク {stats.get('hatena_fetched', 0)}件</p>",
         f"<p><strong>新規保存:</strong> {stats.get('new_articles', 0)}件</p>",
     ]
 
@@ -64,6 +66,18 @@ def _build_success_email_html(
         for article in hn_articles:
             html_parts.append(
                 f'  <li><a href="{article["url"]}">{article["title"]}</a></li>'
+            )
+        html_parts.append("</ul>")
+
+    # はてなブックマーク記事一覧
+    if hatena_articles:
+        html_parts.append("<h3>はてなブックマーク</h3>")
+        html_parts.append("<ul>")
+        for article in hatena_articles:
+            bookmarks = article.get("bookmarks", 0)
+            bookmark_label = f" ({bookmarks} users)" if bookmarks else ""
+            html_parts.append(
+                f'  <li><a href="{article["url"]}">{article["title"]}</a>{bookmark_label}</li>'
             )
         html_parts.append("</ul>")
 

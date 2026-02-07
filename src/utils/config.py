@@ -23,6 +23,7 @@ HISTORY_FILE = DATA_DIR / "history.json"
 QIITA_RSS_URL = "https://qiita.com/popular-items/feed.atom"
 ZENN_RSS_URL = "https://zenn.dev/feed"
 HN_RSS_URL = "https://hnrss.org/frontpage"
+HATENA_RSS_URL = "https://b.hatena.ne.jp/hotentry/it.rss"
 
 # タイムアウト設定（秒）
 RSS_TIMEOUT = 30
