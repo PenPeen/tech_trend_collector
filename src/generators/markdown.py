@@ -31,9 +31,14 @@ def sanitize_filename(title: str) -> str:
     sanitized = sanitized.strip()
     # 連続する空白を単一の空白に置換
     sanitized = re.sub(r"\s+", " ", sanitized)
-    # 長すぎる場合は切り詰める（拡張子を考慮して200文字まで）
-    if len(sanitized) > 200:
-        sanitized = sanitized[:200]
+    # 長すぎる場合は切り詰める
+    # Linuxのファイル名上限は255バイト。拡張子(.md=3バイト)を考慮し、250バイトまでに制限
+    max_bytes = 250
+    encoded = sanitized.encode("utf-8")
+    if len(encoded) > max_bytes:
+        # バイト数で切り詰めた後、UTF-8として正しくデコードできるよう調整
+        truncated = encoded[:max_bytes].decode("utf-8", errors="ignore")
+        sanitized = truncated.rstrip()
     return sanitized
 
 
