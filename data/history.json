@@ -2039,6 +2039,420 @@
       "title": "I now assume that all ads on Apple news are scams",
       "source": "hackernews",
       "collected_at": "2026-02-07T08:42:08.591126"
+    },
+    {
+      "url": "https://qiita.com/umekikazuya/items/388a7aaad767b9e11fa3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "開発ツール管理？断然Miseでしょ。",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.463577"
+    },
+    {
+      "url": "https://qiita.com/ktdatascience/items/a13b42998925e9ba046b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【2026年版】Webスクレイピングの\"3大つらみ\"をBright Dataで解決する",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.463801"
+    },
+    {
+      "url": "https://qiita.com/ponponmikankan/items/2f1221b73728b95449f6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【書評】Microsoft 365 Copilot踏み込み活用術（できるビジネス）",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.463994"
+    },
+    {
+      "url": "https://qiita.com/youtoy/items/92a142c4aff8ad1998bb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Remotion公式の Agent Skills を Google Antigravity で少しだけ試す（＋ 公式の Hello World のお試し）",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.464193"
+    },
+    {
+      "url": "https://qiita.com/yuki_ink/items/43b5c3afdd889c0338ff?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "NLBで\"クライアントIPアドレスの保持\"をするときに、ターゲット側のセキュリティグループで取るべき設定",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.464378"
+    },
+    {
+      "url": "https://qiita.com/madilloar/items/0cebe41a02d837d83bd0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Power Query】集計定義をExcelシートに外出してTable.Groupをクエリの外から制御する",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.464561"
+    },
+    {
+      "url": "https://qiita.com/Nana_777/items/c63d0734542981a89672?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【AWS】Kiroのカスタムサブエージェントでタスクを並列実行【Kiro】",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.464759"
+    },
+    {
+      "url": "https://qiita.com/Gotoubun_taiwan/items/8010f0d62025db8f3d81?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "ベイズ原理主義者ブチ切れ必至！因子分析の再学習を50倍速める運用の知恵",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.464948"
+    },
+    {
+      "url": "https://qiita.com/takano0131/items/5962d7b2739a376ba6d7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AWS CloudHSMについて深ぼってみる",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.465127"
+    },
+    {
+      "url": "https://qiita.com/Hyaida/items/ce9fbce1ea3c43a87fd4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【競プロ】JOI2次予選をなぜか突破してしまった時に予想される事",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.465304"
+    },
+    {
+      "url": "https://qiita.com/hirotomotaguchi/items/4db2182e2384df4122a2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Microsoft Teams を悪用したCEO詐欺（ビジネスチャット詐欺）について",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.465487"
+    },
+    {
+      "url": "https://qiita.com/har1101/items/5046b46851e89aa27071?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AgentCore Runtime × DynamoDBを用いてHuman in the Loopの承認待ちを長期化したい！",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.465687"
+    },
+    {
+      "url": "https://qiita.com/okarina-chaan/items/21de1147bd84ac5ae12a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Github ActionsでRenderに自動デプロイさせる",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.465880"
+    },
+    {
+      "url": "https://qiita.com/Yoshi1001/items/f2348fbf15f1a41a5ff2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Bedrock Guardrailsを使ってみる & Strands Agentで制御してみる & なんとかして聞かれたくないことを聞いてみる",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.466081"
+    },
+    {
+      "url": "https://qiita.com/menboy/items/8518cd88fe21588fb1ae?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【色変記事】AtCoderで入緑したので振り返り",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.466258"
+    },
+    {
+      "url": "https://qiita.com/ennagara128/items/d1d0ba12815b4d69903d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "2026/02/07 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.466455"
+    },
+    {
+      "url": "https://qiita.com/ktdatascience/items/dcf6ac2332182a3c905d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Wikipediaの記事を一括収集! Seleniumの1/10のコードで実現するBright Data活用術",
+      "source": "qiita",
+      "collected_at": "2026-02-08T14:01:32.466657"
+    },
+    {
+      "url": "https://zenn.dev/smartvain/articles/ai-attacked-my-code-security-mostly-placebo",
+      "title": "自分のコードをAIに攻撃させたら\"守り\"が全部ザルだった",
+      "source": "zenn",
+      "collected_at": "2026-02-08T14:01:32.466836"
+    },
+    {
+      "url": "https://zenn.dev/mattn/articles/af6b456142dafe",
+      "title": "AI Agent yagi を作った",
+      "source": "zenn",
+      "collected_at": "2026-02-08T14:01:32.467009"
+    },
+    {
+      "url": "https://zenn.dev/kawarimidoll/articles/b120d56a12b3f0",
+      "title": "個人的定番macアプリ6選",
+      "source": "zenn",
+      "collected_at": "2026-02-08T14:01:32.467178"
+    },
+    {
+      "url": "https://zenn.dev/karamage/articles/2514cf04e0d1ac",
+      "title": "なぜ、Claude Codeは、RAGを捨ててAgentic Searchを選んだのか？",
+      "source": "zenn",
+      "collected_at": "2026-02-08T14:01:32.467351"
+    },
+    {
+      "url": "https://zenn.dev/sakasegawa/articles/e6a8aa168a7d19",
+      "title": "Agent Teamを使ってロールプレイ駆動開発してみよう",
+      "source": "zenn",
+      "collected_at": "2026-02-08T14:01:32.467530"
+    },
+    {
+      "url": "https://zenn.dev/microsoft/articles/how-the-claude-opus46-generate-pptx",
+      "title": "Claude Opus4.6はどのようにPPTXを生成しているか",
+      "source": "zenn",
+      "collected_at": "2026-02-08T14:01:32.467727"
+    },
+    {
+      "url": "https://zenn.dev/idapan/articles/af819fa822c090",
+      "title": "聞きづらい人にならないための技術",
+      "source": "zenn",
+      "collected_at": "2026-02-08T14:01:32.467900"
+    },
+    {
+      "url": "https://zenn.dev/curry_battle/articles/e7cb46daf8fc12",
+      "title": "モバイル開発未経験者がTauriでアプリを開発/リリースしたけど超しんどかったよ",
+      "source": "zenn",
+      "collected_at": "2026-02-08T14:01:32.468074"
+    },
+    {
+      "url": "https://zenn.dev/ashunar0/articles/2b6c77e2fe251d",
+      "title": "Next.js がやってくれていたこと全部、自分でやってみた",
+      "source": "zenn",
+      "collected_at": "2026-02-08T14:01:32.468251"
+    },
+    {
+      "url": "https://zenn.dev/dokusy/articles/aa7674688802c3",
+      "title": "思考のスピードでマインドマップを書けるエディタを Tauri で作った",
+      "source": "zenn",
+      "collected_at": "2026-02-08T14:01:32.468431"
+    },
+    {
+      "url": "https://zenn.dev/canly/articles/76e2106de80380",
+      "title": "【2026/2/6最新アプデ】Claude Code新機能『エージェントチーム』が革新的だったので解説",
+      "source": "zenn",
+      "collected_at": "2026-02-08T14:01:32.468621"
+    },
+    {
+      "url": "https://cinegraphs.ai/",
+      "title": "Show HN: 確率的ストーリーグラフのために100本の映画でファインチューニングされたQwen2.5-7B",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.468818"
+    },
+    {
+      "url": "https://lists.nanog.org/archives/list/nanog@lists.nanog.org/thread/TSNPJVFH4DKLINIKSMRIIVNHDG5XKJCM/",
+      "title": "デイブ・ファーバー氏死去",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.469000"
+    },
+    {
+      "url": "https://eclecticlight.co/2026/02/08/last-week-on-my-mac-why-e-cores-make-apple-silicon-fast/",
+      "title": "Apple Siliconを高速化するEコアの理由",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.469176"
+    },
+    {
+      "url": "https://hyperallergic.com/curating-a-show-on-my-ineffable-mother-ursula-k-le-guin/",
+      "title": "私の不可思議な母、アーシュラ・K・ル・グウィンに関する展覧会をキュレーションする",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.469360"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-02-08/australian-outback-nuclear-tests-listening-warramunga-facility/106307478",
+      "title": "オーストラリアのアウトバックで、核実験の音を聴いている",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.469534"
+    },
+    {
+      "url": "https://github.com/joshuanwalker/Raiders2600",
+      "title": " Atari 2600版『レイダース 失われたアーク』のリバースエンジニアリング",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.469733"
+    },
+    {
+      "url": "https://arcan-fe.com/2026/01/26/arcan-explained-a-browser-for-different-webs/",
+      "title": "Arcan解説 – 異なるウェブのためのブラウザ",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.469908"
+    },
+    {
+      "url": "https://github.com/jingkaihe/matchlock",
+      "title": "Matchlock – LinuxベースのサンドボックスでAIエージェントワークロードを保護",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.470084"
+    },
+    {
+      "url": "https://donotnotify.com/opensource.html",
+      "title": "DoNotNotifyがオープンソース化",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.470255"
+    },
+    {
+      "url": "https://lineageos.org/Changelog-31/",
+      "title": "LineageOS 23.2",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.470427"
+    },
+    {
+      "url": "http://oldvcr.blogspot.com/2026/02/the-scriptovision-super-micro-script.html",
+      "title": "Scriptovision Super Micro Scriptビデオタイトラーはほぼホームコンピュータ",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.470620"
+    },
+    {
+      "url": "https://haskellforall.com/2026/02/beyond-agentic-coding",
+      "title": "エージェント型コーディングのその先へ",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.470799"
+    },
+    {
+      "url": "https://github.com/localgpt-app/localgpt",
+      "title": "Show HN: パーシステントメモリを持つRust製のローカルファーストAIアシスタントLocalGPT",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.470977"
+    },
+    {
+      "url": "https://www.hpcwire.com/off-the-wire/brookhaven-labs-rhic-concludes-25-year-run-with-final-collisions/",
+      "title": "ブルックヘブン国立研究所のRHIC、25年間の稼働を最終衝突で終了",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.471165"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/fast-mode",
+      "title": "高速モードで応答をスピードアップ",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.471339"
+    },
+    {
+      "url": "https://github.com/Momciloo/fun-with-clip-path",
+      "title": "Show HN: このクールなナビゲーション表示を見たので、シンプルなHTML+CSSバージョンを作成しました",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.471587"
+    },
+    {
+      "url": "https://xorvoid.com/sectorc.html",
+      "title": "SectorC: 512バイトのCコンパイラ (2023)",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.471794"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.05192",
+      "title": "First Proof",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.471986"
+    },
+    {
+      "url": "https://factory.strongdm.ai/",
+      "title": "ソフトウェアファクトリとエージェントの瞬間",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.472172"
+    },
+    {
+      "url": "https://susam.net/twenty-five-years-of-computing.html",
+      "title": "ソフトウェア開発25年の物語",
+      "source": "hackernews",
+      "collected_at": "2026-02-08T14:01:32.472351"
+    },
+    {
+      "url": "https://posfie.com/@waterpear121873/p/9TgZiYV",
+      "title": "荻窪の吉田カレー、「ブスの女子会禁止」と貼り紙！文句言われたらFBで常連客達と「空気の読めない性格ブス、被害妄想、めんどくさいやつ、美しい女性は笑い飛ばして終わり」と盛り上がる",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.472546"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2602-5-ways-to-use-google-gemini-to-streamline-your-workday/",
+      "title": "Geminiの使い方完全ガイド｜仕事が劇的に速くなる5つの活用術【初心者向け】 | ライフハッカー・ジャパン",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.472750"
+    },
+    {
+      "url": "https://japan.cnet.com/article/35243648/",
+      "title": "なぜ「キヤノン」の社名は「キャノン」と書いてはいけないのか",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.472942"
+    },
+    {
+      "url": "https://togetter.com/li/2661232",
+      "title": "ChatGPTのイラッとくる表現を集めたLINEスタンプを探したらやっぱりあった→「真面目な議論で多用されたらガチギレしそう」「煽りスタンプとして最強」",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.473127"
+    },
+    {
+      "url": "https://techtarget.itmedia.co.jp/tt/news/2602/06/news09.html",
+      "title": "“ごめんやっぱり戻ってきて”　AIで人員削減した企業の半数が2027年までに再雇用",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.473312"
+    },
+    {
+      "url": "http://www.gadget2ch.com/archives/post-267304.html",
+      "title": "仕事でOutlook以外のメールソフト使ってる奴ｗｗｗｗｗｗｗｗｗｗｗｗｗ",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.473497"
+    },
+    {
+      "url": "https://azukiazusa.dev/blog/trying-claude-code-agent-teams/",
+      "title": "Claude Code のオーケストレーション機能であるエージェントチームを試してみた",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.473697"
+    },
+    {
+      "url": "https://osyoyu.com/blog/2026/02/08/165954",
+      "title": "それでも外部キー制約は必要ない / #fk_night でしゃべってきました",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.473881"
+    },
+    {
+      "url": "https://togetter.com/li/2661340",
+      "title": "「患者のこと考えろボケ」このゲーミング輸液ポンプの設計したバカをぶん殴ってやりたい",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.474046"
+    },
+    {
+      "url": "https://blog.alaindichiappari.dev/p/software-engineering-is-back",
+      "title": "Software Engineering is back",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.474226"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/7b75c066e5f41f4ee13ea6a9a4d936f443b572c1",
+      "title": "目端の利くビジネスリーダーが「AIについて語らなくなった」理由（Forbes JAPAN） - Yahoo!ニュース",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.474387"
+    },
+    {
+      "url": "https://tech.enechange.co.jp/entry/2026/02/06/125540",
+      "title": "イベント履歴式ドメインモデル（イベントソーシング）とは何か - ENECHANGE Developer Blog",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.474565"
+    },
+    {
+      "url": "https://fluorite.game/",
+      "title": "Fluorite Game Engine",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.474759"
+    },
+    {
+      "url": "https://github.com/minorun365/m365-agent",
+      "title": "GitHub - minorun365/m365-agent: あなただけの秘書AIエージェント",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.474940"
+    },
+    {
+      "url": "https://speakerdeck.com/kenichiota0711/aisuraitotesainwosheng-cheng-surushi-zu-miwoshe-nei-gong-you-suru",
+      "title": "AIスライドデザインを生成する仕組みを社内共有する",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.475136"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/371/4371664/",
+      "title": "AI向けの“人間レンタル”サービスが開始",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.475321"
+    },
+    {
+      "url": "https://www.gizmodo.jp/2026/02/all-the-messy-drama-between-openai-and-nvidia-explained.html",
+      "title": "OpenAIとNVIDIAが険悪化。AIの金回りが悪くなって泥仕合",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.475501"
+    },
+    {
+      "url": "https://www.gizmodo.jp/2026/02/googles-gemini-3-release-won-over-more-than-100-million-new-active-users.html",
+      "title": "Geminiの快進撃がとまらない。アクティブユーザー数が、ChatGPTまであと一歩",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.475702"
+    },
+    {
+      "url": "https://github.com/mitchellh/vouch",
+      "title": "GitHub - mitchellh/vouch: A contributor trust management system based on explicit vouches to participate.",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.475887"
+    },
+    {
+      "url": "https://pc.watch.impress.co.jp/docs/column/config/2084141.html",
+      "title": "【山田祥平のRe:config.sys】 なぜデスクトップは散らかるのか",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.476067"
+    },
+    {
+      "url": "https://www.jiji.com/jc/article?k=2026020700360&g=int",
+      "title": "ドイツの声優がネトフリ吹き替え拒否　ＡＩ訓練に使用は「自滅」：時事ドットコム",
+      "source": "hatena",
+      "collected_at": "2026-02-08T14:01:32.476246"
     }
   ]
 }
