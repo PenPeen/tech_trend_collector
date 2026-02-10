@@ -2567,6 +2567,390 @@
       "title": "【1997年のINTERNET Watch】Google誕生前のインターネットで国産検索サービス「goo」が人気に",
       "source": "hatena",
       "collected_at": "2026-02-09T09:04:07.099614"
+    },
+    {
+      "url": "https://qiita.com/hitomin_poke/items/10211c4fa7248c7c9740?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【後編】新人エンジニアは、なぜ「止まってしまう」のか。─教える側の“死角”",
+      "source": "qiita",
+      "collected_at": "2026-02-10T09:06:16.064996"
+    },
+    {
+      "url": "https://qiita.com/masa_tech_0326/items/9cd09d8a0d598bdff9fb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "TCP/IPのきほんで学ぶ「ネットワークのセキュリティ① 」HTTPS・暗号化・VPNを整理してみた",
+      "source": "qiita",
+      "collected_at": "2026-02-10T09:06:16.065174"
+    },
+    {
+      "url": "https://qiita.com/marfujim/items/dc8e0878a795b325edbc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "ADB-S MCPサーバーを試してみた",
+      "source": "qiita",
+      "collected_at": "2026-02-10T09:06:16.065307"
+    },
+    {
+      "url": "https://qiita.com/mo_runteq65/items/c9c3e75c1aef7e036700?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【個人開発】暗記学習を「言葉探しゲーム」に変えるWebゲーム風アプリを開発しました（Rails）",
+      "source": "qiita",
+      "collected_at": "2026-02-10T09:06:16.065452"
+    },
+    {
+      "url": "https://qiita.com/kentaro_kawamura/items/df787a587324d418b277?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "実機不要！「Gemini Robotics」で学ぶフィジカルAI入門①〜物体の座標を特定〜",
+      "source": "qiita",
+      "collected_at": "2026-02-10T09:06:16.065600"
+    },
+    {
+      "url": "https://qiita.com/quan_le/items/27d7e6e5cc918ea121e4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "「ルール」か「プロンプト」か：AIを制御する2つの異なるアプローチ",
+      "source": "qiita",
+      "collected_at": "2026-02-10T09:06:16.065757"
+    },
+    {
+      "url": "https://qiita.com/haruna-hatanaka/items/26fd67d082a42e46b4b2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "CLAUDE.mdを大掃除してコンテキスト圧迫をキレイキレイした備忘録",
+      "source": "qiita",
+      "collected_at": "2026-02-10T09:06:16.065920"
+    },
+    {
+      "url": "https://qiita.com/metappi/items/d8d4dafec8f185a151b3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Rails】モデルの上にDBの設計情報が出てくる？ annotateが便利なんだ",
+      "source": "qiita",
+      "collected_at": "2026-02-10T09:06:16.066075"
+    },
+    {
+      "url": "https://qiita.com/keigo_kabutomori/items/fd6bc3f6ec81f3f4c724?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "DHCPv6-PDでWANから受けたPrefixを分割してLANに配布する。(YAMAHA RTX1300)",
+      "source": "qiita",
+      "collected_at": "2026-02-10T09:06:16.066216"
+    },
+    {
+      "url": "https://qiita.com/rana_kualu/items/6c8f9db6565e80332d05?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【WebF】React/Vue/Svelteがそのままネイティブアプリになるよ",
+      "source": "qiita",
+      "collected_at": "2026-02-10T09:06:16.066351"
+    },
+    {
+      "url": "https://qiita.com/sugumura/items/46ae44dfd78269308f04?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AWS WAFv2のレートベースルールでIPブロック時にメール通知する仕組みを構築する",
+      "source": "qiita",
+      "collected_at": "2026-02-10T09:06:16.066484"
+    },
+    {
+      "url": "https://qiita.com/imamu123/items/f7043c332b2284f0dc28?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Backlog】「メンションが来ないと気づかない」を卒業するメール通知設定",
+      "source": "qiita",
+      "collected_at": "2026-02-10T09:06:16.066618"
+    },
+    {
+      "url": "https://qiita.com/ore88ore/items/ee3dd6af834ab475be22?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Slack から Claude Code に直接コード修正を依頼してみた",
+      "source": "qiita",
+      "collected_at": "2026-02-10T09:06:16.066758"
+    },
+    {
+      "url": "https://zenn.dev/tokium_dev/articles/why-ddd-failed-for-me",
+      "title": "「なんか良いらしい」でDDDを導入した結果、何も得られなかった話",
+      "source": "zenn",
+      "collected_at": "2026-02-10T09:06:16.066910"
+    },
+    {
+      "url": "https://zenn.dev/yesodco/articles/f047e05bf9b656",
+      "title": "「アンチパターン」と呼ばれるEAVを、あえて採用した話 ── 数十万件の属性、数十億件の値と向き合って",
+      "source": "zenn",
+      "collected_at": "2026-02-10T09:06:16.067050"
+    },
+    {
+      "url": "https://zenn.dev/smartvain/articles/ai-finds-96pct-vulns-why-learn-security",
+      "title": "AIが脆弱性を96%見つける時代に、僕らがセキュリティを学ぶ意味はあるのか",
+      "source": "zenn",
+      "collected_at": "2026-02-10T09:06:16.067186"
+    },
+    {
+      "url": "https://zenn.dev/shio_shoppaize/articles/shogun-spec-first",
+      "title": "Claude16台で10万行のCコンパイラを作った論文を読んで、「いや答えあるじゃん」と思った話",
+      "source": "zenn",
+      "collected_at": "2026-02-10T09:06:16.067316"
+    },
+    {
+      "url": "https://zenn.dev/cryptobox/articles/70b502e22954be",
+      "title": "Async Reactとは何か",
+      "source": "zenn",
+      "collected_at": "2026-02-10T09:06:16.067447"
+    },
+    {
+      "url": "https://zenn.dev/singularity/articles/2026-02-07-claude-code-extensibility-memo",
+      "title": "Claude Code 拡張機能の整理（Skills / Agents / Plugins / Agent Teams）",
+      "source": "zenn",
+      "collected_at": "2026-02-10T09:06:16.067585"
+    },
+    {
+      "url": "https://www.architectsjournal.co.uk/news/brutalist-southbank-centre-finally-listed-after-35-years-of-refusals",
+      "title": "サウスバンク・センター、ブルータリズム建築として登録",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.067726"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.20798",
+      "title": "最先端AIエージェント、KPIに追われ倫理的制約を30〜50％侵害",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.067865"
+    },
+    {
+      "url": "https://github.com/TrevorS/voxtral-mini-realtime-rs",
+      "title": "MistralのVoxtral Mini 4Bリアルタイム、Rust実装でブラウザ上で動作",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.067996"
+    },
+    {
+      "url": "https://github.com/antirez/voxtral.c",
+      "title": "Mistral Voxtral Realtime 4B音声認識モデル、純粋C・CPUのみで推論",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.068135"
+    },
+    {
+      "url": "https://zulip.com/values/",
+      "title": "Zulip.comの価値観",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.068271"
+    },
+    {
+      "url": "https://www.quantamagazine.org/is-particle-physics-dead-dying-or-just-hard-20260126/",
+      "title": "素粒子物理学は死んだのか、衰退しているのか、それとも単に難しいのか？",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.068401"
+    },
+    {
+      "url": "https://www.chainlift.io/liftkit",
+      "title": "LiftKit – 「すべてが黄金比から導かれる」UI",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.068543"
+    },
+    {
+      "url": "https://www.noleary.com/blog/posts/1",
+      "title": "アメリカはタングステン問題",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.068669"
+    },
+    {
+      "url": "https://blog.prosody.im/2026-letsencrypt-changes/",
+      "title": "Let's Encryptの今後の変更とXMPPサーバー運用者への影響",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.068812"
+    },
+    {
+      "url": "https://daeus.blog/2026/01/18/game-theory-patterns-at-work/",
+      "title": "実用化されるゲーム理論パターン（2016年）",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.068944"
+    },
+    {
+      "url": "https://www.ferrari.com/en-US/auto/ferrari-luce",
+      "title": "Luce：初の電動フェラーリ",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.069074"
+    },
+    {
+      "url": "https://taggart-tech.com/discord-alternatives/",
+      "title": "Discordの代替サービス、ランキング",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.069199"
+    },
+    {
+      "url": "https://www.githubstatus.com/incidents/lcw3tg2f6zsd",
+      "title": "同日2度目のGitHub障害",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.069329"
+    },
+    {
+      "url": "https://www.omnara.com/blog/what-is-an-async-agent-really",
+      "title": "「非同期エージェント」が氾濫するも、定義できる者はほとんどいない",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.069457"
+    },
+    {
+      "url": "https://jsgroth.dev/blog/posts/gba-audio-interpolation/",
+      "title": "ゲームボーイアドバンスの音声補間",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.069584"
+    },
+    {
+      "url": "https://research.google/blog/hard-braking-events-as-indicators-of-road-segment-crash-risk/",
+      "title": "急ブレーキイベントが道路区間の事故リスクの指標に",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.069716"
+    },
+    {
+      "url": "https://github.com/jim11662418/ESP8266_WiFi_Analog_Clock",
+      "title": "ウォルマートの3.88ドルのアナログ時計をESP8266ベースのWi-Fi時計に改造",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.069856"
+    },
+    {
+      "url": "https://explainers.blog/posts/why-is-the-sky-blue/",
+      "title": "なぜ空は青いのか？",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.069965"
+    },
+    {
+      "url": "https://neal.fun/sandboxels/",
+      "title": "Sandboxels",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.070069"
+    },
+    {
+      "url": "https://www.theverge.com/tech/875309/discord-age-verification-global-roll-out",
+      "title": "Discord、来月からフルアクセスに顔認証またはIDを要求",
+      "source": "hackernews",
+      "collected_at": "2026-02-10T09:06:16.070173"
+    },
+    {
+      "url": "https://note.com/nishiohirokazu/n/n58b6f250d298",
+      "title": "「チームみらいは誰の声を聞いているのか——オードリー・タンとの分岐点」という記事の誤情報について｜NISHIO Hirokazu",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.070285"
+    },
+    {
+      "url": "https://cloud.google.com/blog/ja/topics/developers-practitioners/how-google-sres-use-gemini-cli-to-solve-real-world-outages/",
+      "title": "Google SRE が Gemini CLI を使用して実際の障害を解決している方法 | Google Cloud 公式ブログ",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.070396"
+    },
+    {
+      "url": "https://joisino.hatenablog.com/entry/llmsort",
+      "title": "LLMでソート - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.070506"
+    },
+    {
+      "url": "https://sizu.me/ushironoko/posts/1t256hfucxc6",
+      "title": "記事をAIに書かせるな｜ushironoko",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.070621"
+    },
+    {
+      "url": "https://av.watch.impress.co.jp/docs/series/rt/2084753.html",
+      "title": "ブルーレイ・レコーダーはなぜ終売するのか。ディスクメディアの30年に見る必然【西田宗千佳のRandomTracking】",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.070734"
+    },
+    {
+      "url": "https://tech.hello.ai/entry/vercel-cloudflare-migration",
+      "title": "Next.jsをVercelからCloudflareへ移行し、90%のコスト削減を実現した話 - Hello Tech",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.070912"
+    },
+    {
+      "url": "https://applech2.com/archives/20260209-airtag2-expanded-precision-finding-not-available-japan-uwb.html",
+      "title": "Apple、日本では超広帯域無線(UWB)の一部周波数が利用できないためAirTag (第2世代)などの第2世代超広帯域チップによる拡大した正確な場所を見つける機能が利用できないと発表。",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.071048"
+    },
+    {
+      "url": "https://togetter.com/li/2662081",
+      "title": "Amazonの不在連絡票をみたら、「誤配先で商品を捨ててしまいました…」と書いてあって、困惑… 荷物番号が書かれていなかったため、何の商品が捨てられたのかも分からず",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.071160"
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN096R00Z00C26A2000000/",
+      "title": "米VC最大手アンドリーセン・ホロウィッツ、日本発のシズクAIに出資　AIキャラ開発で価値120億円 - 日本経済新聞",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.071282"
+    },
+    {
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11469/",
+      "title": "DeNAがPerl6000行を1カ月でGo言語へ、特性異なるAIエージェント駆使",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.071402"
+    },
+    {
+      "url": "https://acro-engineer.hatenablog.com/entry/2026/02/10/120000",
+      "title": "AIエージェントのUXを進化させる「A2UI」でアプリを構築 - Taste of Tech Topics",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.071514"
+    },
+    {
+      "url": "https://www.mext.go.jp/b_menu/shingi/chousa/shinkou/077/siryo/aifors_260209_001.html",
+      "title": "AI for Science推進委員会（第1回）　配付資料：文部科学省",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.071622"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2602/10/news035.html",
+      "title": "500万件のWebサーバでGit情報が露出　25万件超で認証情報も漏えい",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.071727"
+    },
+    {
+      "url": "https://gigazine.net/news/20260210-ai-changed-work-habits/",
+      "title": "AIは仕事を減らさず増やすことがテック企業を対象にした調査で明らかに",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.071846"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/articles/2602/10/news075.html",
+      "title": "日本発のAI VTuber「しずく」開発元、米VC大手a16zから資金調達",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.071953"
+    },
+    {
+      "url": "https://blogs.jpcert.or.jp/ja/2026/02/windows-1.html",
+      "title": "Windowsのイベントログ分析トレーニング用コンテンツの公開 - JPCERT/CC Eyes",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.072059"
+    },
+    {
+      "url": "https://tech.andpad.co.jp/entry/2026/02/10/100000",
+      "title": "アンドパッドSRE/CRE/FinOpsメンバーによるSRE Kaigi 2026のおすすめセッション - ANDPAD Tech Blog",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.072168"
+    },
+    {
+      "url": "https://mainichi.jp/articles/20260209/k00/00m/010/287000c",
+      "title": "チームみらいってどんな政党?　候補者は平均39歳、AI活用訴え | 毎日新聞",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.072275"
+    },
+    {
+      "url": "https://mainichi.jp/articles/20260210/k00/00m/040/112000c",
+      "title": "AI時代の元サイト素通り防ぐには　検索ワードでゼロクリック率に差 | 毎日新聞",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.072383"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2602/10/news011.html",
+      "title": "なぜAIによるエンジニア代替はうまくいかないのか？　“効率化”のはずが、現場で起きている逆転現象",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.072489"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2084796.html",
+      "title": "YouTube Music、歌詞表示を有料化？ 無料版で表示できるのは冒頭数行のみに変更か【やじうまWatch】",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.072595"
+    },
+    {
+      "url": "https://arto-app.github.io/",
+      "title": "Arto — the Art of Reading Markdown",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.072702"
+    },
+    {
+      "url": "https://gigazine.net/news/20260210-jony-ive-slam-touchscreens/",
+      "title": "iPhoneデザイナーのジョニー・アイブ氏がテスラ風タッチスクリーンを「簡単で怠惰」と批判、アイブ氏デザインのフェラーリは物理ボタンを積極採用",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.072826"
+    },
+    {
+      "url": "https://developers.freee.co.jp/entry/aws-elasticache-for-valkey-migration",
+      "title": "AWS ElastiCache for Redis を Valkey へ移行した話 - freee Developers Hub",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.072936"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2602/10/news022.html",
+      "title": "「コーディングは死ぬ」「AIはソフトウェアをディスラプトする」　生成AI革命の本当の価値",
+      "source": "hatena",
+      "collected_at": "2026-02-10T09:06:16.073043"
     }
   ]
 }

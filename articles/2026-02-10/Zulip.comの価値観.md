@@ -1,0 +1,8 @@
+# Zulip.comの価値観
+
+## 記事情報
+
+- **URL**: https://zulip.com/values/
+- **ソース**: Hacker News
+- **著者**: nothrowaways
+- **公開日時**: 2026-02-10T00:46:14
