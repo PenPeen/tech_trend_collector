@@ -4301,6 +4301,420 @@
       "title": "OpenAIが「DeepSeekは蒸留で次世代AIを訓練しアメリカの主要AIに『ただ乗り』している」と議員へのメモの中で非難",
       "source": "hatena",
       "collected_at": "2026-02-13T08:55:40.048260"
+    },
+    {
+      "url": "https://qiita.com/YushiYamamoto/items/c937af562c4d40c24e42?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "n8nで記事自動生成パイプラインを作ったら、1週間で40本→0本になった話",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.777645"
+    },
+    {
+      "url": "https://qiita.com/peridotan/items/441f4c6a467dae69583a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "セキュリティ基礎講座：公開鍵暗号は３種類あるよ",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.777863"
+    },
+    {
+      "url": "https://qiita.com/ohkitashigeto/items/56514650b9afe970b842?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Geminiをハッカーたちはどんなことに使ってるの？ Googleの報告から",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.778065"
+    },
+    {
+      "url": "https://qiita.com/ntaka329/items/47fb89fb6a84d9976d36?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "「Markdownだけで」顧客提案レベルのスライドを作ってみた【Slidev x Claude Opus 4.6】",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.778273"
+    },
+    {
+      "url": "https://qiita.com/kamata-bug-factory/items/f3b669ab113fd5c91115?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Mac】Docker Desktop を使わずに Docker をインストールする",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.778482"
+    },
+    {
+      "url": "https://qiita.com/masa_tech_0326/items/b0bd56b63afb92a0be1b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "TCP/IPのきほんで学ぶ「ネットワークのセキュリティ④」 VPNって結局なに？ファイアウォールとの違いを整理してみた",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.778733"
+    },
+    {
+      "url": "https://qiita.com/jw-automation/items/01b5bf344677b7e8be66?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AIエージェントによる次世代のブラウザ操作自動化と品質チェック自動化",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.778948"
+    },
+    {
+      "url": "https://qiita.com/okikusan-public/items/61100a5b1aa8d752ae24?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Claude Code Skills で株スクリーニングを自動化した話【Python × yfinance × バイブコーディング】",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.779152"
+    },
+    {
+      "url": "https://qiita.com/ennagara128/items/9e79736f08e0d565f3d6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "2026/02/14 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.779341"
+    },
+    {
+      "url": "https://qiita.com/tantp/items/04872cafdd16cbd62f51?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【初心者向け】LINE公式アカウントのリッチメニューからWebアプリを開くまで",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.779552"
+    },
+    {
+      "url": "https://qiita.com/maskot1977/items/0cceb50c8cb770796ded?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "財源ではなく需要管理 ― 通貨発行と税の本当の役割 : Pythonで学ぶ マクロ経済学入門 (37)",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.779754"
+    },
+    {
+      "url": "https://qiita.com/kotaro_ai_lab/items/a5c954b8c9955fe1e113?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【2026年版】エンジニアが押さえるべき技術トレンド10選",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.779941"
+    },
+    {
+      "url": "https://qiita.com/robitan/items/f890e1153060cbb4ab0f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "ClaudeCodeのAgent Teams試したら性能が違いすぎてもう笑いもでなかった話",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.780131"
+    },
+    {
+      "url": "https://qiita.com/Misty-Mint/items/8904915b83bb34f7a840?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【ライブラリ不要】バニラJSとCanvasだけで、高機能な画像トリミングツールを作ってみた（比率固定・ズーム対応",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.780318"
+    },
+    {
+      "url": "https://qiita.com/swiftwand/items/ddf3db51281ed225c15e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【VSCode拡張機能】Input Assistant for Claude Code v1.11.0 — 実験的機能「思考ノート」",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.780527"
+    },
+    {
+      "url": "https://qiita.com/kumab2221/items/ea608da157508256001a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "『つくりながら学ぶ！ ドメイン駆動設計 実践入門』を読んでみて",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.780716"
+    },
+    {
+      "url": "https://qiita.com/issy929/items/81b9fe3c8b2888aa4bee?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "公式より便利？JAWS DAYS 2026のタイムテーブルビューアーを作ってみた",
+      "source": "qiita",
+      "collected_at": "2026-02-14T08:43:30.780905"
+    },
+    {
+      "url": "https://zenn.dev/happy_elements/articles/d01195392ceb10",
+      "title": "【Claude Code】Agent Teamを役割ではなく「4つの性格」で組んだら、議論の性質が変わった",
+      "source": "zenn",
+      "collected_at": "2026-02-14T08:43:30.781092"
+    },
+    {
+      "url": "https://zenn.dev/crebo_tech/articles/73c75ab155e766",
+      "title": "Git難すぎ問題",
+      "source": "zenn",
+      "collected_at": "2026-02-14T08:43:30.781299"
+    },
+    {
+      "url": "https://zenn.dev/ushironoko/articles/ae9fa49dd18515",
+      "title": "octorusはなぜ30万行のdiffを高速表示できるのか？",
+      "source": "zenn",
+      "collected_at": "2026-02-14T08:43:30.781520"
+    },
+    {
+      "url": "https://zenn.dev/chot/articles/hono-node-the-fastest-adapter",
+      "title": "Hono on Node.js 最速レスポンス選手権",
+      "source": "zenn",
+      "collected_at": "2026-02-14T08:43:30.781711"
+    },
+    {
+      "url": "https://zenn.dev/urakawa_jinsei/articles/4077d617f2fcae",
+      "title": "インデックス以外でできるDBパフォーマンスチューニング入門",
+      "source": "zenn",
+      "collected_at": "2026-02-14T08:43:30.781895"
+    },
+    {
+      "url": "https://zenn.dev/akito_tsukahara/articles/1d15cb875b0f82",
+      "title": "React, Vue, Svelteの「危険なHTML挿入」と「javascript: URL」の実装を読み比べてみた",
+      "source": "zenn",
+      "collected_at": "2026-02-14T08:43:30.782083"
+    },
+    {
+      "url": "https://zenn.dev/takekazuomi/articles/dll-hell-over30y",
+      "title": "DLL Hell から .NET の自己完結型デプロイまで：30年の依存関係戦争",
+      "source": "zenn",
+      "collected_at": "2026-02-14T08:43:30.782274"
+    },
+    {
+      "url": "https://zenn.dev/recurrenthub/articles/1e0e30f7037dd9",
+      "title": "解像度が低いのに、プロンプトなど書けるわけがない。",
+      "source": "zenn",
+      "collected_at": "2026-02-14T08:43:30.782459"
+    },
+    {
+      "url": "https://zenn.dev/helloworld/articles/b42240ad018a51",
+      "title": "個人サービスのホスティング代、年1,500円まで削れた — 6サービス比較した結果",
+      "source": "zenn",
+      "collected_at": "2026-02-14T08:43:30.782672"
+    },
+    {
+      "url": "https://www.ycombinator.com/companies/cogram/jobs/LDTrViN-ex-technical-founder-product-engineer",
+      "title": "Cogram (YC W22) – 元技術系創業者の採用",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.782875"
+    },
+    {
+      "url": "https://www.backblaze.com/blog/backblaze-drive-stats-for-2025/",
+      "title": "Backblaze 2025年ドライブ統計",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.783057"
+    },
+    {
+      "url": "https://github.com/mickamy/sql-tap",
+      "title": "Show HN: SQL-tap – PostgreSQLおよびMySQLのリアルタイムSQLトラフィックビューア",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.783247"
+    },
+    {
+      "url": "https://npmx.dev",
+      "title": "NPMX – NPMレジストリ用の高速でモダンなブラウザ",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.783429"
+    },
+    {
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me-part-2/",
+      "title": "AIエージェントが私に関するヒット記事を公開 – その他の出来事",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.783649"
+    },
+    {
+      "url": "https://theconversation.com/openai-has-deleted-the-word-safely-from-its-mission-and-its-new-structure-is-a-test-for-whether-ai-serves-society-or-shareholders-274467",
+      "title": "OpenAI、ミッションから「safely」という言葉を削除",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.783836"
+    },
+    {
+      "url": "https://github.com/datascale-ai/data_engineering_book/blob/main/README_en.md",
+      "title": "Show HN: Data Engineering Book – オープンソースのコミュニティ主導ガイド",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.784033"
+    },
+    {
+      "url": "https://www.politico.eu/article/tiktok-meta-facebook-instagram-brussels-kill-infinite-scrolling/",
+      "title": "EU、無限スクロールを廃止へ",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.784215"
+    },
+    {
+      "url": "https://openai.com/index/new-result-theoretical-physics/",
+      "title": "GPT-5.2、理論物理学で新結果を導き出す",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.784399"
+    },
+    {
+      "url": "https://davidoks.blog/p/why-im-not-worried-about-ai-job-loss",
+      "title": "AIによる失業は心配していない",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.784608"
+    },
+    {
+      "url": "https://cloudrouter.dev/",
+      "title": "Show HN: Claude Code/CodexでVMとGPUを起動できるスキル",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.784796"
+    },
+    {
+      "url": "https://hatchet.run/blog/tuis-are-easy-now",
+      "title": "TUIを構築するのは今や簡単",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.784975"
+    },
+    {
+      "url": "https://www.theguardian.com/news/2026/feb/12/apocalypse-no-how-almost-everything-we-thought-we-knew-about-the-maya-is-wrong",
+      "title": "マヤ文明はどのように生き残ったのか？",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.785161"
+    },
+    {
+      "url": "https://ios-countdown.win/",
+      "title": "タイマーがゼロになる前にiOSキーボードを修正しないと、Androidに戻る",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.785344"
+    },
+    {
+      "url": "https://monosketch.io/",
+      "title": "Monosketch",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.785540"
+    },
+    {
+      "url": "https://www.workatastartup.com/companies/govdash",
+      "title": "GovDash (YC W22) – NYCでシニアエンジニア（プロダクトおよび検索）を募集",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.785734"
+    },
+    {
+      "url": "https://blog.feld.me/posts/2026/02/wolfssl-sucks-too/",
+      "title": "WolfSSLもひどい、ではどうすれば？",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.785919"
+    },
+    {
+      "url": "https://cordcuttersnews.com/babylon-5-is-now-free-to-watch-on-youtube/",
+      "title": "Babylon 5がYouTubeで無料視聴可能に",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.786108"
+    },
+    {
+      "url": "https://css-doodle.com/",
+      "title": "CSS-Doodle",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.786355"
+    },
+    {
+      "url": "https://www.worksinprogress.news/p/the-wonder-of-modern-drywall",
+      "title": "現代の石膏ボードの驚異",
+      "source": "hackernews",
+      "collected_at": "2026-02-14T08:43:30.786563"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/articles/2602/13/news115.html",
+      "title": "武蔵小杉病院、ナースコールがランサムウェアの餌食に　患者1万人の個人情報が漏えい",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.786761"
+    },
+    {
+      "url": "https://techfeed.io/entries/698e8a33ae04206495f569a7",
+      "title": "【海外記事紹介】わずか243行で書かれたGPT実装『microgpt』が話題に — Python標準ライブラリのみで記述、GPTの動作理解に最適",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.786954"
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOGN12C460S6A210C2000000/",
+      "title": "プログラミングが全自動に、マスク氏「2026年末にも」　AIが急速進化 - 日本経済新聞",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.787145"
+    },
+    {
+      "url": "https://blog.shibayu36.org/entry/2026/02/12/173000",
+      "title": "SDD（仕様駆動開発）のスラッシュコマンドを自分で作って運用している - $shibayu36->blog;",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.787339"
+    },
+    {
+      "url": "https://www.afpbb.com/articles/-/3622272",
+      "title": "反移民の「リフォームUK」政党支持率で圧倒的な首位、 SNSにAI生成の広告動画が氾濫 英",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.787550"
+    },
+    {
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11491/",
+      "title": "26年度応用情報・高度試験、4月開催は困難か　「1度限りのCBT」は断行へ",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.787741"
+    },
+    {
+      "url": "https://forbesjapan.com/articles/detail/91599",
+      "title": "ChatGPTで書いた文章がバレる15の決定的サイン、2026年最新版 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.787938"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/articles/2602/13/news094.html",
+      "title": "セガサミー、「Angry Birds」で約313億円の減損　通期予想は最終赤字に転落",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.788125"
+    },
+    {
+      "url": "https://gihyo.jp/article/2026/02/cloudflare-markdown-for-agents",
+      "title": "Cloudflare、「Markdown for Agents」を発表 ——エージェント向けにウェブページのHTMLをオンザフライでMarkdownに変換 | gihyo.jp",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.788319"
+    },
+    {
+      "url": "https://note.com/shi3zblog/n/ne72c2316c0a3",
+      "title": "【爆安15万円】 RaspberryPi5でNVIDIAのGPUを使ってみた【LLMもFluxも】｜shi3z",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.788504"
+    },
+    {
+      "url": "https://anond.hatelabo.jp/20260214024734",
+      "title": "未成年が成人向けに触れる事についての雑感",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.788708"
+    },
+    {
+      "url": "https://japan.cnet.com/article/35243823/",
+      "title": "Anthropic、「Claude」無料版を大幅拡充　競合ChatGPTが広告導入の直後",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.788895"
+    },
+    {
+      "url": "https://note.com/nobtaka/n/ne81df3261a37",
+      "title": "温故知新なUIデザイン｜Nob NUKUI | THE GUILD",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.789082"
+    },
+    {
+      "url": "https://xenospectrum.com/ai-disruption-2026-matt-shumer-warning/",
+      "title": "「何か大変なことが起きている」とAI企業CEOが警告：GPT-5.3が自らを構築し、知能爆発のループがついに回り始めた | XenoSpectrum",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.789276"
+    },
+    {
+      "url": "https://huggingface.co/spaces/webml-community/GPT-OSS-WebGPU",
+      "title": "GPT OSS WebGPU - a Hugging Face Space by webml-community",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.789459"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2602/13/news022.html",
+      "title": "カラー電子ペーパーで好きな画像を飾れる「SwitchBot AIアートキャンバス」が楽しい　13.3型の迫力と魅力",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.789672"
+    },
+    {
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_02_13/156462",
+      "title": "Rails 8.1 + Ruby 4.0.1で作り直したenno.jpアプリをfly.ioでリリースしました｜TechRacho by BPS株式会社",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.789865"
+    },
+    {
+      "url": "https://developers.cyberagent.co.jp/blog/archives/61806/",
+      "title": "ABEMAのリアルタイム基盤紹介 | CyberAgent Developers Blog",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.790055"
+    },
+    {
+      "url": "https://gihyo.jp/admin/serial/01/ubuntu-recipe/0899",
+      "title": "第899回　Distroboxを使えば、他のディストリビューションの最新パッケージをUbuntuでも気軽に試せる | gihyo.jp",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.790250"
+    },
+    {
+      "url": "https://note.com/re_birth_ai/n/n2370c2951e19",
+      "title": "NotebookLMで著作権を守る安全な使い方｜Re-BIRTH株式会社",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.790435"
+    },
+    {
+      "url": "https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview/",
+      "title": "GitHub Agentic Workflows are now in technical preview - GitHub Changelog",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.790655"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/articles/2602/14/news022.html",
+      "title": "韓国から“ケータイ型Androidスマホ”が日本に上陸したワケ　3G停波の受け皿を狙う「ケースマ」の勝算",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.790841"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/mobile/articles/2602/13/news120.html",
+      "title": "シャープ製Androidスマホで特定の米国SIMを使った後に国内で「緊急通報」できない恐れ　最新「エモパー」アプリで暫定解消",
+      "source": "hatena",
+      "collected_at": "2026-02-14T08:43:30.791032"
     }
   ]
 }
