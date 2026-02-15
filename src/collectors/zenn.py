@@ -1,10 +1,12 @@
 """Zenn RSS取得モジュール"""
 
+import json
 import socket
 import urllib.error
 import urllib.request
 from datetime import datetime
 from typing import Any
+from urllib.parse import urlparse
 
 import feedparser
 
@@ -12,6 +14,35 @@ from src.utils.config import RSS_TIMEOUT, ZENN_RSS_URL
 from src.utils.logger import get_logger
 
 logger = get_logger("collectors.zenn")
+
+
+def _extract_slug(url: str) -> str | None:
+    """ZennのURLからslugを抽出する
+
+    例: https://zenn.dev/user/articles/abc123 → abc123
+    """
+    try:
+        path = urlparse(url).path
+        parts = path.strip("/").split("/")
+        if len(parts) >= 3 and parts[1] == "articles":
+            return parts[2]
+    except Exception:
+        pass
+    return None
+
+
+def _fetch_liked_count(slug: str) -> int:
+    """Zenn APIからいいね数を取得する"""
+    try:
+        url = f"https://zenn.dev/api/articles/{slug}"
+        req = urllib.request.Request(url, headers={"User-Agent": "TechTrendCollector/1.0"})
+        with urllib.request.urlopen(req, timeout=10) as response:
+            data = json.loads(response.read().decode("utf-8"))
+            article = data.get("article", data)
+            return article.get("liked_count", 0)
+    except Exception as e:
+        logger.debug(f"Zenn APIからいいね数の取得に失敗 (slug={slug}): {e}")
+        return 0
 
 
 def fetch_trending_articles() -> list[dict[str, Any]]:
@@ -56,6 +87,12 @@ def fetch_trending_articles() -> list[dict[str, Any]]:
                 if hasattr(entry, "author"):
                     author = entry.author
 
+                # いいね数をAPIから取得
+                likes = 0
+                slug = _extract_slug(entry.link)
+                if slug:
+                    likes = _fetch_liked_count(slug)
+
                 article = {
                     "title": entry.title,
                     "url": entry.link,
@@ -63,11 +100,15 @@ def fetch_trending_articles() -> list[dict[str, Any]]:
                     "published": published,
                     "tags": [],  # ZennのRSSにはタグ情報がない
                     "source": "zenn",
+                    "likes": likes,
                 }
                 articles.append(article)
             except Exception as e:
                 logger.warning(f"記事のパースに失敗: {e}")
                 continue
+
+        # いいね数で降順ソート
+        articles.sort(key=lambda a: a["likes"], reverse=True)
 
         logger.info(f"Zenn から {len(articles)} 件の記事を取得完了")
         return articles

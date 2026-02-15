@@ -39,38 +39,48 @@ def _build_success_email_html(
         f"<p><strong>新規保存:</strong> {stats.get('new_articles', 0)}件</p>",
     ]
 
-    # Qiita記事一覧
+    # Qiita記事一覧（いいね数で降順ソート）
     if qiita_articles:
+        qiita_articles.sort(key=lambda a: a.get("likes", 0), reverse=True)
         html_parts.append("<h3>Qiita</h3>")
         html_parts.append("<ul>")
         for article in qiita_articles:
+            likes = article.get("likes", 0)
+            likes_label = f" ({likes} likes)" if likes else ""
             html_parts.append(
-                f'  <li><a href="{article["url"]}">{article["title"]}</a></li>'
+                f'  <li><a href="{article["url"]}">{article["title"]}</a>{likes_label}</li>'
             )
         html_parts.append("</ul>")
 
-    # Zenn記事一覧
+    # Zenn記事一覧（いいね数で降順ソート）
     if zenn_articles:
+        zenn_articles.sort(key=lambda a: a.get("likes", 0), reverse=True)
         html_parts.append("<h3>Zenn</h3>")
         html_parts.append("<ul>")
         for article in zenn_articles:
+            likes = article.get("likes", 0)
+            likes_label = f" ({likes} likes)" if likes else ""
             html_parts.append(
-                f'  <li><a href="{article["url"]}">{article["title"]}</a></li>'
+                f'  <li><a href="{article["url"]}">{article["title"]}</a>{likes_label}</li>'
             )
         html_parts.append("</ul>")
 
-    # Hacker News記事一覧
+    # Hacker News記事一覧（ポイント数で降順ソート）
     if hn_articles:
+        hn_articles.sort(key=lambda a: a.get("points", 0), reverse=True)
         html_parts.append("<h3>Hacker News</h3>")
         html_parts.append("<ul>")
         for article in hn_articles:
+            points = article.get("points", 0)
+            points_label = f" ({points} points)" if points else ""
             html_parts.append(
-                f'  <li><a href="{article["url"]}">{article["title"]}</a></li>'
+                f'  <li><a href="{article["url"]}">{article["title"]}</a>{points_label}</li>'
             )
         html_parts.append("</ul>")
 
-    # はてなブックマーク記事一覧
+    # はてなブックマーク記事一覧（ブックマーク数で降順ソート）
     if hatena_articles:
+        hatena_articles.sort(key=lambda a: a.get("bookmarks", 0), reverse=True)
         html_parts.append("<h3>はてなブックマーク</h3>")
         html_parts.append("<ul>")
         for article in hatena_articles:
