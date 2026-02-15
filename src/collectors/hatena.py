@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 
 import feedparser
 
-from src.utils.config import HATENA_RSS_URL, RSS_TIMEOUT
+from src.utils.config import HATENA_RSS_URL, PRIORITY_TOPIC_LIMIT, RSS_TIMEOUT
 from src.utils.logger import get_logger
 
 logger = get_logger("collectors.hatena")
@@ -114,3 +114,28 @@ def fetch_hotentry_articles() -> list[dict[str, Any]]:
     except Exception as e:
         logger.error(f"予期しないエラー: {e}")
         return []
+
+
+def filter_articles_by_tag(
+    articles: list[dict[str, Any]], tag: str
+) -> list[dict[str, Any]]:
+    """取得済みのはてなブックマーク記事からタグでフィルタリングする
+
+    Args:
+        articles: はてなブックマーク記事リスト
+        tag: フィルタ対象のタグ名（大文字小文字を区別しない）
+
+    Returns:
+        タグに一致する記事のリスト（ブックマーク数降順、上位PRIORITY_TOPIC_LIMIT件）
+    """
+    tag_lower = tag.lower()
+    filtered = [
+        a for a in articles
+        if any(t.lower() == tag_lower for t in a.get("tags", []))
+    ]
+
+    # ブックマーク数で降順ソート
+    filtered.sort(key=lambda a: a.get("bookmarks", 0), reverse=True)
+
+    logger.info(f"はてなブックマーク タグ '{tag}' で {len(filtered)} 件を抽出（上位{PRIORITY_TOPIC_LIMIT}件を使用）")
+    return filtered[:PRIORITY_TOPIC_LIMIT]

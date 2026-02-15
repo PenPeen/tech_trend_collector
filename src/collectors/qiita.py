@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 
 import feedparser
 
-from src.utils.config import QIITA_RSS_URL, RSS_TIMEOUT
+from src.utils.config import PRIORITY_TOPIC_LIMIT, QIITA_RSS_URL, RSS_TIMEOUT
 from src.utils.logger import get_logger
 
 logger = get_logger("collectors.qiita")
@@ -120,4 +120,50 @@ def fetch_trending_articles() -> list[dict[str, Any]]:
         return []
     except Exception as e:
         logger.error(f"予期しないエラー: {e}")
+        return []
+
+
+def fetch_articles_by_tag(tag: str) -> list[dict[str, Any]]:
+    """Qiita API v2で指定タグの記事を取得する
+
+    Args:
+        tag: 取得対象のタグ名（例: "aws", "python"）
+
+    Returns:
+        記事情報のリスト（いいね数降順、上位PRIORITY_TOPIC_LIMIT件）
+        取得失敗時は空リスト
+    """
+    logger.info(f"Qiita タグ '{tag}' の記事を取得開始")
+
+    try:
+        url = f"https://qiita.com/api/v2/tags/{tag}/items?page=1&per_page={PRIORITY_TOPIC_LIMIT}&sort=stock"
+        req = urllib.request.Request(url, headers={"User-Agent": "TechTrendCollector/1.0"})
+
+        with urllib.request.urlopen(req, timeout=10) as response:
+            data = json.loads(response.read().decode("utf-8"))
+
+        articles = []
+        for item in data:
+            tags = [t["name"] for t in item.get("tags", [])]
+            likes = item.get("likes_count", 0)
+
+            article = {
+                "title": item.get("title", ""),
+                "url": item.get("url", ""),
+                "author": item.get("user", {}).get("id", ""),
+                "published": item.get("created_at", ""),
+                "tags": tags,
+                "source": "qiita",
+                "likes": likes,
+            }
+            articles.append(article)
+
+        # いいね数で降順ソート
+        articles.sort(key=lambda a: a["likes"], reverse=True)
+
+        logger.info(f"Qiita タグ '{tag}' から {len(articles)} 件の記事を取得完了")
+        return articles[:PRIORITY_TOPIC_LIMIT]
+
+    except Exception as e:
+        logger.error(f"Qiita タグ '{tag}' の記事取得に失敗: {e}")
         return []

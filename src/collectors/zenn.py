@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 
 import feedparser
 
-from src.utils.config import RSS_TIMEOUT, ZENN_RSS_URL
+from src.utils.config import PRIORITY_TOPIC_LIMIT, RSS_TIMEOUT, ZENN_RSS_URL
 from src.utils.logger import get_logger
 
 logger = get_logger("collectors.zenn")
@@ -121,4 +121,54 @@ def fetch_trending_articles() -> list[dict[str, Any]]:
         return []
     except Exception as e:
         logger.error(f"予期しないエラー: {e}")
+        return []
+
+
+def fetch_articles_by_topic(topic: str) -> list[dict[str, Any]]:
+    """Zenn APIで指定トピックの記事を取得する
+
+    Args:
+        topic: 取得対象のトピック名（例: "aws", "python"）
+
+    Returns:
+        記事情報のリスト（いいね数降順、上位PRIORITY_TOPIC_LIMIT件）
+        取得失敗時は空リスト
+    """
+    logger.info(f"Zenn トピック '{topic}' の記事を取得開始")
+
+    try:
+        url = f"https://zenn.dev/api/articles?topicname={topic}&order=liked_count&count={PRIORITY_TOPIC_LIMIT}"
+        req = urllib.request.Request(url, headers={"User-Agent": "TechTrendCollector/1.0"})
+
+        with urllib.request.urlopen(req, timeout=10) as response:
+            data = json.loads(response.read().decode("utf-8"))
+
+        articles_data = data.get("articles", [])
+        articles = []
+
+        for item in articles_data:
+            user = item.get("user", {})
+            username = user.get("username", "") if user else ""
+            slug = item.get("slug", "")
+            article_url = f"https://zenn.dev/{username}/articles/{slug}" if username and slug else ""
+
+            article = {
+                "title": item.get("title", ""),
+                "url": article_url,
+                "author": username,
+                "published": item.get("published_at", ""),
+                "tags": [],
+                "source": "zenn",
+                "likes": item.get("liked_count", 0),
+            }
+            articles.append(article)
+
+        # いいね数で降順ソート（APIでorder指定済みだが念のため）
+        articles.sort(key=lambda a: a["likes"], reverse=True)
+
+        logger.info(f"Zenn トピック '{topic}' から {len(articles)} 件の記事を取得完了")
+        return articles[:PRIORITY_TOPIC_LIMIT]
+
+    except Exception as e:
+        logger.error(f"Zenn トピック '{topic}' の記事取得に失敗: {e}")
         return []

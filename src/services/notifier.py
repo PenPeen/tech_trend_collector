@@ -20,8 +20,61 @@ def is_notifier_enabled() -> bool:
     return bool(RESEND_API_KEY and NOTIFICATION_EMAIL)
 
 
+def _build_priority_section_html(priority_articles: list[dict[str, Any]]) -> str:
+    """優先トピック（AWS/Python）セクションのHTML生成"""
+    if not priority_articles:
+        return ""
+
+    # トピック別にグループ化
+    topics: dict[str, list[dict[str, Any]]] = {}
+    for entry in priority_articles:
+        topic = entry["topic"].upper()
+        if topic not in topics:
+            topics[topic] = []
+        topics[topic].extend(entry["articles"])
+
+    html_parts = ["<h2>AWS/Python 注目記事</h2>"]
+
+    source_labels = {"qiita": "Qiita", "zenn": "Zenn", "hatena": "はてなブックマーク"}
+
+    for topic_name, articles in topics.items():
+        html_parts.append(f"<h3>{topic_name}</h3>")
+        html_parts.append("<ul>")
+
+        # ソース別にグループ化して表示
+        by_source: dict[str, list[dict[str, Any]]] = {}
+        for a in articles:
+            src = a.get("source", "")
+            if src not in by_source:
+                by_source[src] = []
+            by_source[src].append(a)
+
+        for src, src_articles in by_source.items():
+            label = source_labels.get(src, src)
+            for article in src_articles:
+                metric = ""
+                if src in ("qiita", "zenn"):
+                    likes = article.get("likes", 0)
+                    if likes:
+                        metric = f" ({likes} likes)"
+                elif src == "hatena":
+                    bookmarks = article.get("bookmarks", 0)
+                    if bookmarks:
+                        metric = f" ({bookmarks} users)"
+
+                html_parts.append(
+                    f'  <li>[{label}] <a href="{article["url"]}">{article["title"]}</a>{metric}</li>'
+                )
+
+        html_parts.append("</ul>")
+
+    html_parts.append("<hr>")
+    return "\n".join(html_parts)
+
+
 def _build_success_email_html(
-    articles: list[dict[str, Any]], stats: dict[str, int], target_date: str
+    articles: list[dict[str, Any]], stats: dict[str, int], target_date: str,
+    priority_articles: list[dict[str, Any]] | None = None,
 ) -> str:
     """成功時のメール本文HTML生成"""
     # ソース別に記事を分類
@@ -30,7 +83,11 @@ def _build_success_email_html(
     hn_articles = [a for a in articles if a.get("source") == "hackernews"]
     hatena_articles = [a for a in articles if a.get("source") == "hatena"]
 
+    # AWS/Python 優先トピックセクションを先頭に配置
+    priority_html = _build_priority_section_html(priority_articles or [])
+
     html_parts = [
+        priority_html,
         "<h2>📰 本日のトレンド記事</h2>",
         f"<p><strong>取得件数:</strong> Qiita {stats.get('qiita_fetched', 0)}件 / "
         f"Zenn {stats.get('zenn_fetched', 0)}件 / "
@@ -158,7 +215,8 @@ def _send_email(subject: str, html_body: str) -> bool:
 
 
 def send_success_notification(
-    articles: list[dict[str, Any]], stats: dict[str, int], target_date: str | None = None
+    articles: list[dict[str, Any]], stats: dict[str, int], target_date: str | None = None,
+    priority_articles: list[dict[str, Any]] | None = None,
 ) -> bool:
     """成功通知を送信
 
@@ -166,6 +224,7 @@ def send_success_notification(
         articles: 収集した記事リスト
         stats: 統計情報
         target_date: 対象日付（YYYY-MM-DD形式）。Noneの場合は今日の日付
+        priority_articles: 優先トピック記事情報（topic, source, articles）
 
     Returns:
         送信成功した場合True
@@ -180,7 +239,7 @@ def send_success_notification(
     resend.api_key = RESEND_API_KEY
 
     subject = f"[TechTrend] {target_date} のトレンド記事"
-    html_body = _build_success_email_html(articles, stats, target_date)
+    html_body = _build_success_email_html(articles, stats, target_date, priority_articles)
 
     logger.info("成功通知メールを送信中...")
     if _send_email(subject, html_body):

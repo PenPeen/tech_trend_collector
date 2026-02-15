@@ -12,7 +12,7 @@ from src.services.notifier import (
     send_success_notification,
 )
 from src.services.translator import translate_hn_titles
-from src.utils.config import validate_config
+from src.utils.config import PRIORITY_TOPICS, validate_config
 from src.utils.logger import get_logger
 
 logger = get_logger("main")
@@ -46,6 +46,9 @@ TechTrendCollector 実行結果
 [マークダウン生成]
 - 生成ファイル数: {stats['new_articles']}件
 - 出力先: {output_dir}
+
+[優先トピック (AWS/Python)]
+- 取得記事数: {stats.get('priority_fetched', 0)}件 (新規: {stats.get('priority_new', 0)}件)
 
 [通知]
 - メール送信: {stats.get('notification_status', '未送信')}
@@ -98,6 +101,8 @@ def main() -> int:
         "hatena_duplicates": 0,
         "new_articles": 0,
         "duplicates": 0,
+        "priority_fetched": 0,
+        "priority_new": 0,
         "notification_status": "未送信",
     }
 
@@ -125,6 +130,33 @@ def main() -> int:
     logger.info("はてなブックマーク ホットエントリを取得中...")
     hatena_articles = hatena.fetch_hotentry_articles()
     stats["hatena_fetched"] = len(hatena_articles)
+
+    # AWS/Python 優先トピック記事の取得
+    priority_articles: list[dict] = []  # {topic, source, articles} のリスト管理用
+    priority_all_articles: list[dict] = []  # 全優先記事のフラットリスト
+
+    for topic in PRIORITY_TOPICS:
+        logger.info(f"優先トピック '{topic}' の記事を取得中...")
+
+        # Qiita: タグ別API取得
+        topic_qiita = qiita.fetch_articles_by_tag(topic)
+        if topic_qiita:
+            priority_articles.append({"topic": topic, "source": "qiita", "articles": topic_qiita})
+            priority_all_articles.extend(topic_qiita)
+
+        # Zenn: トピック別API取得
+        topic_zenn = zenn.fetch_articles_by_topic(topic)
+        if topic_zenn:
+            priority_articles.append({"topic": topic, "source": "zenn", "articles": topic_zenn})
+            priority_all_articles.extend(topic_zenn)
+
+        # はてなブックマーク: 取得済み記事からフィルタリング
+        topic_hatena = hatena.filter_articles_by_tag(hatena_articles, topic)
+        if topic_hatena:
+            priority_articles.append({"topic": topic, "source": "hatena", "articles": topic_hatena})
+            priority_all_articles.extend(topic_hatena)
+
+    stats["priority_fetched"] = len(priority_all_articles)
 
     # 全記事をマージ
     all_articles = qiita_articles + zenn_articles + hn_articles + hatena_articles
@@ -169,6 +201,22 @@ def main() -> int:
         saved_articles.append(article)
         stats["new_articles"] += 1
 
+    # 優先トピック記事の重複チェック・保存
+    saved_priority_articles: list[dict] = []
+    logger.info("優先トピック記事を処理中...")
+    for article in priority_all_articles:
+        if deduplicator.is_duplicate(article["url"]):
+            logger.debug(f"[スキップ] 重複（優先トピック）: {article['title'][:40]}...")
+            continue
+
+        filepath = save_markdown(article)
+        logger.info(f"保存完了（優先トピック）: {filepath.name}")
+
+        deduplicator.add_to_history(article)
+        saved_priority_articles.append(article)
+        stats["priority_new"] += 1
+        stats["new_articles"] += 1
+
     # 履歴保存
     if not deduplicator.save_history():
         logger.warning("履歴ファイルの保存に問題がありました")
@@ -176,7 +224,7 @@ def main() -> int:
     # 成功通知送信
     if notifier_enabled:
         logger.info("メール通知を送信中...")
-        if send_success_notification(saved_articles, stats):
+        if send_success_notification(saved_articles, stats, priority_articles=priority_articles):
             stats["notification_status"] = "成功"
         else:
             stats["notification_status"] = "失敗"

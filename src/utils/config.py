@@ -29,6 +29,10 @@ HATENA_RSS_URL = "https://b.hatena.ne.jp/hotentry/it.rss"
 RSS_TIMEOUT = 30
 NOTIFICATION_TIMEOUT = 30
 
+# 優先トピック設定（AWS/Python専用枠）
+PRIORITY_TOPICS = ["aws", "python"]
+PRIORITY_TOPIC_LIMIT = 5  # 各トピック・各ソースの取得上限件数
+
 # APIキー
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
