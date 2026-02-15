@@ -16,6 +16,32 @@ SOURCE_DISPLAY_NAMES = {
 }
 
 
+def _build_metric_label(article: dict[str, Any]) -> str:
+    """記事のメトリクスラベルを生成する
+
+    Args:
+        article: 記事情報
+
+    Returns:
+        メトリクスラベル文字列（例: "123 users", "45 points", "67 likes"）
+        メトリクスがない場合は空文字列
+    """
+    source = article.get("source", "")
+    if source == "hatena":
+        bookmarks = article.get("bookmarks", 0)
+        if bookmarks:
+            return f"{bookmarks} users"
+    elif source == "hackernews":
+        points = article.get("points", 0)
+        if points:
+            return f"{points} points"
+    elif source in ("qiita", "zenn"):
+        likes = article.get("likes", 0)
+        if likes:
+            return f"{likes} likes"
+    return ""
+
+
 def sanitize_filename(title: str) -> str:
     """ファイル名に使用不可な文字を除去する
 
@@ -55,8 +81,12 @@ def generate_article_markdown(article: dict[str, Any]) -> str:
         article["source"], article["source"].capitalize()
     )
 
+    # メトリクスラベルの生成
+    metric_label = _build_metric_label(article)
+    title_suffix = f" ({metric_label})" if metric_label else ""
+
     lines = [
-        f"# {article['title']}",
+        f"# {article['title']}{title_suffix}",
         "",
         "## 記事情報",
         "",

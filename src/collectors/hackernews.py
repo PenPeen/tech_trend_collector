@@ -1,5 +1,6 @@
 """Hacker News RSS取得モジュール"""
 
+import re
 import socket
 import urllib.error
 from datetime import datetime
@@ -11,6 +12,14 @@ from src.utils.config import HN_RSS_URL, RSS_TIMEOUT
 from src.utils.logger import get_logger
 
 logger = get_logger("collectors.hackernews")
+
+
+def _parse_points_from_description(description: str) -> int:
+    """RSSのdescriptionからポイント数を抽出する"""
+    match = re.search(r"Points:\s*(\d+)", description)
+    if match:
+        return int(match.group(1))
+    return 0
 
 
 def fetch_top_articles() -> list[dict[str, Any]]:
@@ -58,6 +67,11 @@ def fetch_top_articles() -> list[dict[str, Any]]:
                 if hasattr(entry, "author"):
                     author = entry.author
 
+                # ポイント数をdescriptionからパース
+                points = 0
+                if hasattr(entry, "description"):
+                    points = _parse_points_from_description(entry.description)
+
                 article = {
                     "title": entry.title,
                     "url": url,
@@ -65,11 +79,15 @@ def fetch_top_articles() -> list[dict[str, Any]]:
                     "published": published,
                     "tags": [],
                     "source": "hackernews",
+                    "points": points,
                 }
                 articles.append(article)
             except Exception as e:
                 logger.warning(f"記事のパースに失敗: {e}")
                 continue
+
+        # ポイント数で降順ソート
+        articles.sort(key=lambda a: a["points"], reverse=True)
 
         logger.info(f"Hacker News から {len(articles)} 件の記事を取得完了")
         return articles

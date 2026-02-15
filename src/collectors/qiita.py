@@ -1,10 +1,12 @@
 """Qiita RSS取得モジュール"""
 
+import json
 import socket
 import urllib.error
 import urllib.request
 from datetime import datetime
 from typing import Any
+from urllib.parse import urlparse
 
 import feedparser
 
@@ -12,6 +14,34 @@ from src.utils.config import QIITA_RSS_URL, RSS_TIMEOUT
 from src.utils.logger import get_logger
 
 logger = get_logger("collectors.qiita")
+
+
+def _extract_item_id(url: str) -> str | None:
+    """QiitaのURLからitem_idを抽出する
+
+    例: https://qiita.com/user/items/abc123 → abc123
+    """
+    try:
+        path = urlparse(url).path
+        parts = path.strip("/").split("/")
+        if len(parts) >= 3 and parts[1] == "items":
+            return parts[2]
+    except Exception:
+        pass
+    return None
+
+
+def _fetch_likes_count(item_id: str) -> int:
+    """Qiita APIからいいね数を取得する"""
+    try:
+        url = f"https://qiita.com/api/v2/items/{item_id}"
+        req = urllib.request.Request(url, headers={"User-Agent": "TechTrendCollector/1.0"})
+        with urllib.request.urlopen(req, timeout=10) as response:
+            data = json.loads(response.read().decode("utf-8"))
+            return data.get("likes_count", 0)
+    except Exception as e:
+        logger.debug(f"Qiita APIからいいね数の取得に失敗 (item_id={item_id}): {e}")
+        return 0
 
 
 def fetch_trending_articles() -> list[dict[str, Any]]:
@@ -56,6 +86,12 @@ def fetch_trending_articles() -> list[dict[str, Any]]:
                 if hasattr(entry, "published_parsed") and entry.published_parsed:
                     published = datetime(*entry.published_parsed[:6]).isoformat()
 
+                # いいね数をAPIから取得
+                likes = 0
+                item_id = _extract_item_id(entry.link)
+                if item_id:
+                    likes = _fetch_likes_count(item_id)
+
                 article = {
                     "title": entry.title,
                     "url": entry.link,
@@ -63,11 +99,15 @@ def fetch_trending_articles() -> list[dict[str, Any]]:
                     "published": published,
                     "tags": tags,
                     "source": "qiita",
+                    "likes": likes,
                 }
                 articles.append(article)
             except Exception as e:
                 logger.warning(f"記事のパースに失敗: {e}")
                 continue
+
+        # いいね数で降順ソート
+        articles.sort(key=lambda a: a["likes"], reverse=True)
 
         logger.info(f"Qiita から {len(articles)} 件の記事を取得完了")
         return articles
