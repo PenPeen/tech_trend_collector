@@ -4715,6 +4715,408 @@
       "title": "シャープ製Androidスマホで特定の米国SIMを使った後に国内で「緊急通報」できない恐れ　最新「エモパー」アプリで暫定解消",
       "source": "hatena",
       "collected_at": "2026-02-14T08:43:30.791032"
+    },
+    {
+      "url": "https://qiita.com/minegishirei_v2/items/074706837c939ec05a3d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "アセンブリ言語を学ぶことで得られるメリット【アセンブリ言語さくっと入門】",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.877364"
+    },
+    {
+      "url": "https://qiita.com/umekikazuya/items/ffea7ee083a76e4ae142?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【テスト】カバレッジ100%は安心していいわけじゃない",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.877574"
+    },
+    {
+      "url": "https://qiita.com/reire/items/5c0d306a7cfc821ebda6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【SharePoint】ER図やテーブル設計書を自動作成！SharePoint ERD Generatorを公開しました！【拡張機能】",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.877795"
+    },
+    {
+      "url": "https://qiita.com/hiruberuto/items/3130f649eea4df8e4742?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "SQLにむしゃくしゃしたのでフルAIコーディングで🐟自作プログラミング言語🍣を作った",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.877999"
+    },
+    {
+      "url": "https://qiita.com/Dinn/items/6c0dd5107d4ce6c4b300?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Claude Code の実装から読み解く Agent Teams の設計思想",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.878205"
+    },
+    {
+      "url": "https://qiita.com/Takashi5816/items/b9778a5c7441e46516de?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "書籍『アジャイルコーチング』を読んで得た学び",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.878404"
+    },
+    {
+      "url": "https://qiita.com/tobaru-hideyasu/items/c1e76d18be7acd6755c3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "エンジニアの行き先 — Agentic AI 時代の個人的な整理",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.878614"
+    },
+    {
+      "url": "https://qiita.com/suzukielecs/items/bcd619d613ca35a327bd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "CSSだけで作れる“ちょっと楽しい”アコーディオンメニューの実装と応用【初心者向けまとめ】",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.878810"
+    },
+    {
+      "url": "https://qiita.com/tobaru-hideyasu/items/f9ed60b136d95960b1d0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "週末アプリ開発者のための、Claude Code × iOSアプリ開発 一気通貫ガイド",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.878999"
+    },
+    {
+      "url": "https://qiita.com/handson-lab/items/5f389c5d7c786e6b8877?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "保守的な現場でも負けない！「こっそり自動化」で自習時間を捻出するエンジニアの処世術",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.879184"
+    },
+    {
+      "url": "https://qiita.com/yakumo_09/items/50cf6886c49dc49331d2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "CloudFront と S3を利用した静的コンテンツ配信",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.879370"
+    },
+    {
+      "url": "https://qiita.com/ko1nksm/items/a56a6050c21787463432?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "TRONはマイクロソフトのOSよりも開発が遅かった",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.879553"
+    },
+    {
+      "url": "https://qiita.com/yokamak/items/4abdc01ca0eaccef54a3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "7年前のchromebookと現行比較",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.879760"
+    },
+    {
+      "url": "https://qiita.com/maskot1977/items/65b4674d80e27cf6969a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "善意が経済を歪めるとき ― 財源幻想とおもてなし圧力の克服 : Pythonで学ぶ マクロ経済学入門 (38)",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.879949"
+    },
+    {
+      "url": "https://qiita.com/masa_tech_0326/items/ea218ecf187206939dc6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Rails】undefined method stringify_keys for String が出た原因と解決方法",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.880136"
+    },
+    {
+      "url": "https://qiita.com/jmjive/items/5f699f347e3c0348aabc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "新卒未経験エンジニアが詰まったところ",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.880318"
+    },
+    {
+      "url": "https://qiita.com/handson-lab/items/a089149adb4293da4534?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "監視・保守の延長だと思ってない？セキュリティ経験を「一生モノの武器」に変える逆転発想",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.880506"
+    },
+    {
+      "url": "https://qiita.com/be834194/items/15039b67f4f2d32e18b1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AWSでインフラを構築し、個人学習で作成したアプリを公開するまで",
+      "source": "qiita",
+      "collected_at": "2026-02-15T08:44:00.880711"
+    },
+    {
+      "url": "https://zenn.dev/igz0/articles/skill-without-proof",
+      "title": "技術発信を後回しにした私が、転職で詰んだ話。",
+      "source": "zenn",
+      "collected_at": "2026-02-15T08:44:00.880899"
+    },
+    {
+      "url": "https://zenn.dev/tiaroka/articles/f6a0187b721607",
+      "title": "非エンジニアがClaude Codeでアプリを作って公開した全記録",
+      "source": "zenn",
+      "collected_at": "2026-02-15T08:44:00.881084"
+    },
+    {
+      "url": "https://zenn.dev/tkada/articles/00b32b7f41a2ed",
+      "title": "Unity MCP「uLoopMCP」を使ってゲームを作ってみる",
+      "source": "zenn",
+      "collected_at": "2026-02-15T08:44:00.881267"
+    },
+    {
+      "url": "https://zenn.dev/datum_studio/articles/c5c5dcb87a70f1",
+      "title": "ClaudeでPRレビュー対応を爆速化する",
+      "source": "zenn",
+      "collected_at": "2026-02-15T08:44:00.881454"
+    },
+    {
+      "url": "https://zenn.dev/neurostack_0001/articles/agent-teams-one-week-redefine-work",
+      "title": "Agent Teams＋Skillsでエージェント3体と1週間働いたら、\"自分の仕事\"が再定義された",
+      "source": "zenn",
+      "collected_at": "2026-02-15T08:44:00.881662"
+    },
+    {
+      "url": "https://zenn.dev/fabrica/articles/2026-02-13_claude-code-obsidian-workflow",
+      "title": "Claude CodeでObsidianのナレッジ管理を自動化してみた",
+      "source": "zenn",
+      "collected_at": "2026-02-15T08:44:00.881850"
+    },
+    {
+      "url": "https://zenn.dev/pdfractal/articles/59fe7cda9b296c",
+      "title": "なぜ、クソコードは仕事のプログラミングでしか書かれないのか？",
+      "source": "zenn",
+      "collected_at": "2026-02-15T08:44:00.882032"
+    },
+    {
+      "url": "https://zenn.dev/uma002/articles/architecture-abstraction-patterns",
+      "title": "大規模設計で学んだ「抽象化」の力：関数型的にシステムを捉えるコツ",
+      "source": "zenn",
+      "collected_at": "2026-02-15T08:44:00.882212"
+    },
+    {
+      "url": "https://zenn.dev/otinashi/articles/bd672e8f8189df",
+      "title": "エラーのスタックトレースをAIにコピペする時代、終わらせたい",
+      "source": "zenn",
+      "collected_at": "2026-02-15T08:44:00.882394"
+    },
+    {
+      "url": "https://zenn.dev/sonicmoov/articles/cddd50d644ac86",
+      "title": "いい加減重い腰を上げてNeovimへ移行した",
+      "source": "zenn",
+      "collected_at": "2026-02-15T08:44:00.882585"
+    },
+    {
+      "url": "https://zenn.dev/crebo_tech/articles/4d263f0a3757de",
+      "title": "未経験エンジニアが crypto.randomUUID() で詰まった話（スマホで動かなかった）",
+      "source": "zenn",
+      "collected_at": "2026-02-15T08:44:00.882801"
+    },
+    {
+      "url": "https://zenn.dev/peoplex_blog/articles/58d1235f59f88a",
+      "title": "AIに設計を書かせるだけで、理解負債と実装漏れが激減した話",
+      "source": "zenn",
+      "collected_at": "2026-02-15T08:44:00.882990"
+    },
+    {
+      "url": "https://zamoshi.substack.com/p/ninety-four-degrees",
+      "title": "元テック企業社員、サンフランシスコでホームレスに",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.883174"
+    },
+    {
+      "url": "https://kotaku.com/discord-palantir-peter-thiel-persona-age-verification-2000668951",
+      "title": "Discord、ピーター・ティール氏のPalantir傘下の年齢確認企業との関係を否定",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.883356"
+    },
+    {
+      "url": "https://flashpointarchive.org",
+      "title": "Flashpoint Archive – 20万以上のウェブゲームとアニメーションを保存",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.883542"
+    },
+    {
+      "url": "https://caucascapades.wordpress.com/2012/06/14/guitars-of-the-ussr-and-the-jolana-special-in-azerbaijani-music/",
+      "title": "ソ連のギターとアゼルバイジャンの音楽におけるJolana Special",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.883750"
+    },
+    {
+      "url": "https://newpipe.net/",
+      "title": "NewPipe：縦型動画とアルゴリズムフィードなしのYouTubeクライアント",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.883932"
+    },
+    {
+      "url": "https://k7r.eu/i-love-the-work-of-the-archwiki-maintainers/",
+      "title": "ArchWikiメンテナーの仕事に感謝",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.884115"
+    },
+    {
+      "url": "https://github.com/alichherawalla/off-grid-mobile",
+      "title": "Show HN: Off Grid – 携帯電話でAIテキスト、画像生成、ビジョンをオフラインで実行",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.884303"
+    },
+    {
+      "url": "https://blog.sao.dev/cpns-llms-distributed-apps/",
+      "title": "カラーペトリネット、LLM、分散アプリケーション",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.884484"
+    },
+    {
+      "url": "https://mrdoob.github.io/three-descent/",
+      "title": "Descent、ウェブに移植",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.884685"
+    },
+    {
+      "url": "https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/",
+      "title": "ニュース出版社、AIスクレイピング懸念でInternet Archiveへのアクセスを制限",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.884872"
+    },
+    {
+      "url": "https://github.com/abdimoallim/vdb",
+      "title": "ヘッダーオンリーのCベクトルデータベースライブラリ",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.885053"
+    },
+    {
+      "url": "https://github.com/i5heu/ublock-hide-yt-shorts/",
+      "title": "YouTube Shortsをすべて非表示にするuBlockフィルタリスト",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.885238"
+    },
+    {
+      "url": "https://github.com/davidgiven/ack",
+      "title": "Amsterdam Compiler Kit",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.885417"
+    },
+    {
+      "url": "http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html",
+      "title": "M Discのアーカイブ能力に関するレビュー（長期テスト結果付き、2016年）",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.885693"
+    },
+    {
+      "url": "https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/",
+      "title": "私のスマートスリープマスクはユーザーの脳波をオープンなMQTTブローカーにブロードキャストする",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.885893"
+    },
+    {
+      "url": "https://ooh.directory/",
+      "title": "Ooh.directory：興味深い良質なブログを見つける場所",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.886077"
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-why-openai-should-build-slack",
+      "title": "OpenAIはSlackを構築すべき",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.886260"
+    },
+    {
+      "url": "https://www.usatoday.com/story/life/health-wellness/2026/02/11/full-body-mris-cancer-aneurysm/88396037007/",
+      "title": "全身MRIはどのくらいの頻度でがんを発見するか？",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.886449"
+    },
+    {
+      "url": "https://www.fast.ai/posts/2026-01-28-dark-flow/",
+      "title": "「バイブコーディング」の呪縛を解き放つ",
+      "source": "hackernews",
+      "collected_at": "2026-02-15T08:44:00.886650"
+    },
+    {
+      "url": "http://www.city.nanyo.yamagata.jp/dxchosei/5793",
+      "title": "一発OK!! 市民も使える！生成AI活用実例集（プロンプト集）３６３例",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.886842"
+    },
+    {
+      "url": "https://www.matudakta.com/entry/2026/02/14/143705",
+      "title": "自治体の枠を超えた「戦略」の集大成。山形県南陽市の生成AIプロンプト集から学ぶこと - 松田軽太のブロぐる",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.887033"
+    },
+    {
+      "url": "https://nyosegawa.github.io/posts/claude-code-mac-dev-environment/",
+      "title": "Claude Code中心のMac開発環境を整備する - tmux・Ghostty・Discord通知",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.887224"
+    },
+    {
+      "url": "https://note.com/neet_uncle/n/nb793a6962ca7",
+      "title": "claude codeで投資戦略を考えてみた｜にとり",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.887409"
+    },
+    {
+      "url": "https://togetter.com/li/2664028",
+      "title": "英語ができるため海外のコールセンターで年収1000万円を稼いでいた友人がコルセンでAIが利用されるようになり無職になっていた",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.887625"
+    },
+    {
+      "url": "https://www.ukrinform.jp/rubric-defense/4091376-ukurainaha-ri-benga-bao-yousuru-fang-kongshisutemuwo-bi-yaotoshiteiruukuraina-zheng-quan-gao-guan.html",
+      "title": "「ウクライナは日本が保有する防空システムを必要としている」＝ウクライナ政権高官",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.887821"
+    },
+    {
+      "url": "https://note.cloudnative.co.jp/n/ndee08b72db63",
+      "title": "また病院がVPN経由でやられたわけだがVPNは悪だね｜ロードバランスすだちくん（仮）",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.888007"
+    },
+    {
+      "url": "https://eliocapella.com/blog/writing-good-unit-tests/",
+      "title": "Writing Good Unit Tests",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.888192"
+    },
+    {
+      "url": "https://xenospectrum.com/hkust-calcium-ion-battery-cof-electrolyte-breakthrough/",
+      "title": "新たな「カルシウムイオン電池」が1,000サイクルの長寿命とリチウムイオン電池に匹敵する性能を達成 | XenoSpectrum",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.888389"
+    },
+    {
+      "url": "https://sosukesuzuki.dev/posts/retire-prettier/",
+      "title": "Prettierのメンテナーをやめる",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.888571"
+    },
+    {
+      "url": "https://www.watch.impress.co.jp/docs/news/2085930.html",
+      "title": "パイロット、「消せる」「消えない」を1本にまとめた「フリクションボールスイッチ」",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.888781"
+    },
+    {
+      "url": "https://togetter.com/li/2664179",
+      "title": "AIに『投票の様子のイラスト』を描いてもらおうとしているが、どうあがいても投票として不適切な絵しか生成されない「撮影禁止の場所はAIで代替が効かない」",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.888967"
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUA136YP0T10C26A2000000/",
+      "title": "AIエージェントやロボAI「人の判断必須の仕組みを」　政府指針に明記 - 日本経済新聞",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.889152"
+    },
+    {
+      "url": "https://forbesjapan.com/articles/detail/91712",
+      "title": "アンソロピックの億万長者創業者7人が資産をほぼ倍増、マスクとアルトマンの批判をよそに | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.889346"
+    },
+    {
+      "url": "https://www.washingtonhotel.co.jp/corporation/news/197/",
+      "title": "ランサムウェア感染被害のお知らせ | 【公式】ワシントンホテル株式会社",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.889533"
+    },
+    {
+      "url": "https://www.seko-law.com/entry/2026/02/15/152816",
+      "title": "SaaS提供企業における顧客企業入力データのAI学習利用 - 思い出したいことがある",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.889746"
+    },
+    {
+      "url": "https://tech.smarthr.jp/entry/2026/02/10/162401",
+      "title": "AIコーディング時代のレビュー負荷を可視化したい！ —— GASとGitHub APIで「誰がどのくらいレビューしたか」をSlackに通知する仕組み - SmartHR Tech Blog",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.889983"
+    },
+    {
+      "url": "https://www.nicovideo.jp/watch/sm45935329",
+      "title": "【大問題作】評判が最悪の「3COINSの激安タブレット(16,500円)」を自腹レビュー。これはマジで「買ってはいけない」。｜ずんだもんと学ぶ「激安商品」の実態 No.86",
+      "source": "hatena",
+      "collected_at": "2026-02-15T08:44:00.890186"
     }
   ]
 }
