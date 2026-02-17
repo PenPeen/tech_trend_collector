@@ -3497,6 +3497,546 @@
       "title": "conda / pip から uv へ",
       "source": "zenn",
       "collected_at": "2026-02-16T09:00:03.791387"
+    },
+    {
+      "url": "https://qiita.com/Ymmy/items/1d84037b3b9a499167de?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "draw.io MCP + Playwright MCP で画面設計書を自動生成してみた（GitHub Copilot Agent Skills）",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.242558"
+    },
+    {
+      "url": "https://qiita.com/KaitoMuraoka/items/21684a9fcaa046f82988?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Chrome の拡張機能を公開したら自分の住所も公開した話",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.242789"
+    },
+    {
+      "url": "https://qiita.com/kkkdev/items/500f73822cfbcd4783bd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Codex App】3つのCodexツールのサブエージェント機能の違いを比較",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.242986"
+    },
+    {
+      "url": "https://qiita.com/river0525/items/3110282ae821fc653a06?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "JOAI2026参加記ーKaggle登録からたった2か月で銅メダルを取った方法ー",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.243180"
+    },
+    {
+      "url": "https://qiita.com/y_wakai/items/9e5f003ed1c373aecc78?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【AWS re:Invent 2025レポート】量産開発経験者が行くre:Invent",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.243401"
+    },
+    {
+      "url": "https://qiita.com/hiroki2712/items/b1cfd160d8523642608e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【AWS SAP勉強記】Route 53の周辺の機能を改めて整理してみた",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.243590"
+    },
+    {
+      "url": "https://qiita.com/fujihara_hideyuki/items/448e1bc34166ebb46605?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "[vscode] マークダウンをプレビューしたい",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.243780"
+    },
+    {
+      "url": "https://qiita.com/1kazuki0/items/e803c7b00fe0a86ea845?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Ruby on Rails】Faker（ダミーデータ）を使ってデータベースに保存する方法",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.243991"
+    },
+    {
+      "url": "https://qiita.com/tsuka00/items/26517e830d7144198043?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "S3 Vectorsを活用してナレッジパイプラインを構築！",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.244178"
+    },
+    {
+      "url": "https://qiita.com/rana_kualu/items/47872fec2c39e9415e67?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【PHP】2026年の今こそPHPを始めるとき！",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.244385"
+    },
+    {
+      "url": "https://qiita.com/kyuko/items/77e9e022860b57e4bd4d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【15分で追いつく！】今のClaude Codeができることをざっくり解説",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.244576"
+    },
+    {
+      "url": "https://qiita.com/Takashi_Masumori/items/4e92b0d75a392e574282?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Power Automate から既定値が設定されている SharePoint リストの選択肢列、参照列を更新する際の注意点",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.244757"
+    },
+    {
+      "url": "https://qiita.com/jw-automation/items/2660d39558853a339af9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AIエージェントによる非定型データ分析と組織のデータ利活用促進",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.244939"
+    },
+    {
+      "url": "https://qiita.com/metappi/items/1ef82d555fac01383723?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【Rails】Fat Controllerを防ごうと思ったらFat Modelになるじゃないかに対するアンサー",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.245135"
+    },
+    {
+      "url": "https://qiita.com/koji0705/items/2c309725e90fdd6b1a80?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AIエディタ（Cursor/Antigravity）の真価を引き出す！APIリポジトリをシンボリックリンクで直結する",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.245354"
+    },
+    {
+      "url": "https://qiita.com/ennagara128/items/0ad43a78c3dc113e623a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "2026/02/17 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.245581"
+    },
+    {
+      "url": "https://qiita.com/nogataka/items/19292aa20244a0270774?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Mailcowを構築してみた（VPS + Docker環境構築記録）",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.245790"
+    },
+    {
+      "url": "https://qiita.com/tanaka_meiya/items/efeb4ad5e9de9e3874c3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【GitHub Actions × Terraform】OIDC認証でAWSデプロイを自動化する手順",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.245982"
+    },
+    {
+      "url": "https://zenn.dev/imohuke/articles/claude-code-mcp-skills-summary",
+      "title": "【Claude Code】個人開発がチート級に加速する！おすすめSkillsまとめ",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.246175"
+    },
+    {
+      "url": "https://zenn.dev/epicai_techblog/articles/ff6225111e3649",
+      "title": "モダンで爆速。月額0円でWebアプリを開発・公開する技術構成（Hono/Neon/Drizzle/Cloudflare Pages）",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.246397"
+    },
+    {
+      "url": "https://zenn.dev/itsminadesu/articles/687683f466519b",
+      "title": "Figma MakeでClaude Opus 4.6を使ったら凄すぎた件",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.246582"
+    },
+    {
+      "url": "https://zenn.dev/kou_pg_0131/articles/codize-introduction",
+      "title": "初心者向けプログラミング学習サービス「Codize」を公開しました",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.246770"
+    },
+    {
+      "url": "https://zenn.dev/jun_murakami/articles/81f54145c17414",
+      "title": "バイブコーディングで課題解決アプリを作ったけど、やっぱり紙が最強だった話",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.246963"
+    },
+    {
+      "url": "https://zenn.dev/spacemarket/articles/fd6203970ba0fe",
+      "title": "【コピペすら不要】tmux + Neovimで作るVSCodeライクなターミナル開発環境",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.247154"
+    },
+    {
+      "url": "https://zenn.dev/microsoft/articles/github-copilot-excel-hoganshi",
+      "title": "Excel 方眼紙を GitHub Copilot に食わせてみた",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.247365"
+    },
+    {
+      "url": "https://zenn.dev/frsk/articles/ai-pentesting-tools-2026",
+      "title": "AIがペネトレーションテストを自動化する時代が来た——2026年の主要ツールまとめ",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.247554"
+    },
+    {
+      "url": "https://zenn.dev/yskst/articles/3309f73a813d1a",
+      "title": "OpenClaw+さくらのAI Engine無料枠でAIエージェントを構築する",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.247739"
+    },
+    {
+      "url": "https://www.smithsonianmag.com/innovation/this-14-year-old-is-using-origami-to-design-emergency-shelters-that-are-sturdy-cost-efficient-and-easy-to-deploy-180988179/",
+      "title": "14歳のマイルズ・ウー、自重の1万倍の重さを支えられる折り紙パターンを考案",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.247924"
+    },
+    {
+      "url": "https://blog.dmcc.io/journal/2026-bluetooth-privacy-bluehood/",
+      "title": "Bluetoothデバイスが明かすあなたのこと",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.248109"
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/cx2gn239exlo",
+      "title": "ダークウェブの捜査官、虐待されていた少女を救う手がかりを寝室の壁に見つける",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.248315"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.12670",
+      "title": "SkillsBench: エージェントのスキルが多様なタスクでどの程度機能するかをベンチマーク",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.248503"
+    },
+    {
+      "url": "https://dolphin-emu.org/blog/2026/02/16/rise-of-the-triforce/",
+      "title": "トライフォースの台頭",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.248688"
+    },
+    {
+      "url": "https://github.com/zachlatta/freeflow",
+      "title": "Show HN: Wispr Flow、Superwhisper、Monologueの無料代替案、Superwhisper",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.248876"
+    },
+    {
+      "url": "https://jkap.io/token-anxiety-or-a-slot-machine-by-any-other-name/",
+      "title": "「トークン不安」、どの名前で呼んでもスロットマシン",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.249059"
+    },
+    {
+      "url": "https://vo2maxpro.com/blog/thinking-hard-burns-no-calories-destroys-workout",
+      "title": "激しい思考はほとんどカロリーを消費しないが、次のワークアウトを台無しにする",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.249265"
+    },
+    {
+      "url": "https://www.docker.com/blog/run-nanoclaw-in-docker-shell-sandboxes/",
+      "title": "DockerシェルサンドボックスでNanoClawを実行する",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.249453"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.11988",
+      "title": "AGENTS.mdの評価：コーディングエージェントに役立つか？",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.249637"
+    },
+    {
+      "url": "https://blog.sturdystatistics.com/posts/show_hn/",
+      "title": "Show HNの現状：2025年",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.249818"
+    },
+    {
+      "url": "https://forestrydiary.com/",
+      "title": "Show HN: 1927年から1945年までの米国森林局の日刊業務日記をスキャン",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.250011"
+    },
+    {
+      "url": "https://essays.debugyourpain.com/p/you-are-not-just-your-brain",
+      "title": "脳以外のニューロン",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.250214"
+    },
+    {
+      "url": "https://www.lirbank.com/harnessing-postgres-race-conditions",
+      "title": "同期バリアを用いたPostgresの競合状態のテスト",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.250403"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/wildex-identify-plants-animals/id6748092158",
+      "title": "Show HN: Wildex – 現実世界の野生動物版ポケモンGo",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.250597"
+    },
+    {
+      "url": "https://surfingcomplexity.blog/2026/02/16/poor-deming-never-stood-a-chance/",
+      "title": "哀れなデミングには勝ち目がなかった",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.250783"
+    },
+    {
+      "url": "https://codemade.net/blog/building-for-one/",
+      "title": "一人だけのオーディエンスのために構築する：AIでサイドプロジェクトを開始し、完了する",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.251032"
+    },
+    {
+      "url": "http://svardos.org/",
+      "title": "SvarDOS – オープンソースDOSディストリビューション",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.251244"
+    },
+    {
+      "url": "https://gabrielcabrera.co/",
+      "title": "Xbox UIポートフォリオサイト",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.251431"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=47040268",
+      "title": "Turing Labs (YC W20) が採用中 – 創業GTMセールスハッカー",
+      "source": "hackernews",
+      "collected_at": "2026-02-17T08:58:28.251620"
+    },
+    {
+      "url": "https://speakerdeck.com/matsu802/aipurodakutonopin-zhi-wodoushou-ru",
+      "title": "AIプロダクトの品質をどう守る？",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.251807"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/aigoogledeveloper_knowledge_api_mcp_servergoogle.html",
+      "title": "生成AIがGoogleテクノロジーの公式ドキュメントを参照できる「Developer Knowledge API & MCP Server」、Googleが発表",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.252026"
+    },
+    {
+      "url": "https://blog.shibayu36.org/entry/2026/02/16/173000",
+      "title": "自分のOSSリポジトリにGitHubのセキュリティ設定を入れ、自分用の手順書を作った - $shibayu36->blog;",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.252248"
+    },
+    {
+      "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2086257.html",
+      "title": "【特集】 「春から大学行くんだけど、PC買ったほうがいい？」と若い衆から相談された時、ニヤっとしたい貴殿に捧ぐ。大学生「BYOD」事情2026年版",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.252444"
+    },
+    {
+      "url": "https://ics.media/entry/260216/",
+      "title": "君はIE11を覚えているか？ 2010年代のHTML制作は何が大変だったか - ICS MEDIA",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.252636"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/373/4373984/",
+      "title": "「サポート切れルーターはすべて廃棄を」米CISAが異例の命令、その深刻な理由とは",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.252823"
+    },
+    {
+      "url": "https://levtech.jp/media/article/interview/detail_806/",
+      "title": "国産組込みOS「ITRON」が40年生き残ってきた理由を、生みの親と振り返る【TRON】 レバテックラボ（レバテックLAB）",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.253012"
+    },
+    {
+      "url": "https://nowokay.hatenablog.com/entry/2026/02/16/202401",
+      "title": "コーディングエージェントがブレなくコードを生成できるプロンプトが大切 - きしだのHatena",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.253212"
+    },
+    {
+      "url": "https://note.com/majin_108/n/n15677a1e8361",
+      "title": "【上級者向け】NotebookLM × Antigravity｜まじん",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.253403"
+    },
+    {
+      "url": "https://www.watch.impress.co.jp/docs/watchplus/2086001.html",
+      "title": "「AIでSaaS不要論」再び? Claude Cowork登場で株式市場にも影響",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.253590"
+    },
+    {
+      "url": "https://av.watch.impress.co.jp/docs/news/2086497.html",
+      "title": "NHKで「ふしぎの海のナディア」4Kリマスター版放送。毎週日曜9時",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.253775"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/articles/2602/16/news126.html",
+      "title": "「パズドラ」のガンホーが大幅減益、“脱スマホ”へ舵を切る",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.253977"
+    },
+    {
+      "url": "https://automaton-media.com/articles/newsjp/20260217-421734/",
+      "title": "「AIしか遊べない」宇宙MMO『SpaceMolt』公開。AIが作りAIが遊ぶ、“人間抜き”の銀河シミュレーション - AUTOMATON",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.254212"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/aws28azuregoogle_cloud20254synergy_research.html",
+      "title": "クラウドインフラのシェア、AWSがトップを維持するも28％、AzureとGoogle Cloudが少しずつ差を詰めていく。2025年第4四半期、Synergy Researchの調査結果",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.254411"
+    },
+    {
+      "url": "https://dev.classmethod.jp/articles/s3-vectors-bedrock-semantic-search/",
+      "title": "S3 Vectors と Bedrock で、サーバーレスなお手軽セマンティック検索基盤を構築してみた | DevelopersIO",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.254598"
+    },
+    {
+      "url": "https://gigazine.net/news/20260216-polis/",
+      "title": "数万人規模の意見を集約するオープンソースプラットフォーム「Polis」は台湾やイギリスで有効性が実証され国家レベルの民主的インフラとして定着している",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.254786"
+    },
+    {
+      "url": "https://automaton-media.com/articles/newsjp/unity-20260217-421770/",
+      "title": "ゲームエンジンUnity、「ゲームまるごと制作できるAI機能」を出すと表明。ノーコードで使えるAIツールで、“誰でもゲーム開発者時代”をアピール - AUTOMATON",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.254976"
+    },
+    {
+      "url": "https://av.watch.impress.co.jp/docs/news/2086493.html",
+      "title": "Prime Videoの「Paramount+」、3月末でサービス終了",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.255162"
+    },
+    {
+      "url": "https://blog.statsbeginner.net/entry/2026/02/15/115222",
+      "title": "生成AIに頼ることで失われるもの - StatsBeginner: 初学者の統計学習ノート",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.255374"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/articles/2602/17/news086.html",
+      "title": "富士通、ソフトウェア開発の全工程をAIで自動化　“生産性100倍”に　独自LLM「Takane」活用",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.255568"
+    },
+    {
+      "url": "https://applech2.com/archives/20260217-rosetta-support-ending-macos-28.html",
+      "title": "Apple、IntelアプリをApple Silicon Mac上で動作させるRosettaが「macOS 28」でサポートを終了するため、それまでにアプリやプラグイン、機能拡張をApple Siliconに対応したバージョンへアップデートするよう通知。",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.255782"
+    },
+    {
+      "url": "https://onishi.hatenablog.com/entry/2026/02/17/140326",
+      "title": "劇場版 Onishi Half Century Conference 開催しました #onishi50 - 大西ブログ",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.256014"
+    },
+    {
+      "url": "https://note.com/fladdict/n/n5f315e408879",
+      "title": "OpenClawを活用した全自動開発のメモ｜深津 貴之 (fladdict)",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.256222"
+    },
+    {
+      "url": "https://techblog.zozo.com/entry/agent-skills-for-techblog-review",
+      "title": "Claude Code Agent Skillsを活用したTECH BLOGレビュー ── AIで推進するレビュー自動化 - ZOZO TECH BLOG",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.256425"
+    },
+    {
+      "url": "https://gigazine.net/news/20260217-pentagon-anthropic-supply-chain-risk/",
+      "title": "国防総省がAnthropicを「サプライチェーンリスク」に指定して請負業者に取引中止を求めることも検討",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.256613"
+    },
+    {
+      "url": "https://www.watch.impress.co.jp/docs/topic/2085935.html",
+      "title": "AIは人間の経費精算を代替できるのか? 話題の「Claude Cowork」でチャレンジ",
+      "source": "hatena",
+      "collected_at": "2026-02-17T08:58:28.256801"
+    },
+    {
+      "url": "https://qiita.com/tanaka_meiya/items/efeb4ad5e9de9e3874c3",
+      "title": "【GitHub Actions × Terraform】OIDC認証でAWSデプロイを自動化する手順",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.257083"
+    },
+    {
+      "url": "https://qiita.com/Rintaro99/items/2f5a740212577dee7684",
+      "title": "【AWS初心者向け】rootとIAMの違いとは？なぜrootで作業してはいけないのか",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.257294"
+    },
+    {
+      "url": "https://qiita.com/AWS_show/items/954c1cf720ef692200bc",
+      "title": "【構築ログ⑤】AWS EC2 × Zabbix監視基盤｜AWS SES を用いたメール通知基盤を構築",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.257490"
+    },
+    {
+      "url": "https://qiita.com/handson-lab/items/c582a03bdf8c83569e87",
+      "title": "「クラウド破産」を防ぐエンジニアへ。技術選定に「コスト意識」を組み込む方法",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.257679"
+    },
+    {
+      "url": "https://qiita.com/kw-hr-tech/items/6f33612abf049163f8e1",
+      "title": "リソース稼働のまま無料期間終了→AWSアカウント閉鎖後なのにAWS Budgets通知が来た話",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.257866"
+    },
+    {
+      "url": "https://zenn.dev/so_engineer/articles/bdf6b1aecf6c84",
+      "title": "AWSインフラ設計のベストプラクティスを目指して(サーバレス編)",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.258051"
+    },
+    {
+      "url": "https://zenn.dev/coa00/articles/aurora-data-api-ai-dev-workflow",
+      "title": "Aurora Data API を有効化したら、AI エージェントが DB を直接操作できるようになった話",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.258266"
+    },
+    {
+      "url": "https://zenn.dev/kanare/articles/3aeafd83a9d87a",
+      "title": "1年目インフラSEがExcel設計書のインフラ開発にモヤモヤして、Terraform×PR運用を個人で試してみた",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.258454"
+    },
+    {
+      "url": "https://zenn.dev/k_ing/articles/3297b7edae41d2",
+      "title": "CloudWatch Syntheticsのランタイム更新でPuppeteerのBasic認証が失敗する話",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.258637"
+    },
+    {
+      "url": "https://zenn.dev/k_ing/articles/e0014394853053",
+      "title": "なぜ同じコードで Lambda デプロイだけ失敗するのか？BuildKit が変えたイメージの中身",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.258827"
+    },
+    {
+      "url": "https://qiita.com/kotai2003/items/b69c57385ff2448abe71",
+      "title": "pymodbusコード解説(3) Quick Debugging, Project Structure Template",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.259017"
+    },
+    {
+      "url": "https://qiita.com/dopeflamingo/items/2ccf088a8c6134be7b90",
+      "title": "Streamlitの書きやすさでReactの反応性を。Pythonの新Webフレームワーク「Violit」",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.259271"
+    },
+    {
+      "url": "https://qiita.com/kotai2003/items/243cfdf8556f34f0ccc5",
+      "title": "pymodbusコード解説(6) read_holding_registers ",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.259458"
+    },
+    {
+      "url": "https://qiita.com/kotai2003/items/d4839b6fa3631cfe461c",
+      "title": "pymodbusコード解説(4) Modbus Protocol Basics",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.259644"
+    },
+    {
+      "url": "https://qiita.com/kotai2003/items/895dc267e9cde75e2e5f",
+      "title": "pymodbusコード解説(2) Quick Start Guide",
+      "source": "qiita",
+      "collected_at": "2026-02-17T08:58:28.259830"
+    },
+    {
+      "url": "https://zenn.dev/niji2/articles/claudecode00",
+      "title": "ハッカソンに登録したのにClaude Codeが凄すぎて提出できなかった話",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.260023"
+    },
+    {
+      "url": "https://zenn.dev/yo_ishihara_fez/articles/38e203d4900c01",
+      "title": "LangGraphを使ってAIエージェントを作ってみた",
+      "source": "zenn",
+      "collected_at": "2026-02-17T08:58:28.260225"
     }
   ]
 }
