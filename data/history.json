@@ -5621,6 +5621,432 @@
       "title": "日本銀行がAPIを公開したのでなんで生活が苦しいか円安の影響を分析してみた（日銀統計API）",
       "source": "zenn",
       "collected_at": "2026-02-20T08:53:25.321657"
+    },
+    {
+      "url": "https://qiita.com/yomawari-san/items/0739169b8a1615e02e0f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【個人開発】「砂を箱に詰める実験」から着想を得た、物理ベースの学習最適化手法 〜ニューラルネットを\"揺らす\"と学習は加速するか？〜",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.161664"
+    },
+    {
+      "url": "https://qiita.com/kikuziro/items/3d0d770328dd1cc43da2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "話し相手がいないのでAWSとおしゃべりしてみた",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.161870"
+    },
+    {
+      "url": "https://qiita.com/moritalous/items/2e90e85776b77da8d350?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Qwen3-SwallowをBedrockにインポートする",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.162067"
+    },
+    {
+      "url": "https://qiita.com/infra365/items/0a6ad50580ada6a1f5dd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "Chromeにおける証明書有効期限制限の仕組みとプライベートCAの扱い",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.162259"
+    },
+    {
+      "url": "https://qiita.com/Element138/items/5da083ab0199996a2c1a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "JOAI 2026 | 3位公式解法",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.162443"
+    },
+    {
+      "url": "https://qiita.com/YushiYamamoto/items/e19ed38f3dbbad3bba75?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "shadcn/ui → LiftKit 移行記 ── 「なぜか心地よいUI」の数学的正体を、コードで全部暴く",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.162654"
+    },
+    {
+      "url": "https://qiita.com/railgun-0402/items/6b9362e1d78f3e26cf49?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "GitHub Agentic WorkflowsでIssue作成を自動化してみた",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.162851"
+    },
+    {
+      "url": "https://qiita.com/ntaka329/items/a2b936b3796ed1ba7373?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "数十行の箇条書きから49枚の提案スライドへ — Claude Opus 4.6 × Slidev【プロンプト全文公開】",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.163047"
+    },
+    {
+      "url": "https://qiita.com/kenken38/items/8082c999a78137c7cc10?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "【完全無料・広告なし】AWS認定の学習支援サイトを公開しました。確かな実力を身につけて「資格取ったけど実務に活かせない」を終わらせよう。",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.163229"
+    },
+    {
+      "url": "https://qiita.com/nobukz/items/46c100d43b8708af7de4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "全ての中華製カーナビユーザーに贈る、革新的なアプリを開発した話",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.163405"
+    },
+    {
+      "url": "https://qiita.com/maskot1977/items/e6077aaa29c7ec1c225a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "大学の運営費削減と任期付ポジションが需要を冷やすメカニズム : Pythonで学ぶ マクロ経済学入門 (43)",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.163608"
+    },
+    {
+      "url": "https://qiita.com/ennagara128/items/4ba2cbb497d1913b3fb1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "2026/02/21 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.163787"
+    },
+    {
+      "url": "https://qiita.com/TomoOkuyama/items/6fd471d8e0fff7748683?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "title": "AWS EC2（Windows Server）にWSL2 + Docker Desktopをセットアップする【Nested Virtualization対応】",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.163972"
+    },
+    {
+      "url": "https://zenn.dev/tokyotech_lm/articles/fa56f10e51fd7d",
+      "title": "Qwen3-Swallow & GPT-OSS-Swallow",
+      "source": "zenn",
+      "collected_at": "2026-02-21T08:41:34.164164"
+    },
+    {
+      "url": "https://zenn.dev/ubie_dev/articles/6b23a74187766b",
+      "title": "\"世界変わる\"——非エンジニアでもできる、 Claude Code による n8n ワークフロー開発",
+      "source": "zenn",
+      "collected_at": "2026-02-21T08:41:34.164347"
+    },
+    {
+      "url": "https://zenn.dev/my_vision/articles/34a92a674a7c47",
+      "title": "AIコーディングエージェント時代のReactコード診断ツール「React Doctor」",
+      "source": "zenn",
+      "collected_at": "2026-02-21T08:41:34.164551"
+    },
+    {
+      "url": "https://zenn.dev/yostos/articles/cloudflare-benefits",
+      "title": "Cloudflare無料プランだけで個人サイトのセキュリティが完結した話",
+      "source": "zenn",
+      "collected_at": "2026-02-21T08:41:34.164729"
+    },
+    {
+      "url": "https://zenn.dev/morisawa/articles/08e848e52539c3",
+      "title": "斜体はどうして選択範囲からはみ出るの？",
+      "source": "zenn",
+      "collected_at": "2026-02-21T08:41:34.164906"
+    },
+    {
+      "url": "https://zenn.dev/codaccu/articles/540bbfe931888d",
+      "title": "個人開発した「技術書ランキングサイト」が公開1日で1,000PV突破した裏側",
+      "source": "zenn",
+      "collected_at": "2026-02-21T08:41:34.165093"
+    },
+    {
+      "url": "https://zenn.dev/chillnn_tech/articles/agent-design",
+      "title": "AIエージェント設計の三層モデル",
+      "source": "zenn",
+      "collected_at": "2026-02-21T08:41:34.165280"
+    },
+    {
+      "url": "https://zenn.dev/neoai/articles/2b8ee68d99e545",
+      "title": "モジュラモノリスで急成長SaaSをスケール - マイクロサービス移行の判断基準",
+      "source": "zenn",
+      "collected_at": "2026-02-21T08:41:34.165455"
+    },
+    {
+      "url": "https://zenn.dev/uniformnext/articles/neovim-in-docker",
+      "title": "環境を入れたくない私 vs 環境を入れさせるNeovim",
+      "source": "zenn",
+      "collected_at": "2026-02-21T08:41:34.165653"
+    },
+    {
+      "url": "https://f-droid.org/2026/02/20/twif.html",
+      "title": "Androidのオープン性を維持",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.165830"
+    },
+    {
+      "url": "https://www.bbc.com/news/live/c0l9r67drg7t",
+      "title": "トランプ政権の世界的関税、米最高裁が却下",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.166004"
+    },
+    {
+      "url": "https://pilk.website/3/facebook-is-absolutely-cooked",
+      "title": "Facebookはもうダメだ",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.166183"
+    },
+    {
+      "url": "https://dixken.de/blog/i-found-a-vulnerability-they-found-a-lawyer",
+      "title": "脆弱性を見つけた。彼らは弁護士を見つけた",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.166370"
+    },
+    {
+      "url": "https://words.filippo.io/dependabot/",
+      "title": "Dependabotをオフにする",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.166584"
+    },
+    {
+      "url": "https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/",
+      "title": "Wikipedia、Archive.todayを非推奨化、アーカイブリンクの削除を開始",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.166765"
+    },
+    {
+      "url": "https://www.bloodinthemachine.com/p/across-the-us-people-are-dismantling",
+      "title": "全米で、人々はFlock監視カメラを解体・破壊している",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.166949"
+    },
+    {
+      "url": "https://github.com/IronsideXXVI/Hacker-News",
+      "title": "Show HN: SwiftUIで構築された、Hacker NewsのネイティブmacOSクライアント",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.167129"
+    },
+    {
+      "url": "https://juno-labs.com/blogs/every-company-building-your-ai-assistant-is-an-ad-company",
+      "title": "あなたのAIアシスタントを構築する全ての企業が、今や広告企業となった",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.167304"
+    },
+    {
+      "url": "https://worldwideweb.cern.ch",
+      "title": "CERN、1989年のオリジナルブラウザを再構築（2019年）",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.167489"
+    },
+    {
+      "url": "https://www.neuroai.science/p/blue-light-filters-dont-work",
+      "title": "ブルーライトフィルターは効果がない – 総輝度を制御する方が良い",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.167692"
+    },
+    {
+      "url": "https://openscan.eu/pages/scan-gallery",
+      "title": "OpenScan",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.167864"
+    },
+    {
+      "url": "https://mojodojo.io/blog/meta-is-systematically-killing-our-agency/",
+      "title": "MetaがAIを導入、我々のエージェンシーを破壊している",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.168040"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-code-security",
+      "title": "最先端のサイバーセキュリティ能力をディフェンダーに提供する",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.168226"
+    },
+    {
+      "url": "https://taylor.town/scrapscript-000",
+      "title": "Lil' Fun Langs",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.168400"
+    },
+    {
+      "url": "https://leaflet.pub/p/did:plc:3vdrgzr2zybocs45yfhcr6ur/3mfd2oxx5v22b",
+      "title": "OAuthとは何か？",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.168600"
+    },
+    {
+      "url": "https://mines.fyi/",
+      "title": "Show HN: Mines.fyi – 米国内の全ての鉱山をリーフレット形式で可視化",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.168793"
+    },
+    {
+      "url": "https://www.june.kim/cord",
+      "title": "Cord: AIエージェントのツリーを調整する",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.168975"
+    },
+    {
+      "url": "https://trunkbaseddevelopment.com/",
+      "title": "トランクベース開発",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.169149"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/legionhealth/ffdd2b52-eb21-489e-b124-3c0804231424",
+      "title": "Legion Health (YC) が、自律型メンタルヘルス向けに優秀なSWEを募集",
+      "source": "hackernews",
+      "collected_at": "2026-02-21T08:41:34.169324"
+    },
+    {
+      "url": "https://speakerdeck.com/nwiizo/30fen-dewakaruakitekutiyamodanaizesiyon",
+      "title": "30分でわかるアーキテクチャモダナイゼーション",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.169535"
+    },
+    {
+      "url": "https://blog.craftz.dog/how-to-run-claude-code-in-a-tmux-popup-window-with-persistent-sessions/",
+      "title": "Claude Codeをtmuxのポップアップウィンドウで継続的に走らせる方法",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.169720"
+    },
+    {
+      "url": "https://dev.classmethod.jp/articles/growthpack-mcp/",
+      "title": "自社サービスの知識をClaude Codeに覚えさせたかったのでMCPサーバーを作ってみた | DevelopersIO",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.169909"
+    },
+    {
+      "url": "https://yoshidashingo.com/entry/sdd-with-claude_code",
+      "title": "Claude Codeで実践する仕様(スペック)駆動開発入門 - yoshidashingo",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.170164"
+    },
+    {
+      "url": "https://azukiazusa.dev/blog/claude-code-preview/",
+      "title": "デスクトップ Claude Code の Preview 機能で UI を直接確認する",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.170360"
+    },
+    {
+      "url": "https://note.com/kajiken0630/n/n86a143d925f9",
+      "title": "Claude Codeを「個人ツール」で終わらせないために―チーム共有・同期のための仕組みと設計｜梶谷健人",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.170572"
+    },
+    {
+      "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2087566.html",
+      "title": "【特集】 Pixel 10aとPixel 9aは何が違うのか比較してみた。iPhone 16eも混ぜて",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.170758"
+    },
+    {
+      "url": "https://speakerdeck.com/qnighy/encoding",
+      "title": "文字コードの話",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.170938"
+    },
+    {
+      "url": "https://www.dtmstation.com/archives/76150.html",
+      "title": "ChatGPTもGeminiもまとめて使える？ Genspark AI 2.0日本上陸、音楽制作にも効く統合AIを検証",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.171120"
+    },
+    {
+      "url": "https://world-monitor.com/",
+      "title": "World Monitor",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.171321"
+    },
+    {
+      "url": "https://dev.classmethod.jp/articles/control-claude-code-with-slack-post/",
+      "title": "Slackを使ってmacのclaude codeを遠隔で操作してみた | DevelopersIO",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.171522"
+    },
+    {
+      "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202602/20",
+      "title": "Ubuntu 26.04（resolute）の開発;「ソフトウェアとアップデート」の整理、Ubuntu 24.04.4のリリース、Open Source Conference 2026 Tokyo/Spring＠駒澤大学、ハイブリッド鍵交換の必要性 | gihyo.jp",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.171735"
+    },
+    {
+      "url": "https://gigazine.net/news/20260220-matrixrtc/",
+      "title": "Discordの代わりとして注目されるMatrixのビデオ通話・画面共有機能「MatrixRTC」はロールバック処理と同期機能があるのでマルチプレイヤーゲームの開発も可能",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.171917"
+    },
+    {
+      "url": "https://github.com/mizchi/tornado",
+      "title": "GitHub - mizchi/tornado: Review by codex, develop by claude-code",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.172093"
+    },
+    {
+      "url": "https://speakerdeck.com/nwiizo/yi-zhi-woshi-zhuang-suruakitekutiyamodanaizesiyon",
+      "title": "意志を実装するアーキテクチャモダナイゼーション",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.172270"
+    },
+    {
+      "url": "https://gigazine.net/news/20260220-amd-hipthreads/",
+      "title": "AMDがCPUで処理するプログラムをGPU向けに移植するためのライブラリ「hipThreads」を発表",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.172446"
+    },
+    {
+      "url": "https://taalas.com/the-path-to-ubiquitous-ai/",
+      "title": "The path to ubiquitous AI | Taalas",
+      "source": "hatena",
+      "collected_at": "2026-02-21T08:41:34.172648"
+    },
+    {
+      "url": "https://qiita.com/_YukiOgawa/items/3e165e2fa1090d6d355d",
+      "title": "Dockerなし、Windows、東京リージョンでAmazon Bedrock AgentCore FASTをデプロイする",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.172888"
+    },
+    {
+      "url": "https://qiita.com/nannka_kakimasu19/items/8e38c3cd75e92304b915",
+      "title": "ベアメタルインスタンス以外のEC2でネストされた仮想化が出来るようになったので試してみた",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.173074"
+    },
+    {
+      "url": "https://qiita.com/swallows/items/63cb14741e3fede53eb0",
+      "title": "Amazon Linux 2023 から Aurora PostgreSQL 17 に接続する手順",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.173257"
+    },
+    {
+      "url": "https://qiita.com/yama3133/items/8229984769099ab360fe",
+      "title": "(アップデート)Amazon QがAWSマネジメントコンソール上部メニューバーの左側にお引越ししました",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.173441"
+    },
+    {
+      "url": "https://qiita.com/doc_lab/items/5c4e687fb9b8fd69094d",
+      "title": "API Gateway Lambda オーソライザーを触ってみた",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.173647"
+    },
+    {
+      "url": "https://qiita.com/nakau0605/items/d6c9735ce0f7426a4fc6",
+      "title": "【眺めるメモ帳】情報を浴びれるwebアプリを開発しました。",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.173838"
+    },
+    {
+      "url": "https://qiita.com/ground__around/items/2cae3f64e5ce94600092",
+      "title": "傾向スコアを用いた因果推論 ― Lalondeデータセットによる実践",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.174017"
+    },
+    {
+      "url": "https://qiita.com/michishita-takayuki/items/f1a4bb346aaade422de0",
+      "title": "RAGの精度向上：ハイブリッド検索（ベクトル＋キーワード）の実装と評価",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.174193"
+    },
+    {
+      "url": "https://qiita.com/Daisy-Intelligence/items/776fdecb2e697cc34de9",
+      "title": "AD研究　Neo4j導入",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.174370"
+    },
+    {
+      "url": "https://qiita.com/sakaimaging/items/7d00c8fec605db35409c",
+      "title": "IPython、`In [n]:` 付きの実行ログをそのままコピペしても動くの知ってた？",
+      "source": "qiita",
+      "collected_at": "2026-02-21T08:41:34.174574"
+    },
+    {
+      "url": "https://zenn.dev/kaz20/articles/fa56f10e51fd7d",
+      "title": "Qwen3-Swallow & GPT-OSS-Swallow",
+      "source": "zenn",
+      "collected_at": "2026-02-21T08:41:34.174814"
+    },
+    {
+      "url": "https://zenn.dev/yut_kt/articles/2b8ee68d99e545",
+      "title": "モジュラモノリスで急成長SaaSをスケール - マイクロサービス移行の判断基準",
+      "source": "zenn",
+      "collected_at": "2026-02-21T08:41:34.175043"
     }
   ]
 }
